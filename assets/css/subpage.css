@@ -1,0 +1,176 @@
+/*
+Name:			SEC Calendar HOME
+Author: 		Gareth J M Saunders
+Author URI: 	http://www.garethjmsaunders.co.uk
+Description:	HOMEPAGE for SEC Calendar for Outlook, Google Calendar, iCal, etc.
+
+				This stylesheet is organised according to the SMACSS
+				methodology for categorising CSS rules, by Jonathan
+				Snook (http://snook.ca).
+
+Version:		1.1
+Updated:		Friday 14 November 2014,
+				Friday after Pentecost 22 (Ordination of Samuel Seabury, Bishop, 1784)
+*/
+
+/* === 1. BASE =============================
+"Base rules are the defaults. They are almost exclusively
+single element selectors but it could include attribute
+selectors, pseudo-class selectors, child selectors or sibling
+selectors. Essentially, a base style says that wherever
+this element is on the page, it should look like this." (SMACSS, p.6)
+*/
+h2, h3  {
+	clear: both;
+	display: block;
+}
+dt {
+	color: #428bca;
+}
+
+/* xs */
+@media (max-width: 480px) {
+	img {
+		max-width: 100%;
+	}
+}
+
+
+/* === 2. LAYOUT ===========================
+"Layout rules divide the page into sections. Layouts hold
+one or more modules together." (SMACSS, p.7)
+*/
+
+
+
+/* === 3. MODULES ==========================
+"Modules are the reusable, modular parts of our design.
+They are the callouts, the sidebar sections, the product
+lists and so on." (SMACSS, p.7)
+*/
+
+/* Intro text on damask background. */
+.intro {
+	padding-top: 20px;
+}
+.intro a:link,
+.intro a:visited {
+	color: rgba(255,255,255,1);
+	text-decoration: underline;
+}
+.intro a:hover,
+.intro a:active {
+	text-decoration: none;
+}
+.faq h3 {
+	margin-top: 2em;
+}
+.google-calendar {
+	width: 100%;
+}
+.google-calendar p {
+	margin-bottom: 2em;
+}
+.embed-calendar {
+	height: 80px !important;
+	width: 100%;
+}
+.instructions dt {
+	margin-top: 3em;
+}
+.instructions dd > p.alert {
+	margin-top: 1em;
+}
+.instructions-heading {
+	margin-bottom: -1em;
+}
+.page-how .nav-tabs>li.active>a,
+.page-how .nav-tabs>li.hover>a,
+.page-how .nav-tabs>li.focus>a
+ {
+	cursor: pointer;
+}
+
+/* CSS trick to make YouTube videos responsive,
+   see http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+.video-wrapper {
+	position: relative;
+	padding-bottom: 75%;
+	padding-top: 25px;
+	overflow: hidden;
+ 	max-width: 100%;
+ 	height: auto;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* === 4. STATE ============================
+"State rules are ways to describe how our modules or
+layouts will look when in a particular state. Is it hidden
+or expanded? Is it active or inactive? They are about describing
+how a module or layout looks on screens that
+are smaller or bigger. They are also about describing
+how a module might look in different views like the
+home page or the inside page." (SMACSS, p.7)
+*/
+
+.quiet {
+	color: #aaa;
+}
+
+/* ALL SUB-PAGES
+Carousel background (damask) for subpage
+Pattern from Pattern Cooler
+http://www.patterncooler.com/editor/?P=370B3B280329_175
+-------------------------------------------------- */
+.damask-default {
+	background-image: url('../img/damask/damask-default.png');
+}
+
+/*  CALENDAR PAGE
+-------------------------------------------------- */
+/* lg */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.page-calendar .banner {
+		height: 450px;
+	}
+}
+
+/* md  */
+@media (min-width: 481px) and (max-width: 990px) {
+	.page-calendar .banner {
+		height: 380px;
+	}
+}
+
+/* xs */
+@media (max-width: 480px) {
+	.page-calendar .banner {
+		height: 480px;
+	}
+}
+
+/* DONATE PAGE
+-------------------------------------------------- */
+/* xxs */
+@media (max-width: 330px) {
+	.page-donate .banner {
+		height: 600px;
+	}
+	.page-donate .navbar-brand {
+		display: none;
+	}
+}
+
+/* === 5. THEME ============================
+"Theme rules are similar to state rules in that
+they describe how modules or layouts might look. Most
+sites don’t require a layer of theming but it is good to be
+aware of it." (p.7)
+*/

@@ -1,0 +1,216 @@
+/*
+Name:			SEC Calendar
+Author: 		Gareth J M Saunders
+Author URI: 	http://www.garethjmsaunders.co.uk
+Description:	Common rules for SEC Calendar for Outlook, Google Calendar, iCal, etc.
+
+				This stylesheet is organised according to the SMACSS
+				methodology for categorising CSS rules, by Jonathan 
+				Snook (http://snook.ca).
+			
+Version:		3.0
+Updated:		Saturday 30 November 2013 (St Andrew, Apostle)
+*/
+
+/* === 1. BASE =============================
+"Base rules are the defaults. They are almost exclusively
+single element selectors but it could include attribute
+selectors, pseudo-class selectors, child selectors or sibling
+selectors. Essentially, a base style says that wherever
+this element is on the page, it should look like this." (SMACSS, p.6)
+*/
+
+body {
+ 	padding-bottom: 40px;
+ 	color: #5a5a5a;
+}
+h1, h2, h3, h4, .brand, .lead, .today {
+	font-family: 'Raleway', 'Segoe UI Light', 'Helvetical Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* === 2. LAYOUT ===========================
+"Layout rules divide the page into sections. Layouts hold
+one or more modules together." (SMACSS, p.7)
+*/
+
+/* NAVBAR */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+
+/* BANNER */
+.banner {
+	height: 500px;
+	margin-bottom: 80px;
+}
+.banner-text,
+.banner-image {
+	margin-top: 100px;
+	height: 400px;
+}
+.banner-text h1 {
+	font-size: 3.2em;
+}
+
+.banner-image img {
+	margin: 0 auto;
+}
+
+.banner h1,
+.banner .lead {
+	color: rgb(255,255,255);
+}
+
+.positioning-context {
+	position: relative; /* positioning-context */
+}
+
+.today {
+	color: rgb(255,255,255);
+	font-size: 1.4em;
+	position: absolute;
+	bottom: 30px;
+}
+.today .label {
+	background-color: #101010;
+}
+.today .date {
+	color: #aaa;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar-wrapper .navbar {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+img.laptop{
+	position: relative;
+	left: -50px;
+	width: 125% !important;
+}
+.prepend-top {
+	margin-top: 2em;
+}
+footer {
+	border-top: 1px solid #aaa;
+	padding-top: 1em;
+}
+
+/* === 3. MODULES ==========================
+"Modules are the reusable, modular parts of our design.
+They are the callouts, the sidebar sections, the product
+lists and so on." (SMACSS, p.7)
+*/
+
+
+/* === 4. STATE ============================
+"State rules are ways to describe how our modules or
+layouts will look when in a particular state. Is it hidden
+or expanded? Is it active or inactive? They are about describing
+how a module or layout looks on screens that
+are smaller or bigger. They are also about describing
+how a module might look in different views like the
+home page or the inside page." (SMACSS, p.7)
+*/
+.muted {
+	color: #aaa;
+}
+.shadow {
+	text-shadow: 1px 1px 2px rgba(0,0,0,1);
+	filter: dropshadow(color=#000, offx=1, offy=1);
+}
+/* Introductory slide is slightly different 
+   to distinguish it from the dates. */
+.carousel-caption {
+	max-width: 700px;
+}
+.carousel-caption h1 {
+	font-size: 48px;
+}
+.banner-text-secondary {
+	display: inline;
+}
+
+/* === 5. THEME ============================
+"Theme rules are similar to state rules in that
+they describe how modules or layouts might look. Most
+sites don’t require a layer of theming but it is good to be
+aware of it." (p.7)
+*/
+
+
+
+/* === 6. Responsive CSS ============================
+Additional rules to enable responsive CSS on mobile devices.
+*/
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.banner {
+		height: 600px;
+		margin-bottom: 80px;
+	}
+	.banner-text,
+	.banner-image {
+		margin-top: 100px;
+		height: 500px;
+	}
+}
+
+/* md  */
+@media (max-width: 991px) {
+
+	/* Damask block */
+	.banner {
+		margin-bottom: 50px;
+	}
+	.banner-text {
+		height: auto;
+	}
+	.banner-image {
+		height: 380px;
+		margin-top: 30px !important;
+	}
+	.banner-image img {
+		margin: 0;
+	}	
+
+}
+
+@media (min-width: 745px) and (max-width: 991px) {
+	.banner-text-secondary {
+		display: block !important;
+	}	
+}
+
+/* xs */
+@media (max-width: 480px) {
+	.banner-image img {
+		margin-bottom: 1em;
+		width: 90%;
+	}
+	.label {
+		display: block;
+		margin: 1em 0;
+		width: 100%;
+	}
+	.navbar-brand {
+		font-size: 14px;
+		clear: left;
+	}
+}
