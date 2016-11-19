@@ -1,6 +1,6 @@
 <?php
-    $updateDate             = 'Friday 14 November 2014';
-    $updateVersion          = '2.0';
+    $updateDate             = 'Saturday 19 November 2016';
+    $updateVersion          = '2.1';
     $filename               = './php/csv-lookup-calendar.csv';
 
 // Open the CSV file, if it exists.
