@@ -141,7 +141,7 @@
                         <h2>Import into Microsoft Outlook</h2>
                         <div class="instructions">
                             <p class="lead">This option imports all the SEC Calendar and Lectionary dates into your existing Outlook or Exchange Calendar. This will increase the size of your calendar file.</p>
-                            <p class="alert alert-success"><span class="label label-success">Note</span> These instructions are specifically for <strong>Microsoft Outlook 2010</strong>; there may be slight variations when importing into Outlook 2003, 2007 or 2013.</p>
+                            <p class="alert alert-success"><span class="label label-success">Note</span> These instructions are specifically for <strong>Microsoft Outlook 2010</strong>; there may be slight variations when importing into Outlook 2003, 2007, 2013 or 2016.</p>
 
                             <h3>Watch how to do it</h3>
                             <p>This video shows you how to import a file into Outlook 2010. Note, however, that the website design shown on the video is out-of-date, but once you've downloaded the file the procedure is exactly as shown on the video.</p>
@@ -430,16 +430,19 @@
         <div class="sidebar col-lg-4" id="download-links">
             <img class="img-circle" src="../assets/img/icons/icon-download.png" width="72" height="72" alt="Download to disk">
             <h2>Import</h2>
-            <p>Download this <abbr title="comma separated values">CSV</abbr> file to manually import into your digital calendar.</p>
+            <p>Download <abbr title="comma separated values">CSV</abbr> files to manually import into your digital calendar.</p>
             <ul class="download-list">
-                <li><a href="../download/sec-calendar-2014-2015.csv" title="Click to download, then import manually">SEC Calendar 2014-2015</a></li>
+                <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar" title="Download files from GitHub to import manually">SEC digital calendar on GitHub</a></li>
             </ul>
 
             <h2>Subscribe</h2>
             <p>Subscribe to either of these iCalendar files using your digital calendar.</p>
             <ul class="download-list">
-                <li><a href="https://www.google.com/calendar/ical/0ueefkipediojf6cs94fss7g54%40group.calendar.google.com/public/basic.ics" title="Google iCalendar feed for 2014-2015">SEC Calendar 2014-2015</a></li>
-                <li><a href="https://www.google.com/calendar/ical/0ueefkipediojf6cs94fss7g54%40group.calendar.google.com/public/basic.ics" title="Google iCalendar feed for 2005-2015">SEC Calendar (auto-update)</a> Updates each year, but does contain all data since 2005.</li>
+                <li><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics" title="Google iCalendar feed for 2005-2015">SEC digital calendar (all years)</a> Updates each year, and contain all data since 2005.</li>
+                <li><a href="https://calendar.google.com/calendar/ical/ujljc4nnc7nfilrmvffjarq30s%40group.calendar.google.com/public/basic.ics">SEC digital calendar (2016&ndash;2017)</a></li>
+                <li><a href="https://calendar.google.com/calendar/ical/b2vd9e40nc9tk0gg460hojpkt4%40group.calendar.google.com/public/basic.ics">SEC digital calendar (2015&ndash;2016)</a></li>
+                <li><a href="https://calendar.google.com/calendar/ical/0ueefkipediojf6cs94fss7g54%40group.calendar.google.com/public/basic.ics">SEC digital calendar (2014&ndash;2015)</a></li>
+                <li><a href="https://calendar.google.com/calendar/ical/rd2c9q75jg07g9dkjfr2o0f8qg%40group.calendar.google.com/public/basic.ics">SEC digital calendar (2013&ndash;2014)</a></li>
             </ul>
 
         </div>

@@ -76,12 +76,6 @@
             </div>
             <div class="collapse navbar-collapse" id="sec-nav-main">
                 <ul class="nav navbar-nav navbar-right">
-                <!--
-                    <li class="active"><a href="<?php echo($homepath); ?>">Home</a></li>
-                    <li><a href="terms/">About</a></li>
-                    <li><a href="calendar/">Calendar</a></li>
-                    <li><a href="donate/">Donate</a></li>
-                -->
                 <?php get_navigation('menu'); ?>
                 </ul>
             </div>
@@ -97,33 +91,34 @@
             <div class="banner-text col-md-7">
                 <div class="banner-text-headings">
                     <h1><span class="banner-text-primary shadow">SEC Calendar for Outlook</span>, <span class="banner-text-secondary muted">Google Calendar, iCal, etc.</span></h1>
-
                     <?php
                         // Show NOW UPDATED FOR {YEARS} message during crossover (after update)
                         // Takes the current year (string) and converts it to integer as far as it can
                         // e.g. '2015-2016' will return `2015` (int) which can then be added to.
                         if ($showLastYear === 'y') {
                     ?>
-                        <p class="lead">Import the Scottish Episcopal Church calendar and lectionary into your electronic calendar. <strong>NOW UPDATED FOR <?php echo($currentYear+1); ?>—<?php echo($currentYear+2); ?>.</strong></p>
-                    <?php
-                        } else {
-                    ?>
+                        <p class="lead">Import the Scottish Episcopal Church calendar and lectionary into your electronic calendar. <strong>NOW UPDATED FOR <?php echo($currentYear+1); ?>&ndash;<?php echo($currentYear+2); ?>.</strong></p>
+                    <?php } else { ?>
                         <p class="lead">Import the <?php echo($currentYear); ?> Scottish Episcopal Church calendar and lectionary (Year <?php echo($currentRcl); ?>/<?php echo($currentDaily); ?>) into your electronic calendar.</p>
                     <?php
                         }
                     ?>
-
                 </div>
+                <!-- SUBSCRIBE -->
                 <div class="btn-group">
                     <button class="btn btn-lg btn-success dropdown-toggle" href="#" role="button" data-toggle="dropdown" type="button"><i class="fa fa-calendar"></i> Subscribe <span class="caret"></span> </button>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics"><strong>iCalendar feed (Perpetual)</strong> (.ics, hosted at Google Calendar)</a></li>
+                        <li><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics"><strong>iCalendar feed (all years)</strong> (.ics, hosted at Google Calendar)</a></li>
                         <li class="divider"></li>
-                        <li><a href="https://calendar.google.com/calendar/ical/b2vd9e40nc9tk0gg460hojpkt4%40group.calendar.google.com/public/basic.ics"><strong>iCalendar feed 2015-2016</strong> (.ics, hosted at Google Calendar)</a></li>
                         <?php // Last year's downloads should be available right up until the day before Advent 1
                             if ($showLastYear === 'y') {
                         ?>
-                            <li><a href="https://www.google.com/calendar/ical/0ueefkipediojf6cs94fss7g54%40group.calendar.google.com/public/basic.ics"><strong>iCalendar feed 2014-2015</strong> (.ics, hosted at Google Calendar)</a></li>
+                                <?php // If during overlap show both links ?>
+                                <li><a href="<?php echo ($showNewIcalendar); ?>"><strong>iCalendar feed <?php echo ($showNextYear); ?></strong> (.ics, hosted at Google Calendar)</a></li>
+                                <li><a href="<?php echo ($showOldIcalendar); ?>"><strong>iCalendar feed <?php echo ($currentYear) ?></strong> (.ics, hosted at Google Calendar)</a></li>
+                        <?php } else { ?>
+                                <?php // Otherwise, just show the new URL with the current year ?>
+                                <li><a href="<?php echo ($showNewIcalendar); ?>"><strong>iCalendar feed <?php echo ($currentYear); ?></strong> (.ics, hosted at Google Calendar)</a></li>
                         <?php } ?>
                         <li class="divider"></li>
                         <li><a href="https://support.google.com/calendar/answer/37100?hl=en"><i class="fa fa-question-circle"></i> How to subscribe to iCalendar using Google Calendar (tutorial)</a></li>
@@ -132,14 +127,11 @@
                         <li><a href="http://www.youtube.com/watch?v=tYKC2AIGlpA"><i class="fa fa-video-camera"></i> How to subscribe to iCalendar using Outlook (video)</a></li>
                     </ul>
                 </div>
+                <!-- DOWNLOAD -->
                 <div class="btn-group">
                     <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-calendar-2013-2014.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="download/sec-calendar-2015-2016.csv"><strong>Calendar and Lectionary 2015-2016</strong> (CSV, 110 KB)</a></li>
-                        <?php // Last year's downloads should be available right up until the day before Advent 1
-                            if ($showLastYear === 'y') { ?>
-                            <li><a href="download/sec-calendar-2014-2015.csv"><strong>Calendar and Lectionary 2014-2015</strong> (CSV, 141 KB)</a></li>
-                        <?php } ?>
+                        <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar"><strong>Download from GitHub</strong></a></li>
                         <li class="divider"></li>
                         <li><a href="https://support.google.com/calendar/answer/37118?hl=en"><i class="fa fa-question-circle"></i> How to import CSV files into Google Calendar (tutorial)</a></li>
                         <li class="divider"></li>
@@ -199,6 +191,10 @@
             <img class="img-circle" src="assets/img/icons/icon-mobile.png" width="72" height="72" alt="Lectionary">
             <h2>Take it anywhere</h2>
             <p>Import the SEC calendar into your Outlook or Google Calendar, synchronise it with your mobile device and take it anywhere with you.</p>
+
+            <hr>
+            <h3 class="prepend-top">Source code</h3>
+            <p>The source code for this project is freely available from <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a>, under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
         </div>
     </div><!-- /.row -->
 
