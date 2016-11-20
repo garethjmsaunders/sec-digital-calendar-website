@@ -112,7 +112,7 @@
     <!-- Embed Google Calendar in single, full-width column -->
     <div class="row">
         <div class="feature-block google-calendar col-lg-12">
-            <h2>SEC Calendar and Lectionary</h2>
+            <h2>SEC calendar and lectionary</h2>
             <p><strong>Click on an entry below to view full details</strong>, including feast day, category, colour, and readings. Or <strong>change the view</strong>: week, month or agenda.</p>
             <iframe src="https://www.google.com/calendar/embed?src=1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com&amp;ctz=Europe/London" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
