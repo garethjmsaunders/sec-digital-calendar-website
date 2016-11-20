@@ -80,23 +80,33 @@ function groupColumns($array = null) {
 //  Get today's date which is the lookup key for feast and colour
     $todaysDate = date("d/m/Y");
 
-//  Lookup today's feast day (column 2 of the CSV file)
+//  CSV column B - Lookup today's feast day
     $todayFeast = $lookup['feast'][$todaysDate];
 
-//  Lookup today's colour (column 3 of the CSV file)
+//  CSV column C - Lookup today's colour
     $todayColor = $lookup['colour'][$todaysDate];
 
-//  Lookup Year, e.g. 2013-2014 (column 4 of the CSV file)
+//  CSV column D - Lookup Year, e.g. 2016-2017
     $currentYear = $lookup['year'][$todaysDate];
 
-//  Lookup RCL Sunday readings year (column 5 of the CSV file)
+//  CSV column E - Lookup RCL Sunday readings year
     $currentRcl = $lookup['rcl'][$todaysDate];
 
-//  Lookup RCL Sunday readings year (column 6 of the CSV file)
+//  CSV column F - Lookup RCL Sunday readings year
     $currentDaily = $lookup['daily'][$todaysDate];
 
-// Lookup whether to show last year's downloads
+//  CSV column G - Lookup whether to show last year's downloads
     $showLastYear = $lookup['showold'][$todaysDate];
+
+//  CSV column H - Lookup next year, e.g. 2016-2017
+    $showNextYear = $lookup['nextyear'][$todaysDate];
+
+//  Google iCalendar feeds
+    // 2015-2016 iCalendar feed
+    $showOldIcalendar = 'https://calendar.google.com/calendar/ical/b2vd9e40nc9tk0gg460hojpkt4%40group.calendar.google.com/public/basic.ics';
+
+    // 2016-2017 iCalendar feed
+    $showNewIcalendar = 'https://calendar.google.com/calendar/ical/ujljc4nnc7nfilrmvffjarq30s%40group.calendar.google.com/public/basic.ics';
 
 //  Get hex code for colour
 
