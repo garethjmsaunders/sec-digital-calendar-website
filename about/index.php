@@ -138,13 +138,10 @@
             <p>Material from the Revised Common Lectionary copyright © 1992 by the <a href="http://www.commontexts.org/" title="An ecumenical consultation of liturgical scholars and denominational representatives from the United States and Canada, who produce liturgical texts for common use by North American Christian churches">Consultation on Common Texts</a>.</p>
 
             <h3>Master documents</h3>
-            <p>Each year I compile these files from a master Excel document. This document contains seven worksheets which separate different aspects of the finished product: church year, SEC bishops' ordination dates, saints' days, special occasions, and readings, all compiled (and reformatted according to the following style guide) from the SEC Calendar and Lectionary booklet.</p>
+            <p>Each year I compile these files from a master Excel document. This document contains multiple worksheets which separate different aspects of the finished product: church year, SEC bishops' ordination dates, saints' days, special occasions, and readings, all compiled (and reformatted according to the following style guide) from the SEC Calendar and Lectionary booklet.</p>
             <p>You are free to use these for your own use, subject to your agreement of the Creative Commons license information.</p>
             <p>These documents are subject to change without any prior notice.</p>
-            <ul>
-                <li><a href="../download/sec-master-calendar.xlsx">sec-master-calendar.xlsx</a> (Excel, 136 KB)</li>
-                <li><a href="../download/style-guide.txt">style-guide.txt</a> (Text, 2 KB)</li>
-            </ul>
+            <p>Download, clone or fork the files on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a>.</p>
 
             <h3>Images</h3>
             <p>Damask header background from <a href="http://www.patterncooler.com/editor/?P=370B3B280329_175">Pattern Cooler</a>.</p>
