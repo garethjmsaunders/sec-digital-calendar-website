@@ -129,9 +129,10 @@
                 </div>
                 <!-- DOWNLOAD -->
                 <div class="btn-group">
-                    <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-calendar-2013-2014.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
+                    <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-master-calendar-2016-2017.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar"><strong>Download from GitHub</strong></a></li>
+                        <li><a href="download/sec-master-calendar-2016-2017.csv"><strong>Download 2016-2017 CSV</strong></a></li>
+                        <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar">Download all from GitHub</a></li>
                         <li class="divider"></li>
                         <li><a href="https://support.google.com/calendar/answer/37118?hl=en"><i class="fa fa-question-circle"></i> How to import CSV files into Google Calendar (tutorial)</a></li>
                         <li class="divider"></li>
