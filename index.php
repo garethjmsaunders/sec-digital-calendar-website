@@ -172,8 +172,8 @@
             </ul>
 
             <hr>
-            <h4 class="prepend-top">A5 booklet</h4>
-            <p>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A5 booklet.</p>
+            <h4 class="prepend-top">A4 booklet</h4>
+            <p>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210 &times; 297 mm).</p>
             <p>Buy <a href="http://thurible.net/product/scottish-kalendar-2017/">A Scottish Kalendar for 2017</a> (&pound;3.00).</p>
 
             <hr>
