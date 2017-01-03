@@ -11,7 +11,8 @@ function get_navigation($option) {
 		);
 		echo CNavigation::GenerateMenu($menuItems);
 	} elseif ($option === 'homepath') {
-		if ($_SERVER['HTTP_HOST'] === 'localhost') {
+		// See CNavigation class
+		if ($_SERVER['SERVER_NAME'] === 'localhost') {
 			$homepath = '/sec-digital-calendar-website/';
 		} else {
 			$homepath = '/';
@@ -35,13 +36,18 @@ class CNavigation {
 		$currentDirectory      = $directories[$currentDirectoryIndex];
 
 		// Which server?
-		if ($server === 'www.seccalendar.co.uk') {
-			$location = 'remote';
-			$root = $remoteRoot;
-		} else {
+		// This used to be the other way round, defining the name of the
+		// remote server but it had to be changed if the site moved domain.
+		// This is more robust, simply looking for localhost.
+		if ($server === 'localhost') {
 			$location = 'local';
 			$root = $localRoot;
+		} else {
+			$location = 'remote';
+			$root = $remoteRoot;
 		}
+
+
 
 		// Homepage or subpage?
 		if ($path === $remoteRoot || $path === $localRoot) {
