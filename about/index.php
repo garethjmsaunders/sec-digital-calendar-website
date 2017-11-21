@@ -125,7 +125,7 @@
             <p>The Revd Gareth J M Saunders will not be held accountable for any issues that arise from the use of these files. You use them entirely at your own risk.</p>
             <p>To report any errors please email <a href="mailto:gareth@garethjmsaunders.co.uk">gareth@garethjmsaunders.co.uk</a>.</p>
             <h3>Church of England edition</h3>
-            <p>See Fr Simon Rundell's <a href="http://frsimon.wordpress.com/electric-ordo/">Electronic Ordo</a> containing daily information and readings for Mass each day according to both the Anglican (Common Worship) or Roman lectionaries.</p>
+            <p>See Fr Simon Rundell's <a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> containing daily information and readings for Mass each day according to both the Anglican (Common Worship) or Roman lectionaries.</p>
             <h3>Roman Catholic editions</h3>
             <p>See <a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Catholic Apptitude</a> for a number of similar calendar and lectionary resources.</p>
         </div>

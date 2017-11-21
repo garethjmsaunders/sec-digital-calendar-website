@@ -115,7 +115,7 @@
                         ?>
                                 <?php // If during overlap show both links ?>
                                 <li><a href="<?php echo ($showNewIcalendar); ?>"><strong>iCalendar feed <?php echo ($showNextYear); ?></strong> (.ics, hosted at Google Calendar)</a></li>
-                                <li><a href="<?php echo ($showOldIcalendar); ?>"><strong>iCalendar feed <?php echo ($currentYear) ?></strong> (.ics, hosted at Google Calendar)</a></li>
+                                <li><a href="<?php echo ($showOldIcalendar); ?>">iCalendar feed <?php echo ($currentYear) ?> (.ics, hosted at Google Calendar)</a></li>
                         <?php } else { ?>
                                 <?php // Otherwise, just show the new URL with the current year ?>
                                 <li><a href="<?php echo ($showNewIcalendar); ?>"><strong>iCalendar feed <?php echo ($currentYear); ?></strong> (.ics, hosted at Google Calendar)</a></li>
@@ -129,9 +129,20 @@
                 </div>
                 <!-- DOWNLOAD -->
                 <div class="btn-group">
-                    <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-master-calendar-2016-2017.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
+                    <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-master-calendar-<?php echo ($currentYear); ?>.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="download/sec-master-calendar-2016-2017.csv"><strong>Download 2016-2017 CSV</strong></a></li>
+                        <?php // Last year's downloads should be available right up until the day before Advent 1
+                            if ($showLastYear === 'y') {
+                        ?>
+                                <?php // If during overlap show both links ?>
+
+                                <li><a href="download/sec-master-calendar-<?php echo ($showNextYear); ?>.csv"><strong>Download <?php echo ($showNextYear); ?> CSV</strong></a></li>
+                                <li><a href="download/sec-master-calendar-<?php echo ($currentYear); ?>.csv">Download <?php echo ($currentYear); ?> CSV</a></li>
+
+                        <?php } else { ?>
+                                <?php // Otherwise, just show the new URL with the current year ?>
+                                <li><a href="download/sec-master-calendar-<?php echo ($currentYear); ?>.csv"><strong>Download <?php echo ($currentYear); ?> CSV</strong></a></li>
+                        <?php } ?>
                         <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar">Download all from GitHub</a></li>
                         <li class="divider"></li>
                         <li><a href="https://support.google.com/calendar/answer/37118?hl=en"><i class="fa fa-question-circle"></i> How to import CSV files into Google Calendar (tutorial)</a></li>
@@ -174,12 +185,12 @@
             <hr>
             <h4 class="prepend-top">A4 booklet</h4>
             <p>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210 &times; 297 mm).</p>
-            <p>Buy <a href="http://thurible.net/product/scottish-kalendar-2017/">A Scottish Kalendar for 2017</a> (&pound;3.00).</p>
+            <p>Buy <a href="http://thurible.net/shop/">A Scottish Kalendar</a> (&pound;3.00).</p>
 
             <hr>
             <h4 class="prepend-top">Other denominations</h4>
             <ul>
-                <li><a href="http://frsimon.wordpress.com/electric-ordo/">Church of England</a> (by Fr Simon Rundell)</li>
+                <li><a href="http://www.frsimon.uk/electric-ordo-calendar/">Church of England</a> (by Fr Simon Rundell)</li>
                 <li><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Roman Catholic</a> (on Catholic Apptitude)</li>
             </ul>
 
@@ -201,6 +212,7 @@
             <hr>
             <h3 class="prepend-top">Source code</h3>
             <p>The source code for this project is freely available from <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a>, under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+            <p><?php echo( $updateDate ); ?><br/>v<?php echo( $updateVersion ); ?></p>
         </div>
     </div><!-- /.row -->
 
@@ -214,7 +226,7 @@
 <!-- JavaScript
 ==================================================
 Placed at the end of the document so the pages load faster -->
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="assets/js/vendor/bootstrap.min.js"></script>
 
 </body>
