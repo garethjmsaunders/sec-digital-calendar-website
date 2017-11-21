@@ -1,7 +1,16 @@
 <?php
-    $updateDate             = 'Saturday 19 November 2016';
-    $updateVersion          = '2.1';
-    $filename               = './php/csv-lookup-calendar.csv';
+
+// TODO: Add phpdoc style comments and blocks
+
+
+    $updateDate    = 'Tuesday 21 November 2017';
+    $updateVersion = '2.2.0';
+    $filename      = './php/csv-lookup-calendar.csv';
+
+    // 2015-2016 iCalendar feed
+    $showOldIcalendar = 'https://calendar.google.com/calendar/ical/b2vd9e40nc9tk0gg460hojpkt4%40group.calendar.google.com/public/basic.ics';
+    // 2016-2017 iCalendar feed
+    $showNewIcalendar = 'https://calendar.google.com/calendar/ical/ujljc4nnc7nfilrmvffjarq30s%40group.calendar.google.com/public/basic.ics';
 
 // Open the CSV file, if it exists.
 if (($handle = fopen("$filename", "r")) !== FALSE)
@@ -26,6 +35,7 @@ if (($handle = fopen("$filename", "r")) !== FALSE)
 }
 
 // Take the row-ified data and columnize the array.
+// TODO: Why is there an else { nothing } ?!
 function columnizeArray($csvarray)
 {
     $array = array();
@@ -55,6 +65,8 @@ function columnizeArray($csvarray)
     return $array;
 }
 
+// TODO: Rename variables to make code easier to read and understand.
+// TODO: Cahgne $k == 0 to ===.
 function groupColumns($array = null) {
     $lookup = array();
     foreach ($array as $k=>$v) {
@@ -65,8 +77,9 @@ function groupColumns($array = null) {
             $lookup[$v[0]] = array();
             foreach ($array[0] as $k1=>$v1) {
                 if ($v1 > 0) { // ignore the column heading
-                    // store the first column variable in as the key.
+                    // Store the first column variable in as the key.
                     // Store the value associated with this item as the value.
+                    // TODO: Explain exactly what this does, with an example.
                     $lookup[$v[0]][$v1] = $v[$k1];
                 }
             }
@@ -86,6 +99,14 @@ function groupColumns($array = null) {
 //  CSV column C - Lookup today's colour
     $todayColor = $lookup['colour'][$todaysDate];
 
+    switch($todayColor) {
+        case 'green'  : $todayColorHex = '#3aa30b'; break;
+        case 'red'    : $todayColorHex = '#a30b3a'; break;
+        case 'violet' : $todayColorHex = '#750ba3'; break;
+        case 'white'  : $todayColorHex = '#f5af11'; break;
+        default       : $todayColorHex = '#e71686'; // pink
+    }
+
 //  CSV column D - Lookup Year, e.g. 2016-2017
     $currentYear = $lookup['year'][$todaysDate];
 
@@ -100,36 +121,3 @@ function groupColumns($array = null) {
 
 //  CSV column H - Lookup next year, e.g. 2016-2017
     $showNextYear = $lookup['nextyear'][$todaysDate];
-
-//  Google iCalendar feeds
-    // 2015-2016 iCalendar feed
-    $showOldIcalendar = 'https://calendar.google.com/calendar/ical/b2vd9e40nc9tk0gg460hojpkt4%40group.calendar.google.com/public/basic.ics';
-
-    // 2016-2017 iCalendar feed
-    $showNewIcalendar = 'https://calendar.google.com/calendar/ical/ln9p1cobglsj0qnkmtdedtm3o4%40group.calendar.google.com/public/basic.ics';
-
-//  Get hex code for colour
-
-    switch($todayColor)
-    {
-        case 'green':
-            $todayColorHex = '#3aa30b';
-            break;
-
-        case 'red':
-            $todayColorHex = '#a30b3a';
-            break;
-
-        case 'violet':
-            $todayColorHex = '#750ba3';
-            break;
-
-        case 'white':
-            $todayColorHex = '#f5af11';
-            break;
-
-        default:
-            $todayColorHex = '#e71686'; // pink
-    }
-
-?>

@@ -201,6 +201,7 @@
             <hr>
             <h3 class="prepend-top">Source code</h3>
             <p>The source code for this project is freely available from <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a>, under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+            <p><?php echo($updateDate); ?><br/>v<?php echo($updateVersion); ?></p>
         </div>
     </div><!-- /.row -->
 
