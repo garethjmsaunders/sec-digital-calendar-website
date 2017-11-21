@@ -215,7 +215,7 @@
 <!-- JavaScript
 ==================================================
 Placed at the end of the document so the pages load faster -->
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="assets/js/vendor/bootstrap.min.js"></script>
 
 </body>
