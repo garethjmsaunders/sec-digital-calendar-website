@@ -129,7 +129,7 @@
                 </div>
                 <!-- DOWNLOAD -->
                 <div class="btn-group">
-                    <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-master-calendar-2016-2017.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
+                    <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-master-calendar-<?php echo ($currentYear); ?>.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
                     <ul class="dropdown-menu" role="menu">
                         <?php // Last year's downloads should be available right up until the day before Advent 1
                             if ($showLastYear === 'y') {
