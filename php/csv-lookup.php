@@ -29,11 +29,8 @@ $updateDate    = 'Tuesday 21 November 2017';
 $updateVersion = '2.2.0';
 $filename      = './php/csv-lookup-calendar.csv';
 
-// 2015-2016 iCalendar feed
-// $showOldIcalendar = 'https://calendar.google.com/calendar/ical/b2vd9e40nc9tk0gg460hojpkt4%40group.calendar.google.com/public/basic.ics';
-
 // 2016-2017 iCalendar feed
-$showOldIcalendar = 'https://calendar.google.com/calendar/ical/ujljc4nnc7nfilrmvffjarq30s%40group.calendar.google.com/public/basic.ics';
+$showOldIcalendar = 'https://calendar.google.com/calendar/ical/ln9p1cobglsj0qnkmtdedtm3o4%40group.calendar.google.com/public/basic.ics';
 
 // 2017-2018 iCalendar feed
 $showNewIcalendar = 'https://calendar.google.com/calendar/ical/5fdkf9c2lf1uh7rbb4ke8f3gc8%40group.calendar.google.com/public/basic.ics';
