@@ -26,7 +26,7 @@
  */
 
 $updateDate    = 'Tuesday 21 November 2017';
-$updateVersion = '2.2.0';
+$updateVersion = '2.2.1';
 $filename      = './php/csv-lookup-calendar.csv';
 
 // 2016-2017 iCalendar feed
