@@ -115,7 +115,7 @@
                         ?>
                                 <?php // If during overlap show both links ?>
                                 <li><a href="<?php echo ($showNewIcalendar); ?>"><strong>iCalendar feed <?php echo ($showNextYear); ?></strong> (.ics, hosted at Google Calendar)</a></li>
-                                <li><a href="<?php echo ($showOldIcalendar); ?>"><strong>iCalendar feed <?php echo ($currentYear) ?></strong> (.ics, hosted at Google Calendar)</a></li>
+                                <li><a href="<?php echo ($showOldIcalendar); ?>">iCalendar feed <?php echo ($currentYear) ?> (.ics, hosted at Google Calendar)</a></li>
                         <?php } else { ?>
                                 <?php // Otherwise, just show the new URL with the current year ?>
                                 <li><a href="<?php echo ($showNewIcalendar); ?>"><strong>iCalendar feed <?php echo ($currentYear); ?></strong> (.ics, hosted at Google Calendar)</a></li>
@@ -131,7 +131,18 @@
                 <div class="btn-group">
                     <button class="btn btn-lg btn-default dropdown-toggle" href="download/sec-master-calendar-2016-2017.csv" role="button" data-toggle="dropdown" type="button"><i class="fa fa-download"></i> Download <span class="caret"></span></button>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="download/sec-master-calendar-2016-2017.csv"><strong>Download 2016-2017 CSV</strong></a></li>
+                        <?php // Last year's downloads should be available right up until the day before Advent 1
+                            if ($showLastYear === 'y') {
+                        ?>
+                                <?php // If during overlap show both links ?>
+
+                                <li><a href="download/sec-master-calendar-<?php echo ($showNextYear); ?>.csv"><strong>Download <?php echo ($showNextYear); ?> CSV</strong></a></li>
+                                <li><a href="download/sec-master-calendar-<?php echo ($currentYear); ?>.csv">Download <?php echo ($currentYear); ?> CSV</a></li>
+
+                        <?php } else { ?>
+                                <?php // Otherwise, just show the new URL with the current year ?>
+                                <li><a href="download/sec-master-calendar-<?php echo ($currentYear); ?>.csv"><strong>Download <?php echo ($currentYear); ?> CSV</strong></a></li>
+                        <?php } ?>
                         <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar">Download all from GitHub</a></li>
                         <li class="divider"></li>
                         <li><a href="https://support.google.com/calendar/answer/37118?hl=en"><i class="fa fa-question-circle"></i> How to import CSV files into Google Calendar (tutorial)</a></li>
@@ -201,7 +212,7 @@
             <hr>
             <h3 class="prepend-top">Source code</h3>
             <p>The source code for this project is freely available from <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a>, under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-            <p><?php echo($updateDate); ?><br/>v<?php echo($updateVersion); ?></p>
+            <p><?php echo( $updateDate ); ?><br/>v<?php echo( $updateVersion ); ?></p>
         </div>
     </div><!-- /.row -->
 
