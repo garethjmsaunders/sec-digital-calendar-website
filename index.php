@@ -185,12 +185,12 @@
             <hr>
             <h4 class="prepend-top">A4 booklet</h4>
             <p>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210 &times; 297 mm).</p>
-            <p>Buy <a href="http://thurible.net/product/scottish-kalendar-2017/">A Scottish Kalendar for 2017</a> (&pound;3.00).</p>
+            <p>Buy <a href="http://thurible.net/shop/">A Scottish Kalendar</a> (&pound;3.00).</p>
 
             <hr>
             <h4 class="prepend-top">Other denominations</h4>
             <ul>
-                <li><a href="http://frsimon.wordpress.com/electric-ordo/">Church of England</a> (by Fr Simon Rundell)</li>
+                <li><a href="http://www.frsimon.uk/electric-ordo-calendar/">Church of England</a> (by Fr Simon Rundell)</li>
                 <li><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Roman Catholic</a> (on Catholic Apptitude)</li>
             </ul>
 
