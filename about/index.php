@@ -112,11 +112,11 @@
         <div class="feature-block col-lg-4">
             <img class="img-circle" src="../assets/img/icons/icon-lectionary.png" width="72" height="72" alt="Lectionary">
             <h2>About</h2>
-            <p>These files allow you to import or subscribe to the Scottish Episcopal Church calendar (saints’ days, festivals and readings) using Microsoft Office Outlook Calendar, Google Calendar, or any other compatible calendar application.</p>
+            <p>These files allow you to import or subscribe to the Scottish Episcopal Church calendar (saints’ days, festivals and readings) using Google Calendar, Microsoft Outlook, Apple iCal, or any other compatible calendar application.</p>
             <p>The files were originally produced for my own personal use, so they may not have all the details that you want in them.</p>
             <p>Feel free to adapt these files for your own use, subject to your agreement of the following license information.</p>
             <h3>Readings</h3>
-            <p>The readings for category 4 saints days and lesser festivals are simply those for that day of the week in relation to the previous Sunday rather than specifically for that minor saint/festival. For example, the readings given for Ambrose of Milan (Friday 07 December) are those for the Friday of Advent 1.</p>
+            <p>The readings for category 4 saints days and lesser festivals are simply those for that day of the week in relation to the previous Sunday rather than specifically for that minor saint/festival. For example, the readings given for Ambrose of Milan (Friday 7 December) are those for the Friday of Advent 1.</p>
             <p>In other words, I've used only readings from <em>The Lectionary</em> and the <em>Readings for Festivals</em>, and not those from elsewhere or from the <em>Readings for Special Occasions</em> or <em>Common Readings for Saints Days</em>.</p>
             <h3>Translations</h3>
             <p>Where possible I have always translated the festival of a saint, if it coincides with a higher-category feast, to the next available date. It is possible that a suitable, nearby date has not been found and so that feast day has been omited for this year.</p>
