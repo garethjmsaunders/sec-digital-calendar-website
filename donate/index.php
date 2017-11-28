@@ -92,7 +92,7 @@
                 <div class="banner-text-headings">
                     <h1><span class="banner-text-primary shadow">SEC digital calendar</span><br /> <span class="banner-text-secondary muted">Donate</span></h1>
                     <div class="intro">
-                        <p class="lead">It usually takes me about 6&ndash;8 weeks to produce these files each year.</p>
+                        <p class="lead">It usually takes me about 1&ndash;2 weeks to produce these files each year.</p>
                         <p class="lead">If you find these files helpful and would like to say thank you, please donate to the <a href="http://pkdcharity.org.uk/fundraising/donate-to-pkd" title="Donate to PKD">Polycystic Kidney Disease Charity</a>.</p>
                     </div>
                     <a href="http://pkdcharity.org.uk/fundraising/donate-to-pkd" class="btn btn-primary btn-lg btn-donate">Donate</a>
@@ -122,7 +122,7 @@
             <h3>Why donate?</h3>
             <p><strong>If you find it useful, you might want to say thank you.</strong></p>
             <p>I started creating these files for my own use in 2004 and started sharing it with a few colleagues. There are now people all over the world using it.</p>
-            <p>Each year it takes me about 6&ndash;8 weeks to compile and test these files.</p>
+            <p>Each year it takes me about 1&ndash;2 weeks to compile and test these files.</p>
             <p>I do it to glorify God and as a practical resource for my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide Anglican communion).</p>
 
             <h3>Why the Polycystic Kidney Disease Charity?</h3>
