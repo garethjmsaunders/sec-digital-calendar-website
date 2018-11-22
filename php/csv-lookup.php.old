@@ -161,11 +161,7 @@ function groupColumns( $array = null ) {
     $lookup = groupColumns( columnizeArray( $csvarray ) );
 
 //  Get today's date which is the lookup key for feast and colour
-    // $todaysDate = date("d/m/Y");
-    $d = new DateTime('', new DateTimeZone('Europe/London'));
-    $todaysDate = $d->format('d/m/Y');
-
-
+    $todaysDate = date("d/m/Y");
 
 //  CSV column B - Lookup today's feast day
     $todayFeast = $lookup['feast'][$todaysDate];
