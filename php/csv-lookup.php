@@ -19,21 +19,21 @@
 /**
  * Initiate variables.
  *
- * @version     1.2.0 2018-11-23
+ * @version     1.3.0 2019-11-21
  * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0
  */
 
-$updateDate    = 'Friday 23 November 2018';
-$updateVersion = '2.3.0';
+$updateDate    = 'Thursday 21 November 2019';
+$updateVersion = '2.4.0';
 $filename      = './php/csv-lookup-calendar.csv';
 
-// OLD 2017-2018 iCalendar feed
-$showOldIcalendar = 'https://calendar.google.com/calendar/ical/5fdkf9c2lf1uh7rbb4ke8f3gc8%40group.calendar.google.com/public/basic.ics';
+// OLD 2018-2019 iCalendar feed
+$showOldIcalendar = 'https://calendar.google.com/calendar/ical/if7dt6qt198hg42jrve3upe5bs%40group.calendar.google.com/public/basic.ics';
 
-// NEW 2018-2019 iCalendar feed
-$showNewIcalendar = 'https://calendar.google.com/calendar/ical/if7dt6qt198hg42jrve3upe5bs%40group.calendar.google.com/public/basic.ics';
+// NEW 2019-2020 iCalendar feed
+$showNewIcalendar = 'https://calendar.google.com/calendar/ical/cbo88e250n8pdaok06jqafd98c%40group.calendar.google.com/public/basic.ics';
 
 
 
