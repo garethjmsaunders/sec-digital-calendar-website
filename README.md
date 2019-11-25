@@ -1,13 +1,13 @@
 # SEC digital calendar website
 
 * Version: 1.1.0
-* Last updated: Monday 21 November 2017
+* Last updated: Monday 25 November 2019
 
 <!-- MarkdownTOC -->
 
-- [1. About](#1-about)
-- [2. Repositories](#2-repositories)
-- [3. License](#3-license)
+- 1. About
+- 2. Repositories
+- 3. License
 
 <!-- /MarkdownTOC -->
 
