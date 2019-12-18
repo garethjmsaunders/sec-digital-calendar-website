@@ -1,6 +1,99 @@
 /*
- * Globals
- */
+Name:           SEC Calendar
+Author:         Gareth J M Saunders
+Author URI:     http://www.garethjmsaunders.co.uk
+Description:    Common rules for SEC Calendar for Outlook, Google Calendar, iCal, etc.
+
+                This stylesheet is organised according to the SMACSS
+                methodology for categorising CSS rules, by Jonathan
+                Snook (http://snook.ca).
+
+Version:        4.0.0
+Updated:        Wednesday 18 December 2019 (Wednesday after Third Sunday of Advent)
+*/
+
+/* === 1. BASE =============================
+"Base rules are the defaults. They are almost exclusively
+single element selectors but it could include attribute
+selectors, pseudo-class selectors, child selectors or sibling
+selectors. Essentially, a base style says that wherever
+this element is on the page, it should look like this." (SMACSS, p.6)
+*/
+
+/* Page */
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+body {
+    color: #fff;
+    display: flex;
+    display: -ms-flexbox;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+
+
+/* === 2. LAYOUT ===========================
+"Layout rules divide the page into sections. Layouts hold
+one or more modules together." (SMACSS, p.7)
+*/
+
+
+
+
+
+/* === 3. MODULES ==========================
+"Modules are the reusable, modular parts of our design.
+They are the callouts, the sidebar sections, the product
+lists and so on." (SMACSS, p.7)
+*/
+
+/* Cover */
+.cover-container {
+    max-width: 42em;
+}
+
+/* Homepage main content module for today's information */
+.inner.cover {
+    xcolor: rgba(255, 255, 255, .75);
+    background-color: rgba(0,0,0,.5);
+    border-radius: 15px;
+    padding: 1em 1em 0 1em;
+    box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+
+
+
+
+/* === 4. STATE ============================
+"State rules are ways to describe how our modules or
+layouts will look when in a particular state. Is it hidden
+or expanded? Is it active or inactive? They are about describing
+how a module or layout looks on screens that
+are smaller or bigger. They are also about describing
+how a module might look in different views like the
+home page or the inside page." (SMACSS, p.7)
+*/
+
+
+
+
+/* === 5. THEME ============================
+"Theme rules are similar to state rules in that
+they describe how modules or layouts might look. Most
+sites don’t require a layer of theming but it is good to be
+aware of it." (p.7)
+*/
+
+/* Page backgrounds (damask)
+Pattern from Pattern Cooler
+http://www.patterncooler.com/editor/?P=370B3B280329_175
+-------------------------------------------------- */
 
 .damask {
     background-repeat: both;
@@ -23,57 +116,38 @@
     background-image: url('../../assets/img/damask/damask-white.png');
 }
 
-/* Links */
-a,
-a:focus,
-a:hover {
-    color: #fff;
+
+.translated, .season {
+    opacity: 0.5;
 }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-    color: #333;
-    text-shadow: none; /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: .05rem solid #fff;
+.translated {
+    font-style: italic;
 }
 
 
-/*
- * Base structure
- */
+/* === 6. Responsive CSS ============================
+Additional rules to enable responsive CSS on mobile devices.
+*/
 
-html,
-body {
-    height: 100%;
-    background-color: #333; /* Fall-back default color */
-}
 
-body {
-    display: -ms-flexbox;
-    display: flex;
-    color: #fff;
-    xtext-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    xbox-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}
+/* === END =====================================================================
+*/
 
-.cover {
-    color: rgba(255, 255, 255, .85) !important;
-    xbackground-color: rgba(0,0,0,.15);
-    border-radius: 15px;
-    padding: 1em 0 !important;
-}
 
-.cover-container {
-    max-width: 42em;
-}
 
-.cover-heading, .pop {
-    color: white;
+
+
+
+
+
+
+
+
+.cover-heading {
+    xcolor: white;
     xolor: gold;
-    text-shadow: 0 0 45px white;
+    xtext-shadow: 0 0 35px white;
 }
 
 .also {
