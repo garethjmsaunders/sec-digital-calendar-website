@@ -9,7 +9,7 @@
     <meta name="generator" content="Sublime Text 3">
     <link rel="canonical" href="https://seccalendar.org.uk/">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/css/cover.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <?php
             error_reporting(0);
@@ -18,16 +18,9 @@
     ?>
 </head>
 
-<!--
-default - gold
-white   - ?
-green   - gold
-red     - gold
-violet  - gold
- -->
-
-<!-- <body class="text-center banner damask damask-<?php echo("$todayColor"); ?>"> -->
-<body class="text-center banner damask damask-red">
+<!-- DAMASK options
+default green | red | violet | white -->
+<body class="text-center banner damask damask-<?php echo("$todayColor"); ?>">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="inner">
@@ -45,8 +38,7 @@ violet  - gold
             <p class="date"><?php echo date("l d F Y"); ?></p>
             <h4 class="xlead season">Season of Advent</h4>
             <hr>
-                <!-- <h1 class="cover-heading"><?php echo($todayFeast); ?></h1> -->
-            <h1 class="cover-heading">The Conception of Mary</h1>
+            <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
             <p class="lead feastname">Mother of the Lord (<span class="liturgical-colour">White</span>) <span class="badge badge-light">6</span></p>
                 <!-- <p class="lead">Liturgical colour: <span class="liturgical-colour"><?php echo("$todayColor"); ?></span></p> -->
             <p class="occasional translated">Translated from 8 December</p>
