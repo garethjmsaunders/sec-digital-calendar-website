@@ -20,9 +20,9 @@ selectors. Essentially, a base style says that wherever
 this element is on the page, it should look like this." (SMACSS, p.6)
 */
 
-/* Page */
-html,
-body {
+/* PAGE
+*/
+html, body {
     height: 100%;
     background-color: #333;
 }
@@ -36,11 +36,33 @@ body {
 
 
 
+
 /* === 2. LAYOUT ===========================
 "Layout rules divide the page into sections. Layouts hold
 one or more modules together." (SMACSS, p.7)
 */
 
+/* MASTHEAD
+   header.masthead includes SEC digital calendar title and menu */
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+
+/* NAVIGATION
+*/
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
 
 
 
@@ -61,11 +83,10 @@ lists and so on." (SMACSS, p.7)
     xcolor: rgba(255, 255, 255, .75);
     background-color: rgba(0,0,0,.5);
     border-radius: 15px;
-    padding: 1em 1em 0 1em;
+    padding: 1.5rem 1.5rem 0 1.5rem;
     box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
-
 
 
 
@@ -90,10 +111,10 @@ sites don’t require a layer of theming but it is good to be
 aware of it." (p.7)
 */
 
-/* Page backgrounds (damask)
-Pattern from Pattern Cooler
-http://www.patterncooler.com/editor/?P=370B3B280329_175
--------------------------------------------------- */
+/* BACKGROUND (damask)
+   Pattern from Pattern Cooler
+   http://www.patterncooler.com/editor/?P=370B3B280329_175
+*/
 
 .damask {
     background-repeat: both;
@@ -117,7 +138,27 @@ http://www.patterncooler.com/editor/?P=370B3B280329_175
 }
 
 
-.translated, .season {
+/* NAVIGATION
+*/
+.nav-masthead .nav-link {
+    background-color: transparent;
+    color: rgba(255, 255, 255, .75);
+    font-weight: 700;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+
+/* FEAST INFO
+*/
+.season,
+.translated {
     opacity: 0.5;
 }
 
@@ -130,73 +171,8 @@ http://www.patterncooler.com/editor/?P=370B3B280329_175
 Additional rules to enable responsive CSS on mobile devices.
 */
 
-
-/* === END =====================================================================
+/* MASTHEAD
 */
-
-
-
-
-
-
-
-
-
-
-
-.cover-heading {
-    xcolor: white;
-    xolor: gold;
-    xtext-shadow: 0 0 35px white;
-}
-
-.also {
-    font-style: italic;
-}
-
-
-.xdamask-white .cover-heading {
-    color: #fff;
-    text-shadow: 0 0 2px gold;
-}
-
-.liturgical-colour {
-    text-transform: capitalize;
-}
-
-/*
- * Header
- */
-.masthead {
-    margin-bottom: 2rem;
-}
-
-.masthead-brand {
-    margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-    padding: .25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .75);
-    background-color: transparent;
-    border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
-}
-
-.nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
-}
-
 @media (min-width: 48em) {
     .masthead-brand {
         float: left;
@@ -206,22 +182,5 @@ Additional rules to enable responsive CSS on mobile devices.
     }
 }
 
-
-/*
- * Cover
- */
-.cover {
-    padding: 0 1.5rem;
-}
-.cover .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
-}
-
-
-/*
- * Footer
- */
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
-}
+/* === END =====================================================================
+*/
