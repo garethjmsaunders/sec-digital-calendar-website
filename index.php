@@ -20,7 +20,7 @@
 
 <!-- DAMASK options
 default green | red | violet | white -->
-<body class="text-center banner damask damask-<?php echo("$todayColor"); ?>">
+<body class="text-center banner damask damask-green<?php #echo("$todayColor"); ?>">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="inner">
@@ -36,16 +36,15 @@ default green | red | violet | white -->
 
         <main role="main" class="inner cover text-left">
             <p class="date"><?php echo date("l d F Y"); ?></p>
-            <h4 class="xlead season">Season of Advent</h4>
+            <h4 class="xlead season">Season of Pentecost</h4>
             <hr>
-            <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
-            <p class="lead feastname">Mother of the Lord (<span class="liturgical-colour">White</span>) <span class="badge badge-light">6</span></p>
-                <!-- <p class="lead">Liturgical colour: <span class="liturgical-colour"><?php echo("$todayColor"); ?></span></p> -->
-            <p class="occasional translated">Translated from 8 December</p>
-            <p>Ember day</p>
+            <h1 class="cover-heading"><?php # echo($todayFeast); ?>Pentecost 14</h1>
+            <p class="lead description">Fourteenth Sunday of Pentecost (<span class="liturgical-colour"><?php // echo("$todayColor"); ?>Green</span>) <span class="badge badge-light">3</span></p>
+            <p class="translated">Translated from 8 December</p>
+            <p class="ember rogation">Ember day | Rogation day</p>
+            <p><button class="btn btn-dark">Readings</button></p>
             <hr>
-            <p class="occasional bishop">Ordination of the Rt Revd Anne Dyer, Bishop of Aberdeen and Orkney, 2018</p>
-            <!-- <p class="xlead"><span class="liturgical-colour">Violet</span></p> -->
+            <p class="bishop">Ordination of the Rt Revd Anne Dyer, Bishop of Aberdeen and Orkney, 2018</p>
         </main>
 
         <footer class="xmastfoot mt-auto">
@@ -56,13 +55,3 @@ default green | red | violet | white -->
     </div>
 </body>
 </html>
-
-<!--
-TODO
-
-1. Move CSS into assets/css including Bootstrap
-2. Review PHP -- does it need a < ?php display(item); > function?
-3. Can I get it to read future events, e.g. next week ahead?
-4. Design subpages
-
--->
