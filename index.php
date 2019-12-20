@@ -12,7 +12,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
     <?php
-            error_reporting(0);
+            error_reporting(1);
             include('php/csv-lookup.php');
             include('php/functions.php');
     ?>
@@ -36,7 +36,7 @@ default green | red | violet | white -->
 
         <main role="main" class="inner cover text-left">
             <p class="date"><?php echo date("l d F Y"); ?></p>
-            <h4 class="xlead season">Season of Advent</h4>
+            <h4 class="xlead season">Season of <?php // secDisplay('season'); ?></h4>
             <hr>
             <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
             <p class="lead feastname">Mother of the Lord (<span class="liturgical-colour">White</span>) <span class="badge badge-light">6</span></p>

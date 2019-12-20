@@ -15,7 +15,6 @@
 
 
 
-
 /**
  * Initiate variables.
  *
@@ -27,7 +26,7 @@
 
 $updateDate    = 'Thursday 21 November 2019';
 $updateVersion = '2.4.0';
-$filename      = './php/csv-lookup-calendar.csv';
+$filename      = './php/csv-lookup-redesign.csv';
 
 // OLD 2018-2019 iCalendar feed
 $showOldIcalendar = 'https://calendar.google.com/calendar/ical/if7dt6qt198hg42jrve3upe5bs%40group.calendar.google.com/public/basic.ics';
@@ -148,7 +147,6 @@ function groupColumns( $array = null ) {
 
 
 
-
 /**
  * Look up today's date, feast, colour, and church years from the CSV file.
  *
@@ -158,20 +156,45 @@ function groupColumns( $array = null ) {
  * @since       1.0.0
  */
 
+/*
+csv-lookup-redesign.csv columns
+
+A date
+B theme
+C season
+D feast
+E description
+F class
+G liturgical-colour
+H translated
+I SPB
+J emberogation
+K bishop
+L year
+M rcl
+N daily
+*/
+
+// function secDisplay($x) {
+//     $lookup = groupColumns( columnizeArray( $csvarray ) );
+//     $d = new DateTime('', new DateTimeZone('Europe/London'));
+//     $todaysDate = $d->format('d/m/Y');
+//     $y = $lookup['season'][$todaysDate];
+//     echo($y);
+// }
+
+
+
     $lookup = groupColumns( columnizeArray( $csvarray ) );
 
-//  Get today's date which is the lookup key for feast and colour
+//  CSV column A - Get today's date which is the lookup key for feast and colour
     // $todaysDate = date("d/m/Y");
     $d = new DateTime('', new DateTimeZone('Europe/London'));
     $todaysDate = $d->format('d/m/Y');
 
 
-
-//  CSV column B - Lookup today's feast day
-    $todayFeast = $lookup['feast'][$todaysDate];
-
-//  CSV column C - Lookup today's colour
-    $todayColor = $lookup['colour'][$todaysDate];
+//  CSV column B - Lookup today's colour (theme)
+    $todayColor = $lookup['theme'][$todaysDate];
 
     switch( $todayColor ) {
         case 'green'  : $todayColorHex = '#3aa30b'; break;
@@ -181,17 +204,30 @@ function groupColumns( $array = null ) {
         default       : $todayColorHex = '#e71686'; // pink
     }
 
-//  CSV column D - Lookup Year, e.g. 2018-2019
+
+//  CSV column C - Look up today's season
+    $todaySeason = $lookup['season'][$todaysDate];
+
+//  CSV column D - Lookup today's feast day name
+    $todayFeast = $lookup['feast'][$todaysDate];
+
+
+
+
+//  CSV column L - Lookup Year, e.g. 2018-2019
     $currentYear = $lookup['year'][$todaysDate];
 
-//  CSV column E - Lookup RCL Sunday readings year
+//  CSV column M - Lookup RCL Sunday readings year
     $currentRcl = $lookup['rcl'][$todaysDate];
 
-//  CSV column F - Lookup RCL Sunday readings year
+//  CSV column N - Lookup RCL Daily readings year
     $currentDaily = $lookup['daily'][$todaysDate];
 
-//  CSV column G - Lookup whether to show last year's downloads
-    $showLastYear = $lookup['showold'][$todaysDate];
+// -----------------------------------------------------------------------------
+// DEPRECATED
 
-//  CSV column H - Lookup next year, e.g. 2016-2017
+//  CSV column ??? - Lookup next year, e.g. 2016-2017
     $showNextYear = $lookup['nextyear'][$todaysDate];
+
+//  CSV column ??? - Lookup whether to show last year's downloads
+    $showLastYear = $lookup['showold'][$todaysDate];
