@@ -1,149 +1,67 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" lass="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Calendar | SEC digital calendar for Outlook, Google Calendar, iCal, etc.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <title>SEC digital calendar | Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="The Revd Gareth J M Saunders">
+    <meta name="generator" content="Sublime Text 3">
+    <link rel="canonical" href="https://seccalendar.org.uk/">
 
-    <!-- meta -->
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Terms and conditions of use for the Scottish Episcopal Church calendar and lectionary in a digital format for importing into Microsoft Office Outlook or Google Calendar" />
-    <meta name="author" content="Gareth J M Saunders" />
-    <meta name="copyright" content="Copyright (c) <?php echo(date('Y')); ?> Gareth J M Saunders" />
-    <meta name="generator" content="Sublime Text 3" />
-    <meta name="keywords" content="terms and conditions, Ts &amp; Cs, Scottish Episcopal Church, pisky, #pisky, calendar, kalendar, lectionary, saints, readings, festivals, Outlook, Google Calendar, iCal, iCalendar" />
-    <meta name="rating" content="general" />
-    <meta name="robots" content="index" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- JQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!-- fonts -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,200" rel="stylesheet" type="text/css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-    <!-- css -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
     <link href="../assets/css/style.css" rel="stylesheet">
-    <link href="../assets/css/subpage.css" rel="stylesheet">
-
-    <!-- javascript -->
-    <script src="../assets/js/vendor/modernizr-2.7.1.min.js"></script>
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-1866588-7', 'seccalendar.co.uk');
-      ga('send', 'pageview');
-    </script>
-
-    <?php include('../php/functions.php'); ?>
 </head>
 
-<body class="page-calendar">
-
-<!-- Navbar
-================================================== -->
-<div class="navbar-wrapper">
-    <div class="container">
-        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sec-nav-main">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="<?php get_navigation('homepath'); ?>"><i class="glyphicon glyphicon-calendar"></i> SEC Digital Calendar &amp; Lectionary</a>
+<body class="text-center banner theme damask damask-default">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead xmb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand"><a href="../">SEC digital calendar</a></h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" href="../">Home</a>
+                    <a class="nav-link active" href="calendar/">Calendar</a>
+                    <a class="nav-link" href="../subscribe/">Subscribe</a>
+                    <a class="nav-link" href="../about/">About</a>
+                </nav>
             </div>
-            <div class="collapse navbar-collapse" id="sec-nav-main">
-                <ul class="nav navbar-nav navbar-right">
-                <!--
-                    <li><a href="<?php echo($homepath); ?>">Home</a></li>
-                    <li><a href="../terms/">About</a></li>
-                    <li class="active"><a href="./">Calendar</a></li>
-                    <li><a href="../donate/">Donate</a></li>
-                -->
-                <?php get_navigation('menu'); ?>
-                </ul>
+        </header>
+
+        <main role="main" class="inner no-cover text-left content">
+
+            <div class="inner cover content main-block">
+            <h1>Calendar</h1>
+
+            <p class="lead">View the complete calendar and lectionary with full details in Google Calendar. Embed this calendar on your own website.</p>
             </div>
-        </nav><!-- /navbar -->
+            <hr>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MXU3ZWRybnNqcm1kdHFzNGswbjc5c2Y2ZzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23336699&amp;hl=en_GB&amp;showTz=1&amp;showCalendars=0&amp;showTabs=1&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showTitle=0" style="border:solid 1px #777" width="640" height="600" frameborder="0" scrolling="no"></iframe>
+
+            <hr>
+
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#embedCode" aria-expanded="false" aria-controls="embedCode">
+                Embed this calendar on your website
+              </button>
+
+            <div class="collapse" id="embedCode">
+                <hr>
+                <p>To embed this calendar on your own website, copy and paste the following HTML code into your own webpage.</p>
+
+                <textarea id="embed" class="embed-calendar">&lt;iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MXU3ZWRybnNqcm1kdHFzNGswbjc5c2Y2ZzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23336699&amp;hl=en_GB&amp;showTz=1&amp;showCalendars=0&amp;showTabs=1&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showTitle=0" style="border:solid 1px #777" width="640" height="600" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea>
+            </div>
+            <hr class="fat">
+        </main>
+        <footer class="content text-left">
+            <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons</a> Attribution 4.0 International License. &middot; <a href="../terms/">Terms and conditions</a> &middot; 2007&ndash;2019 &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
+        </footer>
     </div>
-</div>
-
-<!-- Banner | green | red | violet | white
-================================================== -->
-<div id="banner" class="banner damask damask-default">
-    <div class="container positioning-context">
-        <div class="row">
-            <div class="banner-text col-md-7">
-                <div class="banner-text-headings">
-                    <h1><span class="banner-text-primary shadow">SEC digital calendar</span><br /> <span class="banner-text-secondary muted">Calendar</span></h1>
-                    <div class="intro">
-                        <p class="lead">View the complete calendar and lectionary with full details in Google Calendar.</p>
-                        <p class="lead">Embed the calendar on your own website.</p>
-                    </div>
-                </div>
-            </div><!-- ./banner-text -->
-            <div class="banner-image col-md-5">
-                <img src="../assets/img/devices/mobile.png" alt="Google Nexus 4 showing SEC calendar" class="mobile visible-lg visible-md  hidden-sm  hidden-xs">
-            </div><!-- ./banner-image -->
-        </div><!-- /.row -->
-    </div>
-</div>
-
-
-<!-- Features
-================================================== -->
-<div class="container features-container">
-
-    <!-- Embed Google Calendar in single, full-width column -->
-    <div class="row">
-        <div class="feature-block google-calendar col-lg-12">
-            <h2>SEC calendar and lectionary</h2>
-            <p><strong>Click on an entry below to view full details</strong>, including feast day, category, colour, and readings. Or <strong>change the view</strong>: week, month or agenda.</p>
-            <iframe src="https://www.google.com/calendar/embed?src=1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com&amp;ctz=Europe/London" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-    </div><!-- /.row -->
-
-    <div class="row">
-        <div class="col-lg-8">
-            <h3>Embed this calendar on your website</h3>
-            <p>To embed the calendar on your own website either import one of the files into your own Google Calendar, or copy and paste the embed code into your own webpage.</p>
-            <p>Creating your own Google Calendar gives you most control over how it looks and on which tab it opens: week, month or agenda.</p>
-            <p>You can adjust the width and height of the calendar by editing the <code>width="940" height="600"</code> attributes within the embedded code.</p>
-        </div>
-        <div class="col-lg-4">
-            <h3>Copy and paste</h3>
-            <p>Feel free to use the HTML code below to embed the calendar on your own website.</p>
-            <textarea id="embed" class="embed-calendar">&lt;iframe src="https://calendar.google.com/calendar/embed?src=1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com&ctz=Europe/London" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"&rt;&lt;/iframe&rt;</textarea>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-        <?php get_footer(); ?>
-    </footer>
-
-</div><!-- /.container -->
-
-<!-- JavaScript
-==================================================
-Placed at the end of the document so the pages load faster -->
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="../assets/js/vendor/bootstrap.min.js"></script>
-
 </body>
 </html>

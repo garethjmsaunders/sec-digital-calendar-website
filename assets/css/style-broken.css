@@ -1,4 +1,4 @@
-/*
+
 Name:           SEC Calendar
 Author:         Gareth J M Saunders
 Author URI:     http://www.garethjmsaunders.co.uk
@@ -30,10 +30,9 @@ body {
     color: #fff;
     display: flex;
     display: -ms-flexbox;
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    Xbox-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    Xtext-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
-
 
 
 
@@ -80,15 +79,20 @@ lists and so on." (SMACSS, p.7)
 
 /* Homepage main content module for today's information */
 .inner.cover {
-    xcolor: rgba(255, 255, 255, .75);
     background-color: rgba(0,0,0,.5);
     border-radius: 15px;
     padding: 1.5rem 1.5rem 0 1.5rem;
-    box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    xbox-shadow:  0 0 5rem rgba(0, 0, 0, .5);
+    xtext-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
-
+/* Embed HTML code */
+.embed-calendar {
+    font-family: "Andale Mono", Consolas, monospace;
+    font-size: 0.8em;
+    height: 8em;
+    width: 100%;
+}
 
 
 /* === 4. STATE ============================
@@ -138,6 +142,17 @@ aware of it." (p.7)
 }
 
 
+/* MASTHEAD LINK
+*/
+.masthead-brand a {
+    color: white;
+    text-decoration: none;
+}
+.masthead-brand a:hover {
+    color: rgba(255, 255, 255, .75);
+}
+
+
 /* NAVIGATION
 */
 .nav-masthead .nav-link {
@@ -167,6 +182,21 @@ aware of it." (p.7)
 }
 
 
+.about p {
+    color: rgba(255, 255, 255, .75);
+}
+
+/* LINKS IN BODY */
+
+main a:link,main a:visited,main a:hover,main a:active {
+    color: white;
+    text-decoration: underline;
+}
+ main a:hover {
+    text-decoration: none;
+ }
+
+
 /* === 6. Responsive CSS ============================
 Additional rules to enable responsive CSS on mobile devices.
 */
@@ -183,4 +213,3 @@ Additional rules to enable responsive CSS on mobile devices.
 }
 
 /* === END =====================================================================
-*/

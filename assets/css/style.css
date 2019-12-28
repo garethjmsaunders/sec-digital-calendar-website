@@ -25,16 +25,22 @@ this element is on the page, it should look like this." (SMACSS, p.6)
 html, body {
     height: 100%;
     background-color: #333;
+    background-repeat: both;
+    background-position: all;
+    background-image: url('../../assets/img/damask/damask-default.png');
 }
 body {
     color: #fff;
     display: flex;
     display: -ms-flexbox;
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    xbox-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    xtext-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
-
+hr {
+    color: white;
+    border: 1px;
+}
 
 
 /* === 2. LAYOUT ===========================
@@ -88,7 +94,20 @@ lists and so on." (SMACSS, p.7)
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
+hr.fat {
+    padding: 0.75rem 0;
+}
 
+.embed-calendar {
+    font-family: "Andale Mono", Consolas, monospace;
+    font-size: 0.9rem;
+    height: 8rem;
+    width: 100%;
+}
+
+.content.subscribe {
+    padding-bottom: 1rem;
+}
 
 
 /* === 4. STATE ============================
@@ -118,8 +137,7 @@ aware of it." (p.7)
 
 .damask {
     background-repeat: both;
-    height: 100%;
-    width: 100%;
+    background-position: all;
 }
 .damask-default {
     background-image: url('../../assets/img/damask/damask-default.png');
@@ -135,6 +153,17 @@ aware of it." (p.7)
 }
 .damask-white {
     background-image: url('../../assets/img/damask/damask-white.png');
+}
+
+
+/* MASTHEAD LINK
+*/
+.masthead-brand a {
+    color: white;
+    text-decoration: none;
+}
+.masthead-brand a:hover {
+    color: rgba(255, 255, 255, .75);
 }
 
 
@@ -165,6 +194,33 @@ aware of it." (p.7)
 .translated {
     font-style: italic;
 }
+
+
+.content p,
+.content li,
+.content dd {
+    color: rgba(255, 255, 255, .75);
+}
+.content {
+    margin-bottom: 2em;
+}
+
+/* LINKS IN BODY */
+
+.content a:link,
+.content a:visited,
+.content a:hover,
+.content a:active,
+.btn-subscribe {
+    color: white;
+    text-decoration: underline;
+}
+ .content a:hover,
+ .content a.btn,
+ .btn-subscribe {
+    color: rgba(255,255,255,.75) !important;
+    text-decoration: none;
+ }
 
 
 /* === 6. Responsive CSS ============================
