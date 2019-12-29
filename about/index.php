@@ -66,7 +66,7 @@
             <h3>Useful resources</h3>
             <dl>
                 <dt>Twitter</dt>
-                <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a>—follow updates on this resource.</dd>
+                <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a> These are usually updates on when I start compiling the file each year plus updates on bugs found and fixed and new features added.</dd>
                 <dt>Facebook group</dt>
                 <dd><a href="https://www.facebook.com/groups/secoutlook/">SEC digital calendar and lectionary</a></dd>
                 <dt>Pisky Kalendar</dt>
@@ -80,14 +80,16 @@
             <h3>Other editions</h3>
             <dl>
                 <dt>Church of England</dt>
-                <dd>Fr Simon Rundell's <a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for Mass each day according to both the Anglican (Common Worship) or Roman lectionaries.</dd>
+                <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; run by Fr Simon Rundell.</dd>
+                <dt>The Episcopal Church (USA)</dt>
+                <dd><a href="http://episcotech.org/">EpiscoTech</a> offers iCalendar files that contain liturgical calendar entries for the Episcopal Church calendar; run by the Revd Richard E Fichter, Jr.</dd>
                 <dt>Roman Catholic Church</dt>
                 <dd><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Catholic Apptitude</a> offers a number of similar calendar and lectionary resources for the Roman Catholic calendar.</dd>
             </dl>
 
         </main>
         <footer class="content text-left">
-            <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons</a> Attribution 4.0 International License. &middot; <a href="../terms/">Terms and conditions</a> &middot; 2007&ndash;2019 &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
+            <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons</a> Attribution 4.0 International License. &middot; <a href="../terms/">Terms and conditions</a> &middot; 2004&ndash;2019 &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
         </footer>
     </div>
 </body>

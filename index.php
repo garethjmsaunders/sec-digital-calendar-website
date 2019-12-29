@@ -33,19 +33,25 @@
             </div>
         </header>
 
-        <main role="main" class="inner cover text-left">
+        <main role="main" class="today inner cover text-left">
             <p class="date"><?php echo date("l d F Y"); ?></p>
             <h4 class="lead season">Season of <?php echo($todaySeason); ?></h4>
             <hr>
             <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
-            <p class="lead description occasional"><?php echo($todayFeastDescription); ?> <span class="liturgical-colour">(<?php echo($todayLiturgicalColour); ?>)</span> <span class="feast-class badge badge-light"><?php echo($todayFeastClass); ?></span></p>
+            <p class="lead description occasional"><?php echo($todayFeastDescription); ?> <span class="feast-class badge badge-light"><?php echo($todayFeastClass); ?></span> <span class="liturgical-colour"> <?php echo($todayLiturgicalColour); ?></span> </p>
             <p class="spb occasional"><?php echo($todayFeastSpb); ?></p>
             <p class="translated occasional"><?php echo($todayFeastTranslated); ?></p>
             <p class="emberogation occasional"><?php echo($todayEmberogation); ?></p>
             <!-- <p><button class="btn btn-dark">Readings</button></p> -->
             <hr>
             <p class="bishop"><?php echo($todayBishop); ?></p>
+
         </main>
+
+        <aside class="tomorrow text-left">
+            <p>Tomorrow: <?php echo($tomorrowFeast); ?>, <?php echo($tomorrowFeastDescription); ?> (<?php echo($tomorrowFeastClass); ?>) <?php echo($tomorrowLiturgicalColour); ?></p>
+        </aside>
+
 
         <footer class="mastfoot mt-auto">
             <div class="inner">
@@ -53,6 +59,7 @@
                     Revised Common Lectionary readings: Year <?php echo($todayRcl); ?><br />
                     Daily Eucharist and Daily Prayer: Year <?php echo($todayDaily); ?><br />
                     Liturgical year: <?php echo($todayYearFrom); ?>&ndash;<?php echo($todayYearTo); ?></p>
+                <p class="content"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons</a> Attribution 4.0 International License. &middot; <a href="../terms/">Terms and conditions</a> &middot; 2004&ndash;2019 &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
             </div>
         </footer>
     </div>

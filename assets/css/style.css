@@ -70,7 +70,18 @@ one or more modules together." (SMACSS, p.7)
     margin-left: 1rem;
 }
 
+.today {
+    padding-bottom: 1rem !important;
+}
 
+.tomorrow {
+    margin-top: 2rem;
+    padding-left: 1rem !important;
+}
+
+.rcl {
+    padding-bottom: 2em;
+}
 
 
 /* === 3. MODULES ==========================
@@ -89,7 +100,7 @@ lists and so on." (SMACSS, p.7)
     xcolor: rgba(255, 255, 255, .75);
     background-color: rgba(0,0,0,.5);
     border-radius: 15px;
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem; /* was 1.5 1.5 0 1.5*/
     box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }

@@ -183,6 +183,17 @@ N daily
     $d = new DateTime('', new DateTimeZone('Europe/London'));
     $todaysDate = $d->format('d/m/Y');
 
+    // Today + 1
+    $dplusone = new DateTime('+1 day');
+    $tomorrowsDate = $dplusone->format('d/m/Y');
+
+    // Today + 2
+    $dplustwo = new DateTime('+2 day');
+    $dayThreeDate = $dplustwo->format('d/m/Y');
+
+
+
+
 //  CSV column B - Look up today's colour (theme)
     $todayColor = $lookup['theme'][$todaysDate];
     $todayTheme = $lookup['theme'][$todaysDate];
@@ -192,15 +203,20 @@ N daily
 
 //  CSV column D - Look up today's feast day name
     $todayFeast = $lookup['feast'][$todaysDate];
+    $tomorrowFeast = $lookup['feast'][$tomorrowsDate];
+    $dayThreeFeast = $lookup['feast'][$dayThreeDate];
 
 //  CSV column E - Look up today's feast description
     $todayFeastDescription = $lookup['description'][$todaysDate];
+    $tomorrowFeastDescription = $lookup['description'][$tomorrowsDate];
 
 //  CSV column F - Look up today's class
     $todayFeastClass = $lookup['class'][$todaysDate];
+    $tomorrowFeastClass = $lookup['class'][$tomorrowsDate];
 
 //  CSV column G - Look up today's liturgical colour
     $todayLiturgicalColour = $lookup['liturgical-colour'][$todaysDate];
+    $tomorrowLiturgicalColour = $lookup['liturgical-colour'][$tomorrowsDate];
 
 //  CSV column H - Look up today's translation
     $todayFeastTranslated = $lookup['translated'][$todaysDate];
