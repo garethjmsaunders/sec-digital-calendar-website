@@ -12,6 +12,8 @@ Version:        4.0.0
 Updated:        Wednesday 18 December 2019 (Wednesday after Third Sunday of Advent)
 */
 
+
+
 /* === 1. BASE =============================
 "Base rules are the defaults. They are almost exclusively
 single element selectors but it could include attribute
@@ -20,26 +22,52 @@ selectors. Essentially, a base style says that wherever
 this element is on the page, it should look like this." (SMACSS, p.6)
 */
 
-/* PAGE
+/* Page
 */
-html, body {
-    height: 100%;
-    background-color: #333;
-    background-repeat: both;
-    background-position: all;
-    background-image: url('../../assets/img/damask/damask-default.png');
-}
 body {
     color: #fff;
     display: flex;
     display: -ms-flexbox;
-    xbox-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    xtext-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+/* HTML and BODY for homepage only
+*/
+.cover-height {
+    height: 100%;
 }
 
-hr {
+
+/* MAIN CONTENT and FOOTER
+   Text and links
+*/
+main,
+main a,
+footer a {
     color: white;
-    border: 1px;
+}
+
+main a:link,main a:visited,main a:active,
+footer a:link,footer a:visited,footer a:active {
+    text-decoration: underline;
+}
+main a:hover,
+footer a:hover {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+main a.btn {
+    text-decoration: none;
+}
+
+main p,
+main dd {
+    font-weight: 300;
+}
+
+/* HEADINGS
+Create bigger gap between paragraphs
+*/
+h3 {
+    padding-top: 1.5rem;
 }
 
 
@@ -49,15 +77,14 @@ one or more modules together." (SMACSS, p.7)
 */
 
 /* MASTHEAD
-   header.masthead includes SEC digital calendar title and menu */
+   header.masthead includes SEC digital calendar title and menu
+*/
 .masthead {
     margin-bottom: 2rem;
 }
-
 .masthead-brand {
     margin-bottom: 0;
 }
-
 
 /* NAVIGATION
 */
@@ -65,24 +92,44 @@ one or more modules together." (SMACSS, p.7)
     padding: .25rem 0;
     border-bottom: .25rem solid transparent;
 }
-
 .nav-masthead .nav-link + .nav-link {
     margin-left: 1rem;
 }
 
-.today {
-    padding-bottom: 1rem !important;
+/* MAIN
+*/
+main {
+    margin-bottom: 2rem;
+}
+.homepage main {
+    margin-bottom: -1rem;
 }
 
-.tomorrow {
+/* HOMEPAGE
+*/
+.homepage-feast--tomorrow {
     margin-top: 2rem;
     padding-left: 1rem !important;
 }
-
-.rcl {
+.homepage-rcl {
     padding-bottom: 2em;
 }
 
+
+/* FOOTER
+*/
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  xoverflow: hidden;
+}
+footer li {
+  float: left;
+}
+footer li a {
+  display: block;
+}
 
 /* === 3. MODULES ==========================
 "Modules are the reusable, modular parts of our design.
@@ -97,29 +144,38 @@ lists and so on." (SMACSS, p.7)
 
 /* Homepage main content module for today's information */
 .inner.cover {
-    xcolor: rgba(255, 255, 255, .75);
     background-color: rgba(0,0,0,.5);
     border-radius: 15px;
     padding: 1.5rem 1.5rem 1.5rem; /* was 1.5 1.5 0 1.5*/
     box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    margin-top: 1rem;
 }
 
-hr.fat {
-    padding: 0.75rem 0;
-}
-
-.embed-calendar {
+.embed-calendar-code {
     font-family: "Andale Mono", Consolas, monospace;
     font-size: 0.9rem;
     height: 8rem;
     width: 100%;
 }
 
-.content.subscribe {
-    padding-bottom: 1rem;
+.alert-sec,
+.alert-sec a.alert-link {
+    color: white;
 }
-
+.alert-sec {
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow:  0 0 2rem rgba(0,0,0,.5);
+    margin: 3rem 0;
+}
+.alert-sec a:link.alert-link,
+.alert-sec a:visited.alert-link,
+.alert-sec a:active.alert-link {
+    text-decoration: underline;
+}
+.alert-sec a:hover.alert-link {
+    text-decoration: none;
+}
 
 /* === 4. STATE ============================
 "State rules are ways to describe how our modules or
@@ -130,7 +186,6 @@ are smaller or bigger. They are also about describing
 how a module might look in different views like the
 home page or the inside page." (SMACSS, p.7)
 */
-
 
 
 
@@ -145,25 +200,24 @@ aware of it." (p.7)
    Pattern from Pattern Cooler
    http://www.patterncooler.com/editor/?P=370B3B280329_175
 */
-
 .damask {
     background-repeat: both;
     background-position: all;
 }
 .damask-default {
-    background-image: url('../../assets/img/damask/damask-default.png');
+    background-image: url('../../assets/img/damask-default.png');
 }
 .damask-violet {
-    background-image: url('../../assets/img/damask/damask-violet.png');
+    background-image: url('../../assets/img/damask-violet.png');
 }
 .damask-green {
-    background-image: url('../../assets/img/damask/damask-green.png');
+    background-image: url('../../assets/img/damask-green.png');
 }
 .damask-red {
-    background-image: url('../../assets/img/damask/damask-red.png');
+    background-image: url('../../assets/img/damask-red.png');
 }
 .damask-white {
-    background-image: url('../../assets/img/damask/damask-white.png');
+    background-image: url('../../assets/img/damask-white.png');
 }
 
 
@@ -201,38 +255,13 @@ aware of it." (p.7)
 .translated {
     opacity: 0.5;
 }
-
 .translated {
     font-style: italic;
 }
 
-
-.content p,
-.content li,
-.content dd {
-    color: rgba(255, 255, 255, .75);
+.float-right {
+    float: right;
 }
-.content {
-    margin-bottom: 2em;
-}
-
-/* LINKS IN BODY */
-
-.content a:link,
-.content a:visited,
-.content a:hover,
-.content a:active,
-.btn-subscribe {
-    color: white;
-    text-decoration: underline;
-}
- .content a:hover,
- .content a.btn,
- .btn-subscribe {
-    color: rgba(255,255,255,.75) !important;
-    text-decoration: none;
- }
-
 
 /* === 6. Responsive CSS ============================
 Additional rules to enable responsive CSS on mobile devices.
