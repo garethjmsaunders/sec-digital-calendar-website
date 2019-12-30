@@ -7,7 +7,7 @@ Description:    Common rules for SEC Calendar for Outlook, Google Calendar, iCal
                 methodology for categorising CSS rules, by Jonathan
                 Snook (http://snook.ca).
 
-Version:        4.1.0
+Version:        4.1.1
 Updated:        Monday 30 December 2019
 */
 
@@ -121,7 +121,6 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  xoverflow: hidden;
 }
 footer li {
   float: left;
@@ -145,7 +144,7 @@ lists and so on." (SMACSS, p.7)
 .inner.cover {
     background-color: rgba(0,0,0,.5);
     border-radius: 15px;
-    padding: 1.5rem 1.5rem 1.5rem; /* was 1.5 1.5 0 1.5*/
+    padding: 1.5rem 1.5rem 1.5rem;
     box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
     margin-top: 1rem;
 }
@@ -277,6 +276,3 @@ Additional rules to enable responsive CSS on mobile devices.
         float: right;
     }
 }
-
-/* === END =====================================================================
-*/
