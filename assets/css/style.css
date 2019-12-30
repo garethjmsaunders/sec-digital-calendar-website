@@ -3,13 +3,12 @@ Name:           SEC Calendar
 Author:         Gareth J M Saunders
 Author URI:     http://www.garethjmsaunders.co.uk
 Description:    Common rules for SEC Calendar for Outlook, Google Calendar, iCal, etc.
-
                 This stylesheet is organised according to the SMACSS
                 methodology for categorising CSS rules, by Jonathan
                 Snook (http://snook.ca).
 
-Version:        4.0.0
-Updated:        Wednesday 18 December 2019 (Wednesday after Third Sunday of Advent)
+Version:        4.1.0
+Updated:        Monday 30 December 2019
 */
 
 
@@ -252,7 +251,8 @@ aware of it." (p.7)
 /* FEAST INFO
 */
 .season,
-.translated {
+.translated,
+.homepage-feast--tomorrow {
     opacity: 0.5;
 }
 .translated {
