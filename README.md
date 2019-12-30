@@ -1,7 +1,7 @@
 # SEC digital calendar website
 
-* Version: 1.1.0
-* Last updated: Monday 25 November 2019
+* Version: 1.2.0
+* Last updated: Monday 30 December 2019
 
 <!-- MarkdownTOC -->
 
@@ -45,4 +45,4 @@ Under the following terms:
 * Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-Read the full [terms and conditions](http://www.seccalendar.org.uk/about/).
+Read the full [terms and conditions](http://www.seccalendar.org.uk/terms/).
