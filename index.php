@@ -58,7 +58,7 @@
         </div> -->
 
         <main role="main" class="homepage-feast--today inner cover text-left">
-            <p class="date"><?php echo date("l d F Y"); ?></p>
+            <p class="date"><?php echo date("l j F Y"); ?></p>
             <h4 class="lead season">Season of <?php echo($todaySeason); ?></h4>
             <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
             <p class="lead description occasional"><?php echo($todayFeastDescription); ?> <span class="feast-class badge badge-light"><?php echo($todayFeastClass); ?></span> <span class="liturgical-colour"> <?php echo($todayLiturgicalColour); ?></span> </p>
@@ -79,7 +79,7 @@
                 Revised Common Lectionary readings: Year <?php echo($todayRcl); ?><br />
                 Daily Eucharist and Daily Prayer: Year <?php echo($todayDaily); ?><br />
                 Liturgical year: <?php echo($todayYearFrom); ?>&ndash;<?php echo($todayYearTo); ?></p>
-            <p><a href="terms/">Terms and conditions</a> &middot; 2004&ndash;2019 &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a></p>
+            <p>2004&ndash;2019 &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
         </footer>
     </div>
 </body>
