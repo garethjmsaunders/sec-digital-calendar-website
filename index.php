@@ -16,9 +16,15 @@
     <meta name="robots" content="index" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Force page refresh -->
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +59,7 @@
             </div>
         </header>
 
-        <!-- <div class="alert alert-dark text-center damask-red alert-sec" role="alert">
+        <!-- <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
             <strong>SEC digital calendar 2019&ndash;2020</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
         </div> -->
 
@@ -71,7 +77,7 @@
         </main>
 
         <aside class="text-left">
-            <p class="homepage-feast--tomorrow">Tomorrow: <?php echo($tomorrowFeast); ?>, <?php echo($tomorrowFeastDescription); ?> (<?php echo($tomorrowFeastClass); ?>) <?php echo($tomorrowLiturgicalColour); ?></p>
+            <p class="homepage-feast--tomorrow">Tomorrow: <?php echo($tomorrowFeast); ?>, <?php echo($tomorrowFeastDescription); ?><?php if ($tomorrowFeastClass!==''){ echo(' ('.$tomorrowFeastClass.')');} else {echo(',');}?> <?php echo($tomorrowLiturgicalColour); ?></p>
         </aside>
 
         <footer class="mt-auto">

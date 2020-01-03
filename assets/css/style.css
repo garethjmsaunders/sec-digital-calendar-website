@@ -7,8 +7,8 @@ Description:    Common rules for SEC Calendar for Outlook, Google Calendar, iCal
                 methodology for categorising CSS rules, by Jonathan
                 Snook (http://snook.ca).
 
-Version:        4.1.2
-Updated:        Wednesday 1 January 2020
+Version:        4.2.0
+Updated:        Friday 3 January 2020
 */
 
 
@@ -261,6 +261,13 @@ aware of it." (p.7)
 .float-right {
     float: right;
 }
+
+/* Soften the harshness of the badge which was distracting */
+.feast-class.badge-light {
+    background-color: rgba(255,255,255,.5);
+}
+
+
 
 /* === 6. Responsive CSS ============================
 Additional rules to enable responsive CSS on mobile devices.
