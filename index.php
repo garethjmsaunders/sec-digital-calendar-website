@@ -67,13 +67,13 @@
             <p class="date"><?php echo date("l j F Y"); ?></p>
             <h4 class="lead season">Season of <?php echo($todaySeason); ?></h4>
             <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
-            <p class="lead description occasional"><?php echo($todayFeastDescription); ?> <span class="feast-class badge badge-light"><?php echo($todayFeastClass); ?></span> <span class="liturgical-colour"> <?php echo($todayLiturgicalColour); ?></span> </p>
+            <p class="lead"><span class="description always"><?php echo($todayFeastDescription); ?></span><?php if($todayFeastClass !=='') {echo(" <span class=\"feast-class occasional badge badge-light\">$todayFeastClass</span> ");} else { echo(', '); } ?><span class="liturgical-colour always"><?php echo($todayLiturgicalColour); ?></span></p>
             <p class="spb occasional"><?php echo($todayFeastSpb); ?></p>
             <p class="translated occasional"><?php echo($todayFeastTranslated); ?></p>
             <p class="emberogation occasional"><?php echo($todayEmberogation); ?></p>
             <!-- .btn -->
             <hr>
-            <p class="bishop"><?php echo($todayBishop); ?></p>
+            <p class="bishop occasional"><?php echo($todayBishop); ?></p>
         </main>
 
         <aside class="text-left">
