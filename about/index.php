@@ -59,7 +59,7 @@
             <h3>Background</h3>
             <p>I first created the SEC digital calendar files for my own use in 2004 and started sharing it with a few colleagues. There are now people all over the world using it.</p>
             <p>I do it to glorify God and as a practical resource for my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
-            <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for our own use; let me know what you do with it.</p>
+            <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
             <p><a href="https://www.garethjmsaunders.co.uk/contact/">The Revd Gareth J M Saunders</a></p>
 
             <hr class="deep">
