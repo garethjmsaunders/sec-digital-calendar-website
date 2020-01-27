@@ -100,7 +100,7 @@ for any purpose, even commercially</li>
         </main>
         <footer>
             <p><a href="../">Home</a> &middot; <a href="../calendar/">Calendar</a> &middot; <a href="../subscribe/">Subscribe</a> &middot; <a href="../about/">About</a></p>
-            <p><a href="../terms/">Terms and conditions</a> &middot; 2004&ndash;2019 &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
+            <p><a href="../terms/">Terms and conditions</a> &middot; 2004&ndash;<?php echo date("Y"); ?> &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
         </footer>
     </div>
 </body>

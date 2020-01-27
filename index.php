@@ -85,7 +85,7 @@
                 Revised Common Lectionary readings: Year <?php echo($todayRcl); ?><br />
                 Daily Eucharist and Daily Prayer: Year <?php echo($todayDaily); ?><br />
                 Liturgical year: <?php echo($todayYearFrom); ?>&ndash;<?php echo($todayYearTo); ?></p>
-            <p>2004&ndash;2019 &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
+            <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
         </footer>
     </div>
 </body>
