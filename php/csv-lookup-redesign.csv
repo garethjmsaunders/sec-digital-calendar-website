@@ -1,375 +1,369 @@
 date,theme,season,feast,description,class,liturgical-colour,translated,spb,emberogation,bishop,year-from,year-to,rcl,daily
-21/11/2019,white,Pentecost,St Columban,"Bishop, 615",6,White,,,,,2018,2019,C,1
-22/11/2019,white,Pentecost,St Cecilia,"Martyr, c.230",6,White,,,,,2018,2019,C,1
-23/11/2019,red,Pentecost,St Clement of Rome,"Bishop and Martyr, c.100",6,Red,,,,,2018,2019,C,1
-24/11/2019,white,Pentecost,The Last Sunday after Pentecost (Christ the King),The Sunday before Advent,3,White or Red,,,,,2018,2019,C,1
-25/11/2019,white,Pentecost,Lucy Menzies,"Scholar and Mystic, 1954",6,White,Translated from 24 November,,,,2018,2019,C,1
-26/11/2019,green,Pentecost,Tuesday after the Last Sunday after Pentecost,Feria,,Green,,,,,2018,2019,C,1
-27/11/2019,green,Pentecost,Wednesday after the Last Sunday after Pentecost,Feria,,Green,,,,,2018,2019,C,1
-28/11/2019,green,Pentecost,Thursday after the Last Sunday after Pentecost,Feria,,Green,,,,,2018,2019,C,1
-29/11/2019,green,Pentecost,Friday after the Last Sunday after Pentecost,Feria,,Green,,,,,2018,2019,C,1
-30/11/2019,red,Pentecost,St Andrew,"Apostle, Patron of Scotland",4,Red,,,,,2018,2019,C,1
-01/12/2019,violet,Advent,First Sunday of Advent,Advent 1,1,Violet,,,,,2019,2020,A,2
-02/12/2019,white,Advent,Nicholas Ferrar,"Deacon, 1637 [6]",,White,,,,,2019,2020,A,2
-03/12/2019,white,Advent,St Francis Xavier,"Priest and Missionary, 1552 [6]",,White,,,,,2019,2020,A,2
-04/12/2019,white,Advent,Clement of Alexandria,"Teacher of the Faith, c.210 [6]",,White,,,,,2019,2020,A,2
-05/12/2019,white,Advent,Charles de Foucauld,"Priest and Hermit, 1916",6,White,Translated from 1 December,,,,2019,2020,A,2
-06/12/2019,white,Advent,St Nicholas of Myra,"Bishop, 4th century",6,White,,,,,2019,2020,A,2
-07/12/2019,white,Advent,St Ambrose of Milan,"Bishop and Teacher of the Faith, c.210",6,White,,,,,2019,2020,A,2
-08/12/2019,violet,Advent,Second Sunday of Advent,Advent 2,1,Violet,,,,,2019,2020,A,2
-09/12/2019,white,Advent,The Conception of St Mary,Mother of the Lord,5,White,Translated from 8 December,,,,2019,2020,A,2
-10/12/2019,violet,Advent,Tuesday after Second Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-11/12/2019,violet,Advent,Wednesday after Second Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-12/12/2019,violet,Advent,Thursday after Second Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-13/12/2019,violet,Advent,Friday after Second Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-14/12/2019,white,Advent,St John of the Cross,"Priest, Teacher of the Faith, 1591",6,White,,,,,2019,2020,A,2
-15/12/2019,violet,Advent,Third Sunday of Advent,Advent 3,1,Violet,,,,,2019,2020,A,2
-16/12/2019,violet,Advent,Monday after Third Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-17/12/2019,violet,Advent,Tuesday after Third Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-18/12/2019,violet,Advent,Wednesday after Third Sunday of Advent,Feria,,Violet,,,Ember day,,2019,2020,A,2
-19/12/2019,violet,Advent,Thursday after Third Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-20/12/2019,violet,Advent,Friday after Third Sunday of Advent,Feria,,Violet,,,Ember day,,2019,2020,A,2
-21/12/2019,red,Advent,St Thomas,Apostle,4,Red,If not kept on 3 July,,Ember day,,2019,2020,A,2
-22/12/2019,violet,Advent,Fourth Sunday of Advent,Advent 4,1,Violet,,,,,2019,2020,A,2
-23/12/2019,violet,Advent,Monday after Fourth Sunday of Advent,Feria,,Violet,,,,,2019,2020,A,2
-24/12/2019,violet,Advent,Christmas Eve,,2,Violet,,,,,2019,2020,A,2
-25/12/2019,white,Christmas,Christmas Day,The birth of Jesus Christ,1,White,,,,,2019,2020,A,2
-26/12/2019,red,Christmas,St Stephen,Deacon and Martyr,4,Red,,,,,2019,2020,A,2
-27/12/2019,white,Christmas,St John the Evangelist,Apostle and Evangelist,4,White,,,,,2019,2020,A,2
-28/12/2019,white,Christmas,The Holy Innocents,The massacre of male children under two years in Bethlehem by King&nbsp;Herod the Great,4,White,,,,,2019,2020,A,2
-29/12/2019,white,Christmas,First Sunday after Christmas,Christmas 1,2,White,,,,,2019,2020,A,2
-30/12/2019,white,Christmas,Josephine Butler,"Social reformer, 1905",6,White,,,,,2019,2020,A,2
-31/12/2019,white,Christmas,John Wycliffe,"Priest, 1384",6,White,,,,,2019,2020,A,2
-01/01/2020,white,Christmas,The Naming of Jesus,New Year's Day,2,White,,,,,2019,2020,A,2
-02/01/2020,white,Christmas,St Seraphim of Sarov,1833,6,White,,,,,2019,2020,A,2
-03/01/2020,red,Christmas,St Thomas of Canterbury,"Bishop and Martyr, 1170",6,Red,Translated from 29 December,,,,2019,2020,A,2
-04/01/2020,white,Christmas,Saturday after the First Sunday after Christmas,Feria,,White,,,,,2019,2020,A,2
-05/01/2020,white,Christmas,Second Sunday after Christmas,Christmas 2,3,White,,,,,2019,2020,A,2
-06/01/2020,white,Epiphany,The Epiphany,The manifestation of Jesus Christ to the Gentiles,1,White,,,,,2019,2020,A,2
-07/01/2020,green,Epiphany,Tuesday after the Epiphany,Feria,,Green,,,,,2019,2020,A,2
-08/01/2020,green,Epiphany,Wednesday after the Epiphany,Feria,,Green,,,,,2019,2020,A,2
-09/01/2020,green,Epiphany,Thursday after the Epiphany,Feria,,Green,,,,,2019,2020,A,2
-10/01/2020,red,Epiphany,William Laud,"Bishop, 1645",6,Red,,,,,2019,2020,A,2
-11/01/2020,red,Epiphany,King David I of Scotland,"King of Scots, 1153",6,Red,,,,,2019,2020,A,2
-12/01/2020,white,Epiphany,First Sunday after Epiphany,The Baptism of the Lord,2,White,,,,,2019,2020,A,2
-13/01/2020,white,Epiphany,St Kentigern (or Mungo),Bishop c.603,4,White,,,,,2019,2020,A,2
-14/01/2020,white,Epiphany,St Hilary of Poitiers,"Bishop and Teacher of the Faith, c.367",6,White,,,,,2019,2020,A,2
-15/01/2020,green,Epiphany,Wednesday after First Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-16/01/2020,green,Epiphany,Thursday after First Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-17/01/2020,white,Epiphany,St Antony of Egypt,"Abbot, 356",6,White,,,,,2019,2020,A,2
-18/01/2020,white,Epiphany,The Confession of St Peter,,6,White,,,,,2019,2020,A,2
-19/01/2020,green,Epiphany,Second Sunday after Epiphany,,3,Green,,,,,2019,2020,A,2
-20/01/2020,green,Epiphany,Monday after Second Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-21/01/2020,red,Epiphany,St Agnes,"Martyr, c.304",6,Red,,,,,2019,2020,A,2
-22/01/2020,green,Epiphany,Wednesday after Second Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-23/01/2020,green,Epiphany,Thursday after Second Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-24/01/2020,white,Epiphany,St Francis de Sales,"Bishop, 1622",6,White,,,,,2019,2020,A,2
-25/01/2020,white,Epiphany,The Conversion of St Paul,Apostle,4,White,,,,,2019,2020,A,2
-26/01/2020,green,Epiphany,Third Sunday after Epiphany,Epiphany 3,3,Green,,,,,2019,2020,A,2
-27/01/2020,white,Epiphany,St John Chrysostom,"Bishop and Teacher of the Faith, 407",6,White,,,,,2019,2020,A,2
-28/01/2020,white,Epiphany,St Thomas Aquinas,"Teacher of the Faith, 1274",6,White,,,,,2019,2020,A,2
-29/01/2020,white,Epiphany,St Timothy and St Titus,Bishop of Ephesus and Bishop of Crete,6,White,Translated from 26 January,,,,2019,2020,A,2
-30/01/2020,red,Epiphany,King Charles I,"King, 1649",6,Red,,,,,2019,2020,A,2
-31/01/2020,red,Epiphany,Charles Mackenzie of Central Africa,"Bishop, Missionary, Martyr, 1862",6,Red,,,,,2019,2020,A,2
-01/02/2020,white,Epiphany,St Bride of Kildare,"Abbess, c.525",6,White,,,,,2019,2020,A,2
-02/02/2020,white,Epiphany,The Presentation of the Lord,Epiphany 4,2,White,,,,,2019,2020,A,2
-03/02/2020,red,Epiphany,Saints and Martyrs of Europe,,6,Red,,,,,2019,2020,A,2
-04/02/2020,green,Epiphany,Tuesday after Fourth Sunday after Epiphany,Feria,,Green,,,,"Ordination of the Rt Revd Kevin Pearson as Bishop of Argyll and the Isles, 2011",2019,2020,A,2
-05/02/2020,green,Epiphany,Wednesday after Fourth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-06/02/2020,red,Epiphany,St Paul Miki and the Martyrs of Japan,"Priest, 1597",6,Red,,,,,2019,2020,A,2
-07/02/2020,green,Epiphany,Friday after Fourth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-08/02/2020,green,Epiphany,Saturday after Fourth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-09/02/2020,green,Epiphany,Fifth Sunday after Epiphany,Epiphany 5,3,Green,,,,,2019,2020,A,2
-10/02/2020,white,Epiphany,St Scholastica,"Religious, 543",6,White,,,,,2019,2020,A,2
-11/02/2020,green,Epiphany,Tuesday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-12/02/2020,green,Epiphany,Wednesday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-13/02/2020,green,Epiphany,Thursday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-14/02/2020,white,Epiphany,St Cyril and St Methodius,"Monk, 869 and Bishop, 885, 'Apostles of the Slavs'",6,White,,,,,2019,2020,A,2
-15/02/2020,white,Epiphany,Thomas Bray,"Priest and Missionary, 1730",6,White,,,,,2019,2020,A,2
-16/02/2020,green,Epiphany,Sixth Sunday after Epiphany,Epiphany 6,3,Green,,,,,2019,2020,A,2
-17/02/2020,white,Epiphany,St Finan of Lindisfarne,"Bishop, 661",6,White,,,,,2019,2020,A,2
-18/02/2020,white,Epiphany,St Colman of Lindisfarne,"Bishop, 767",6,White,,,,,2019,2020,A,2
-19/02/2020,white,Epiphany,Martin Luther,"Priest and Reformer, 1545",6,White,,,,,2019,2020,A,2
-20/02/2020,green,Epiphany,Thursday after Sixth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-21/02/2020,green,Epiphany,Friday after Sixth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-22/02/2020,green,Epiphany,Saturday after Sixth Sunday after Epiphany,Feria,,Green,,,,,2019,2020,A,2
-23/02/2020,green,Epiphany,Sunday before Lent,The Transfiguration of Jesus,3,Green,,"Scottish Prayer Book, Quinquagesima - Violet",,,2019,2020,A,2
-24/02/2020,red,Epiphany,St Polycarp of Smyrna,"Bishop and Martyr, 156",6,Red,Translated from 23 February,,,,2019,2020,A,2
-25/02/2020,green,Epiphany,Tuesday after Sunday before Lent,Feria,,Green,,,,,2019,2020,A,2
-26/02/2020,violet,Lent,Ash Wednesday,Start of the season of Lent,1,Violet or Lenten Array,,,,,2019,2020,A,2
-27/02/2020,violet,Lent,Thursday after Ash Wednesday,Feria,,Violet,,,,,2019,2020,A,2
-28/02/2020,violet,Lent,Friday after Ash Wednesday,Feria,,Violet,,,,,2019,2020,A,2
-29/02/2020,violet,Lent,Saturday after Ash Wednesday,Feria,,Violet,,,,,2019,2020,A,2
-01/03/2020,violet,Lent,First Sunday of Lent,Lent 1,1,Violet or Lenten Array,,,,"Ordination of the Rt Revd Anne Dyer as Bishop of Aberdeen and Orkney, 2018",2019,2020,A,2
-02/03/2020,white,Lent,St Chad of Lichfield,"Bishop, 672",6,White,,,,,2019,2020,A,2
-03/03/2020,white,Lent,John and Charles Wesley,"Priests, 1791 and 1788",6,White,,,,,2019,2020,A,2
-04/03/2020,red,Lent,St Adrian of May Island and Companions,"Abbot and Martyrs, 875",6,Red,,,Ember day,,2019,2020,A,2
-05/03/2020,white,Lent,St David,"Bishop, Patron of Wales, c.544",6,White,Translated from 1 March,,,,2019,2020,A,2
-06/03/2020,white,Lent,St Baldred,"Bishop, 608",6,White,,,Ember day,,2019,2020,A,2
-07/03/2020,red,Lent,St Perpetua and her Companions,"Martyrs, 203",6,Red,,,Ember day,,2019,2020,A,2
-08/03/2020,violet,Lent,Second Sunday of Lent,Lent 2,1,Violet or Lenten Array,,,,,2019,2020,A,2
-09/03/2020,white,Lent,St Duthac,"Bishop, 1068",6,White,Translated from 8 March,,,,2019,2020,A,2
-10/03/2020,red,Lent,St Kessog,"Bishop, c.700",6,Red,,,,,2019,2020,A,2
-11/03/2020,violet,Lent,Wednesday after Second Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-12/03/2020,violet,Lent,Thursday after Second Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-13/03/2020,violet,Lent,Friday after Second Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-14/03/2020,violet,Lent,Saturday after Second Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-15/03/2020,violet,Lent,Third Sunday of Lent,Lent 3,1,Violet or Lenten Array,,,,,2019,2020,A,2
-16/03/2020,white,Lent,St Boniface of Ross,"Bishop, 8th century",6,White,,,,,2019,2020,A,2
-17/03/2020,white,Lent,St Patrick,"Bishop, Patron of Ireland, c.461",4,White,,,,,2019,2020,A,2
-18/03/2020,white,Lent,St Cyril of Jerusalem,"Bishop and Teacher of the Faith, 386",6,White,,,,,2019,2020,A,2
-19/03/2020,white,Lent,St Joseph of Nazareth,Husband of St Mary,4,White,,,,,2019,2020,A,2
-20/03/2020,white,Lent,St Cuthbert,"Bishop, 687",6,White,,,,,2019,2020,A,2
-21/03/2020,red,Lent,Thomas Cranmer,"Bishop, 1556",6,Red,,,,,2019,2020,A,2
-22/03/2020,violet,Lent,Fourth Sunday of Lent,"Mothering Sunday, Lent 4",1,Violet or Lenten Array,,,,,2019,2020,A,2
-23/03/2020,white,Lent,Thomas Ken,"Bishop, 1711",6,White,Translated from 22 March,,,,2019,2020,A,2
-24/03/2020,white,Lent,Paul Couturier,"Priest, 1953",6,White,,,,,2019,2020,A,2
-25/03/2020,white,Lent,The Annunciation of the Lord,Annunciation to the Blessed Virgin Mary,2,White,,,,,2019,2020,A,2
-26/03/2020,violet,Lent,Thursday after Fourth Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-27/03/2020,violet,Lent,Friday after Fourth Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-28/03/2020,white,Lent,Patrick Forbes and the Aberdeen Doctors,"Bishop, 1636 and Teachers of the Faith",6,White,,,,,2019,2020,A,2
-29/03/2020,violet,Passiontide,Fifth Sunday of Lent (Passion Sunday),The beginning of Passiontide,1,Violet or Lenten Array,,,,,2019,2020,A,2
-30/03/2020,white,Passiontide,John Keble,"Priest, 1866",6,White,Translated from 29 March,,,,2019,2020,A,2
-31/03/2020,violet,Passiontide,Tuesday after Fifth Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-01/04/2020,white,Passiontide,St Gilbert of Caithness,"Bishop, 1245",6,White,,,,,2019,2020,A,2
-02/04/2020,violet,Passiontide,Thursday after Fifth Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-03/04/2020,violet,Passiontide,Friday after Fifth Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-04/04/2020,violet,Passiontide,Saturday after Fifth Sunday of Lent,Feria,,Violet,,,,,2019,2020,A,2
-05/04/2020,violet,Passiontide,The Sunday of the Passion,Palm Sunday: The beginning of Holy Week,1,Red or Violet,,Sixth Sunday of Lent,,,2019,2020,A,2
-06/04/2020,violet,Holy Week,Monday of Holy Week,Holy Week,1,Red or Violet,,,,,2019,2020,A,2
-07/04/2020,violet,Holy Week,Tuesday of Holy Week,Holy Week,1,Red or Violet,,,,,2019,2020,A,2
-08/04/2020,violet,Holy Week,Wednesday of Holy Week,Holy Week,1,Red or Violet,,,,,2019,2020,A,2
-09/04/2020,white,Holy Week,Maundy Thursday,Triduum,1,White at the Eucharist,,,,,2019,2020,A,2
-10/04/2020,red,Holy Week,Good Friday,Triduum,1,Red for the Liturgy; Hangings removed,,,,,2019,2020,A,2
-11/04/2020,white,Holy Week,Holy Saturday,Triduum,1,Hangings removed; White at the Easter Vigil,,,,,2019,2020,A,2
-12/04/2020,white,Easter,Easter Day,Easter 1,1,White,,,,,2019,2020,A,2
-13/04/2020,white,Easter,Monday of Easter week,Easter week,,White,,,,,2019,2020,A,2
-14/04/2020,white,Easter,Tuesday of Easter week,Easter week,,White,,,,,2019,2020,A,2
-15/04/2020,white,Easter,Wednesday of Easter week,Easter week,,White,,,,,2019,2020,A,2
-16/04/2020,white,Easter,Thursday of Easter week,Easter week,,White,,,,,2019,2020,A,2
-17/04/2020,white,Easter,Friday of Easter week,Easter week,,White,,,,,2019,2020,A,2
-18/04/2020,white,Easter,Saturday of Easter week,Easter week,,White,,,,,2019,2020,A,2
-19/04/2020,white,Easter,Second Sunday of Easter,Easter 2,1,White,,"Scottish Prayer Book, First Sunday after Easter",,,2019,2020,A,2
-20/04/2020,white,Easter,St Maelrubha of Applecross,"Abbot, 722",6,White,,,,,2019,2020,A,2
-21/04/2020,white,Easter,St Anselm of Canterbury,"Bishop and Teacher of the Faith, 1109",6,White,,,,,2019,2020,A,2
-22/04/2020,white,Easter,Wednesday after Second Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-23/04/2020,red,Easter,St George,"Patron of England, Martyr, c.303",6,Red,,,,,2019,2020,A,2
-24/04/2020,white,Easter,Friday after Second Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-25/04/2020,red,Easter,St Mark the Evangelist,Evangelist,4,Red,,,,,2019,2020,A,2
-26/04/2020,white,Easter,Third Sunday of Easter,Easter 3,1,White,,"Scottish Prayer Book, Second Sunday after Easter",,,2019,2020,A,2
-27/04/2020,white,Easter,Fr Albert Ernest Laurie,"Priest, 1937",6,White,Translated from 26 April,,,,2019,2020,A,2
-28/04/2020,white,Easter,Tuesday after Third Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-29/04/2020,white,Easter,St Catherine of Siena,"Mystic and Teacher of the Faith, 1380",6,White,,,,,2019,2020,A,2
-30/04/2020,white,Easter,Thursday after Third Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-01/05/2020,red,Easter,St Philip and St James,Apostles,4,Red,,,,,2019,2020,A,2
-02/05/2020,white,Easter,St Athanasius,"Bishop and Teacher of the Faith, 373",6,White,,,,,2019,2020,A,2
-03/05/2020,white,Easter,Fourth Sunday of Easter,"Easter 4, Vocations Sunday",1,White,,"Scottish Prayer Book, Third Sunday after Easter",,,2019,2020,A,2
-04/05/2020,white,Easter,Monday after Fourth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-05/05/2020,white,Easter,Tuesday after Fourth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-06/05/2020,white,Easter,Wednesday after Fourth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-07/05/2020,white,Easter,Thursday after Fourth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-08/05/2020,white,Easter,St Julian of Norwich,c.1413,6,White,,,,,2019,2020,A,2
-09/05/2020,white,Easter,Saturday after Fourth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-10/05/2020,white,Easter,Fifth Sunday of Easter,Easter 5,1,White,,"Scottish Prayer Book, Fourth Sunday after Easter",,,2019,2020,A,2
-11/05/2020,white,Easter,Monday after Fifth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-12/05/2020,white,Easter,Thomas Rattray,"Bishop, 1743",6,White,,,,"Ordination of the Rt Revd Dr John Armes as Bishop of Edinburgh, 2012",2019,2020,A,2
-13/05/2020,white,Easter,Wednesday after Fifth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-14/05/2020,red,Easter,St Matthias,Apostle,,Red,,,,,2019,2020,A,2
-15/05/2020,white,Easter,Friday after Fifth Sunday of Easter,Feria,4,White,,,,,2019,2020,A,2
-16/05/2020,white,Easter,Saturday after Fifth Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-17/05/2020,white,Easter,Sixth Sunday of Easter,Easter 6,1,White,,"Scottish Prayer Book, Fifth Sunday after Easter",,,2019,2020,A,2
-18/05/2020,white,Easter,Monday after Sixth Sunday of Easter,Feria,,White,,,Rogation day,,2019,2020,A,2
-19/05/2020,white,Easter,Tuesday after Sixth Sunday of Easter,Feria,,White,,,Rogation day,,2019,2020,A,2
-20/05/2020,white,Easter,Wednesday after Sixth Sunday of Easter,Feria,,White,,,Rogation day,,2019,2020,A,2
-21/05/2020,white,Easter,Ascension Day,Ascension of Jesus into heaven,1,White,,,,,2019,2020,A,2
-22/05/2020,white,Easter,St Helena,c.330,6,White,Translated from 21 May,,,,2019,2020,A,2
-23/05/2020,white,Easter,William of Perth (or Rochester),1201,6,White,,,,,2019,2020,A,2
-24/05/2020,white,Easter,Seventh Sunday of Easter,Easter 7,1,White,,"Scottish Prayer Book, Sunday after Ascension Day",,,2019,2020,A,2
-25/05/2020,white,Easter,St Bede the Venerable of Jarrow,"Teacher of the Faith, 735",6,White,,,,,2019,2020,A,2
-26/05/2020,white,Easter,St Augustine of Canterbury,"Bishop, c.604",6,White,,,,,2019,2020,A,2
-27/05/2020,white,Easter,Wednesday after Seventh Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-28/05/2020,white,Easter,Thursday after Seventh Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-29/05/2020,white,Easter,Friday after Seventh Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-30/05/2020,white,Easter,Saturday after Seventh Sunday of Easter,Feria,,White,,,,,2019,2020,A,2
-31/05/2020,red,Pentecost,The Day of Pentecost,Whitsunday,1,Red,,,,,2019,2020,A,2
-01/06/2020,white,Pentecost,The Visit of St Mary to St Elizabeth,,5,White,Translated from 31 May,,,,2019,2020,A,2
-02/06/2020,red,Pentecost,St Justin of Rome,"Martyr, c.165",6,Red,Translated from 1 June,,,,2019,2020,A,2
-03/06/2020,red,Pentecost,"Charles Lwanga and his companions, 1886; Janani Luwum, Bishop, 1977",Martyrs of Uganda,6,Red,,,Ember day,,2019,2020,A,2
-04/06/2020,white,Pentecost,Pope John XXIII,"Bishop of Rome, Reformer, 1963",6,White,,,,,2019,2020,A,2
-05/06/2020,red,Pentecost,St Boniface of Mainz,"Bishop, Missionary and Martyr, 754",6,Red,,,Ember day,,2019,2020,A,2
-06/06/2020,green,Pentecost,Saturday after the Day of Pentecost,Eve of Trinity Sunday,,Green,,,Ember day,,2019,2020,A,2
-07/06/2020,white,Pentecost,Trinity Sunday,Pentecost 1,2,White,,,,,2019,2020,A,2
-08/06/2020,white,Pentecost,St Ephrem the Syrian,"Deacon and Teacher of the Faith, 373",6,White,,,,,2019,2020,A,2
-09/06/2020,white,Pentecost,St Columba of Iona,"Abbot, 597",4,White,,,,,2019,2020,A,2
-10/06/2020,green,Pentecost,Wednesday after Trinity Sunday,Feria,,Green,,,,,2019,2020,A,2
-11/06/2020,white,Pentecost,Corpus Christi,Thanksgiving for Holy Communion,5,White,,,,,2019,2020,A,2
-12/06/2020,red,Pentecost,St Barnabus,Apostle,4,Red,Translated from 11 June,,,,2019,2020,A,2
-13/06/2020,white,Pentecost,"John Skinner, priest and John Skinner, bishop","Priest, 1807 and Bishop, 1816",6,White,Translated from 12 June,,,,2019,2020,A,2
-14/06/2020,green,Pentecost,Second Sunday after Pentecost,Pentecost 2,3,Green,,"Scottish Prayer Book, Trinity 1",,,2019,2020,A,2
-15/06/2020,white,Pentecost,"St&nbsp;Basil of Caesarea, 379; St&nbsp;Gregory of Nazianzus, c.390; St&nbsp;Gregory of Nyssa, 394",Bishops and Teachers of the Faith,6,White,Translated from 14 June,,,,2019,2020,A,2
-16/06/2020,green,Pentecost,Tuesday after Pentecost 2,Feria,,Green,,,,,2019,2020,A,2
-17/06/2020,green,Pentecost,Wednesday after Pentecost 2,Feria,,Green,,,,,2019,2020,A,2
-18/06/2020,red,Pentecost,Bernard Mizeki,"Martyr, 1896",6,Red,,,,,2019,2020,A,2
-19/06/2020,green,Pentecost,Friday after Pentecost 2,Feria,,Green,,,,,2019,2020,A,2
-20/06/2020,red,Pentecost,St Fillan,"Abbot, c.750",6,Red,,,,,2019,2020,A,2
-21/06/2020,green,Pentecost,Third Sunday after Pentecost,Pentecost 3,3,Green,,"Scottish Prayer Book, Trinity 2",,,2019,2020,A,2
-22/06/2020,red,Pentecost,St Alban,Martyr,6,Red,,,,,2019,2020,A,2
-23/06/2020,green,Pentecost,Tuesday after Pentecost 3,Feria,,Green,,,,,2019,2020,A,2
-24/06/2020,white,Pentecost,The Birth of John the Baptist,,4,White,,,,,2019,2020,A,2
-25/06/2020,white,Pentecost,St Moluag of Lismore,"Bishop, c.592",6,White,,,,,2019,2020,A,2
-26/06/2020,white,Pentecost,Robert Leighton,"Bishop, 1684",6,White,,,,,2019,2020,A,2
-27/06/2020,white,Pentecost,Alexander Jolly,"Bishop, 1838",6,White,,,,,2019,2020,A,2
-28/06/2020,green,Pentecost,Fourth Sunday after Pentecost,Pentecost 4,3,Green,,"Scottish Prayer Book, Trinity 3",,,2019,2020,A,2
-29/06/2020,red,Pentecost,St Peter (or St Peter and St Paul),Apostles,4,Red,,,,,2019,2020,A,2
-30/06/2020,white,Pentecost,St Irenaeus of Lyons,"Bishop and Teacher of the Faith, 202",6,White,Translated from 28 June,,,,2019,2020,A,2
-01/07/2020,white,Pentecost,St Serf,"Bishop, c.550",6,White,,,,,2019,2020,A,2
-02/07/2020,green,Pentecost,Thursday after Pentecost 4,Feria,,Green,,,,,2019,2020,A,2
-03/07/2020,red,Pentecost,St Thomas,Apostle,4,Red,If not kept on 21 December,,,,2019,2020,A,2
-04/07/2020,green,Pentecost,Saturday after Pentecost 4,Feria,,Green,,,,,2019,2020,A,2
-05/07/2020,green,Pentecost,Fifth Sunday after Pentecost,Pentecost 5,3,Green,,"Scottish Prayer Book, Trinity 4",,,2019,2020,A,2
-06/07/2020,white,Pentecost,St Palladius,"Bishop, c.450",6,White,,,,,2019,2020,A,2
-07/07/2020,white,Pentecost,St Boisil,"Prior of Melrose, c.642",6,White,,,,,2019,2020,A,2
-08/07/2020,green,Pentecost,Wednesday after Pentecost 5,Feria,,Green,,,,,2019,2020,A,2
-09/07/2020,green,Pentecost,Thursday after Pentecost 5,Feria,,Green,,,,,2019,2020,A,2
-10/07/2020,green,Pentecost,Friday after Pentecost 5,Feria,,Green,,,,,2019,2020,A,2
-11/07/2020,white,Pentecost,St Benedict of Nursia,"Abbot, c.550",6,White,,,,,2019,2020,A,2
-12/07/2020,green,Pentecost,Sixth Sunday after Pentecost,Pentecost 6,3,Green,,"Scottish Prayer Book, Trinity 5",,,2019,2020,A,2
-13/07/2020,white,Pentecost,St Drostan of Deer,"Abbot, c.600",6,White,Translated from 12 July,,,,2019,2020,A,2
-14/07/2020,green,Pentecost,Tuesday after Pentecost 6,Feria,,Green,,,,,2019,2020,A,2
-15/07/2020,green,Pentecost,Wednesday after Pentecost 6,Feria,,Green,,,,,2019,2020,A,2
-16/07/2020,green,Pentecost,Thursday after Pentecost 6,Feria,,Green,,,,,2019,2020,A,2
-17/07/2020,green,Pentecost,Friday after Pentecost 6,Feria,,Green,,,,,2019,2020,A,2
-18/07/2020,green,Pentecost,Saturday after Pentecost 6,Feria,,Green,,,,,2019,2020,A,2
-19/07/2020,green,Pentecost,Seventh Sunday after Pentecost,Pentecost 7,3,Green,,"Scottish Prayer Book, Trinity 6",,,2019,2020,A,2
-20/07/2020,green,Pentecost,Monday after Pentecost 7,Feria,,Green,,,,,2019,2020,A,2
-21/07/2020,white,Pentecost,William Wilberforce,"Politician and Philanthropist, 1833",6,White,,,,,2019,2020,A,2
-22/07/2020,white,Pentecost,St Mary Magdalene,,4,White,,,,,2019,2020,A,2
-23/07/2020,green,Pentecost,Thursday after Pentecost 7,Feria,,Green,,,,,2019,2020,A,2
-24/07/2020,green,Pentecost,Friday after Pentecost 7,Feria,,Green,,,,,2019,2020,A,2
-25/07/2020,red,Pentecost,St James,Apostle,4,Red,,,,,2019,2020,A,2
-26/07/2020,green,Pentecost,Eighth Sunday after Pentecost,Pentecost 8,3,Green,,"Scottish Prayer Book, Trinity 7",,,2019,2020,A,2
-27/07/2020,white,Pentecost,St Anne and St Joachim,"Parents of Mary, Mother of the Lord",6,White,Translated from 26 July,,,,2019,2020,A,2
-28/07/2020,green,Pentecost,Tuesday after Pentecost 8,Feria,,Green,,,,,2019,2020,A,2
-29/07/2020,white,Pentecost,St Martha and St Mary of Bethany,,6,White,,,,,2019,2020,A,2
-30/07/2020,white,Pentecost,St Silas,Companion of Saint Paul,6,White,,,,,2019,2020,A,2
-31/07/2020,white,Pentecost,St Ignatius Loyola,"Priest and Religious, 1556",6,White,,,,,2019,2020,A,2
-01/08/2020,green,Pentecost,Saturday after Pentecost 8,Feria,,Green,,,,,2019,2020,A,2
-02/08/2020,green,Pentecost,Ninth Sunday after Pentecost,Pentecost 9,3,Green,,"Scottish Prayer Book, Trinity 8",,,2019,2020,A,2
-03/08/2020,green,Pentecost,Monday after Pentecost 9,Feria,,Green,,,,,2019,2020,A,2
-04/08/2020,green,Pentecost,Tuesday after Pentecost 9,Feria,,Green,,,,,2019,2020,A,2
-05/08/2020,red,Pentecost,St Oswald of Northumbria,"Martyr, 642",6,Red,,,,,2019,2020,A,2
-06/08/2020,white,Pentecost,The Transfiguration of the Lord,,2,White,,,,,2019,2020,A,2
-07/08/2020,green,Pentecost,Friday after Pentecost 9,Feria,,Green,,,,,2019,2020,A,2
-08/08/2020,white,Pentecost,St Dominic,"Priest and Friar, 1221",6,White,,,,,2019,2020,A,2
-09/08/2020,green,Pentecost,Tenth Sunday of Pentecost,Pentecost 10,3,Green,,"Scottish Prayer Book, Trinity 9",,,2019,2020,A,2
-10/08/2020,red,Pentecost,St Lawrence,"Deacon and Martyr, 258",6,Red,,,,,2019,2020,A,2
-11/08/2020,white,Pentecost,St Clare of Assisi,"Religious, 1253",6,White,,,,,2019,2020,A,2
-12/08/2020,white,Pentecost,St Blane,"Missionary, c.590",6,White,,,,,2019,2020,A,2
-13/08/2020,white,Pentecost,Jeremy Taylor,"Bishop, 1667",6,White,,,,,2019,2020,A,2
-14/08/2020,red,Pentecost,St Maximilian Kolbe,"Priest and Martyr, 1941",6,Red,,,,,2019,2020,A,2
-15/08/2020,white,Pentecost,St Mary the Virgin,,4,White,,,,,2019,2020,A,2
-16/08/2020,green,Pentecost,Eleventh Sunday after Pentecost,Pentecost 11,3,Green,,"Scottish Prayer Book, Trinity 10",,,2019,2020,A,2
-17/08/2020,green,Pentecost,Monday after Pentecost 11,Feria,,Green,,,,,2019,2020,A,2
-18/08/2020,green,Pentecost,Tuesday after Pentecost 11,Feria,,Green,,,,,2019,2020,A,2
-19/08/2020,green,Pentecost,Wednesday after Pentecost 11,Feria,,Green,,,,,2019,2020,A,2
-20/08/2020,white,Pentecost,St Bernard of Clairvaux,"Abbot and Teacher of the Faith, 1153",6,White,,,,,2019,2020,A,2
-21/08/2020,green,Pentecost,Friday after Pentecost 11,Feria,,Green,,,,,2019,2020,A,2
-22/08/2020,green,Pentecost,Saturday after Pentecost 11,Feria,,Green,,,,,2019,2020,A,2
-23/08/2020,green,Pentecost,Twelfth Sunday after Pentecost,Pentecost 12,3,Green,,"Scottish Prayer Book, Trinity 11",,,2019,2020,A,2
-24/08/2020,red,Pentecost,St Bartholomew,Apostle,4,Red,,,,,2019,2020,A,2
-25/08/2020,white,Pentecost,St Ebba of Coldingham,"Abbess, 683",6,White,,,,"Ordination of the Rt Revd Andrew Swift as Bishop of Brechin, 2018",2019,2020,A,2
-26/08/2020,green,Pentecost,Wednesday after Pentecost 12,Feria,,Green,,,,,2019,2020,A,2
-27/08/2020,white,Pentecost,St Monnica,"Mother of Augustine of Hippo, 387",6,White,,,,,2019,2020,A,2
-28/08/2020,white,Pentecost,St Augustine of Hippo,"Bishop and Teacher of the Faith, 430",6,White,,,,,2019,2020,A,2
-29/08/2020,red,Pentecost,The Beheading of St John the Baptist,,4,Red,,,,,2019,2020,A,2
-30/08/2020,green,Pentecost,Thirteenth Sunday after Pentecost,Pentecost 13,3,Green,,"Scottish Prayer Book, Trinity 12",,,2019,2020,A,2
-31/08/2020,white,Pentecost,St Aidan of Lindisfarne,"Bishop, 651",6,White,,,,,2019,2020,A,2
-01/09/2020,green,Pentecost,Tuesday after Pentecost 13,Feria,,Green,,,,,2019,2020,A,2
-02/09/2020,red,Pentecost,The Martyrs of New Guinea,1942,6,Red,,,,,2019,2020,A,2
-03/09/2020,white,Pentecost,St Gregory the Great,Bishop and Teacher of the Faith,6,White,,,,,2019,2020,A,2
-04/09/2020,green,Pentecost,Friday after Pentecost 13,Feria,,Green,,,,,2019,2020,A,2
-05/09/2020,green,Pentecost,Saturday after Pentecost 13,Feria,,Green,,,,,2019,2020,A,2
-06/09/2020,green,Pentecost,Fourteenth Sunday after Pentecost,Pentecost 14,3,Green,,"Scottish Prayer Book, Trinity 13",,,2019,2020,A,2
-07/09/2020,green,Pentecost,Monday after Pentecost 14,Feria,,Green,,,,,2019,2020,A,2
-08/09/2020,white,Pentecost,The Birth of St Mary,Mother of the Lord,5,White,,,,,2019,2020,A,2
-09/09/2020,green,Pentecost,Wednesday after Pentecost 14,Feria,,Green,,,,,2019,2020,A,2
-10/09/2020,green,Pentecost,Thursday after Pentecost 14,Feria,,Green,,,,,2019,2020,A,2
-11/09/2020,green,Pentecost,Friday after Pentecost 14,Feria,,Green,,,,,2019,2020,A,2
-12/09/2020,green,Pentecost,Saturday after Pentecost 14,Feria,,Green,,,,,2019,2020,A,2
-13/09/2020,green,Pentecost,Fifteenth Sunday after Pentecost,Pentecost 15,3,Green,,"Scottish Prayer Book, Trinity 14",,,2019,2020,A,2
-14/09/2020,red,Pentecost,Holy Cross Day,,5,Red,,,,,2019,2020,A,2
-15/09/2020,red,Pentecost,St Cyprian of Carthage,"Bishop and Martyr, 258",6,Red,Translated from 13 September,,,,2019,2020,A,2
-16/09/2020,white,Pentecost,St Ninian of Whithorn,"Bishop, c.430",4,White,,,Ember day,,2019,2020,A,2
-17/09/2020,white,Pentecost,St Hildegard of Bingen,"Abbess, 1179",6,White,,,,,2019,2020,A,2
-18/09/2020,green,Pentecost,Friday after Pentecost 15,Feria,,Green,,,Ember day,,2019,2020,A,2
-19/09/2020,green,Pentecost,Saturday after Pentecost 15,Feria,,Green,,,Ember day,,2019,2020,A,2
-20/09/2020,green,Pentecost,Sixteenth Sunday after Pentecost,Pentecost 16,3,Green,,"Scottish Prayer Book, Trinity 15",,,2019,2020,A,2
-21/09/2020,red,Pentecost,St Matthew the Evangelist,Apostle and Evangelist,4,Red,,,,,2019,2020,A,2
-22/09/2020,red,Pentecost,John Coleridge Patteson,"Bishop and Martyr, 1871",6,Red,Translated from 20 September,,,,2019,2020,A,2
-23/09/2020,white,Pentecost,St Adamnan of Iona,"Abbot, 704",6,White,,,,,2019,2020,A,2
-24/09/2020,green,Pentecost,Thursday after Pentecost 16,Feria,,Green,,,,,2019,2020,A,2
-25/09/2020,white,Pentecost,St Finnbar of Caithness,"Bishop, c.610",6,White,,,,,2019,2020,A,2
-26/09/2020,green,Pentecost,Saturday after Pentecost 16,Feria,,Green,,,,,2019,2020,A,2
-27/09/2020,green,Pentecost,Seventeenth Sunday after Pentecost,Pentecost 17,3,Green,,"Scottish Prayer Book, Trinity 16",,,2019,2020,A,2
-28/09/2020,white,Pentecost,St Vincent de Paul,"Priest, 1660",6,White,Translated from 27 September,,,,2019,2020,A,2
-29/09/2020,white,Pentecost,St Michael and All Angels,,4,White,,,,,2019,2020,A,2
-30/09/2020,white,Pentecost,St Jerome,"Priest and Teacher of the Faith, 420",6,White,,,,,2019,2020,A,2
-01/10/2020,white,Pentecost,St Gregory the Enlightener,"Bishop, c.332",6,White,,,,,2019,2020,A,2
-02/10/2020,green,Pentecost,Friday after Pentecost 17,Feria,,Green,,,,,2019,2020,A,2
-03/10/2020,green,Pentecost,Saturday after Pentecost 17,Feria,,Green,,,,,2019,2020,A,2
-04/10/2020,green,Pentecost,Eighteenth Sunday after Pentecost,Pentecost 18,3,Green,,"Scottish Prayer Book, Trinity 17",,,2019,2020,A,2
-05/10/2020,white,Pentecost,St Francis of Assisi,"Deacon and Friar, 1226",6,White,Translated from 4 October,,,,2019,2020,A,2
-06/10/2020,green,Pentecost,Tuesday after Pentecost 18,Feria,,Green,,,,,2019,2020,A,2
-07/10/2020,green,Pentecost,Wednesday after Pentecost 18,Feria,,Green,,,,,2019,2020,A,2
-08/10/2020,white,Pentecost,Alexander Penrose Forbes,"Bishop, 1875",6,White,,,,,2019,2020,A,2
-09/10/2020,green,Pentecost,Friday after Pentecost 18,Feria,,Green,,,,,2019,2020,A,2
-10/10/2020,green,Pentecost,Saturday after Pentecost 18,Feria,,Green,,,,,2019,2020,A,2
-11/10/2020,green,Pentecost,Nineteenth Sunday after Pentecost,Pentecost 19,3,Green,,"Scottish Prayer Book, Trinity 18",,,2019,2020,A,2
-12/10/2020,white,Pentecost,Elizabeth Fry,"Social reformer and philanthropist, 1845",6,White,,,,,2019,2020,A,2
-13/10/2020,white,Pentecost,St Kenneth,"Abbot, 600",6,White,Translated from 11 October,,,"Ordination of the Rt Revd Mark Strange, Primus and Bishop of Moray, Ross and Caithness, 2007",2019,2020,A,2
-14/10/2020,green,Pentecost,Wednesday after Pentecost 19,Feria,,Green,,,,,2019,2020,A,2
-15/10/2020,white,Pentecost,St Teresa of Avila,"Teacher of the Faith, 1582",6,White,,,,,2019,2020,A,2
-16/10/2020,green,Pentecost,Friday after Pentecost 19,Feria,,Green,,,,,2019,2020,A,2
-17/10/2020,red,Pentecost,St Ignatius of Antioch,"Bishop and Martyr, c.115",6,Red,,,,,2019,2020,A,2
-18/10/2020,green,Pentecost,Twentieth Sunday after Pentecost,Pentecost 20,3,Green,,"Scottish Prayer Book, Trinity 19",,,2019,2020,A,2
-19/10/2020,red,Pentecost,St Luke the Evangelist,Evangelist,4,Red,Translated from 18 October,,,,2019,2020,A,2
-20/10/2020,white,Pentecost,Henry Martyn,"Priest and Missionary, 1812",6,White,Translated from 19 October,,,"Ordination of the Rt Revd Ian Paton as Bishop of St Andrews, Dunkeld and Dunblane, 2018",2019,2020,A,2
-21/10/2020,green,Pentecost,Wednesday after Pentecost 20,Feria,,Green,,,,,2019,2020,A,2
-22/10/2020,green,Pentecost,Thursday after Pentecost 20,Feria,,Green,,,,,2019,2020,A,2
-23/10/2020,red,Pentecost,St James of Jerusalem,"Martyr, c.62",4,Red,,,,,2019,2020,A,2
-24/10/2020,green,Pentecost,Saturday after Pentecost 20,Feria,,Green,,,,,2019,2020,A,2
-25/10/2020,green,Pentecost,Twenty-first Sunday after Pentecost,Pentecost 21,3,Green,,"Scottish Prayer Book, Trinity 20",,,2019,2020,A,2
-26/10/2020,green,Pentecost,Monday after Pentecost 21,Feria,,Green,,,,,2019,2020,A,2
-27/10/2020,green,Pentecost,Tuesday after Pentecost 21,Feria,,Green,,,,,2019,2020,A,2
-28/10/2020,red,Pentecost,St Simon and St Jude,Apostles,4,Red,,,,,2019,2020,A,2
-29/10/2020,red,Pentecost,James Hannington,"Bishop and Companions, Martyrs, 1885",6,Red,,,,,2019,2020,A,2
-30/10/2020,green,Pentecost,Friday after Pentecost 21,Feria,,Green,,,,,2019,2020,A,2
-31/10/2020,green,Pentecost,Saturday after Pentecost 21,Feria,,Green,,,,,2019,2020,A,2
-01/11/2020,white,Pentecost,All Saints,Pentecost 22,2,White,,"Scottish Prayer Book, Trinity 21",,,2019,2020,A,2
-02/11/2020,violet,Pentecost,All Souls,Commemoration of All the Faithful Departed,5,Violet or White,,,,,2019,2020,A,2
-03/11/2020,white,Pentecost,Richard Hooker,"Priest and Teacher of the Faith, 1660",6,White,,,,,2019,2020,A,2
-04/11/2020,green,Pentecost,Wednesday after Pentecost 22,Feria,,Green,,,,,2019,2020,A,2
-05/11/2020,green,Pentecost,Thursday after Pentecost 22,Feria,,Green,,,,,2019,2020,A,2
-06/11/2020,green,Pentecost,Friday after Pentecost 22,Feria,,Green,,,,,2019,2020,A,2
-07/11/2020,white,Pentecost,St Willibrord,"Bishop and Missionary, 739",6,White,,,,,2019,2020,A,2
-08/11/2020,green,Pentecost,Remembrance Sunday,Pentecost 23,3,Green,,"Scottish Prayer Book, Trinity 22",,,2019,2020,A,2
-09/11/2020,white,Pentecost,George Hay Forbes,"Priest, 1875",6,White,,,,,2019,2020,A,2
-10/11/2020,white,Pentecost,St Leo the Great,"Bishop and Teacher of the Faith, 461",6,White,,,,,2019,2020,A,2
-11/11/2020,white,Pentecost,St Martin of Tours,"Bishop, c.397",6,White,,,,,2019,2020,A,2
-12/11/2020,white,Pentecost,St Machar,"Bishop, c.600",6,White,,,,,2019,2020,A,2
-13/11/2020,green,Pentecost,Friday after Pentecost 23,Feria,,Green,,,,,2019,2020,A,2
-14/11/2020,green,Pentecost,Saturday after Pentecost 23,Feria,,Green,,,,"Ordination of Samuel Seabury, Bishop, 1784",2019,2020,A,2
-15/11/2020,green,Pentecost,Twenty-fourth Sunday after Pentecost,Pentecost 24,3,Green,,"Scottish Prayer Book, Trinity 23",,,2019,2020,A,2
-16/11/2020,white,Pentecost,St Margaret of Scotland,"Queen of Scots, 1093",4,White,,,,,2019,2020,A,2
-17/11/2020,white,Pentecost,St Hilda of Whitby and St Hugh of Lincoln,"Abbess, 680 and Bishop, 1200",6,White,,,,,2019,2020,A,2
-18/11/2020,white,Pentecost,St Fergus,"Bishop, c.750",6,White,,,,,2019,2020,A,2
-19/11/2020,green,Pentecost,Thursday after Pentecost 24,Feria,,Green,,,,,2019,2020,A,2
-20/11/2020,green,Pentecost,Friday after Pentecost 24,Feria,,Green,,,,,2019,2020,A,2
-21/11/2020,white,Pentecost,St Columban,"Bishop, 615",6,White,,,,,2019,2020,A,2
-22/11/2020,red,Pentecost,The Last Sunday after Pentecost,Christ the King,3,White or Red,,The Sunday before Advent,,,2019,2020,A,2
-23/11/2020,red,Pentecost,St Clement of Rome,"Bishop and Martyr, c.100",6,Red,,,,,2019,2020,A,2
-24/11/2020,white,Pentecost,Lucy Menzies,"Scholar and Mystic, 1954",6,White,,,,,2019,2020,A,2
-25/11/2020,white,Pentecost,St Cecilia,"Martyr, c.230",6,White,Translated from 22 November,,,,2019,2020,A,2
 26/11/2020,green,Pentecost,Thursday after the Last Sunday after Pentecost,Feria,,Green,,,,,2019,2020,A,2
+25/11/2020,white,Pentecost,St Cecilia,"Martyr, c.230",6,White,Translated from 22 November,,,,2019,2020,A,2
 27/11/2020,green,Pentecost,Friday after the Last Sunday after Pentecost,Feria,,Green,,,,,2019,2020,A,2
 28/11/2020,green,Pentecost,Saturday after the Last Sunday after Pentecost,Feria,,Green,,,,,2019,2020,A,2
+29/11/2020,violet,Advent,First Sunday of Advent,Advent 1,1,Violet,,,,,2020,2021,B,1
+30/11/2020,red,Advent,St Andrew,Apostle and Patron of Scotland,4,Red,,,,,2020,2021,B,1
+01/12/2020,white,Advent,Charles de Foucauld,"Priest and Hermit, 1916",6,White,,,,,2020,2021,B,1
+02/12/2020,white,Advent,Nicholas Ferrar,"Deacon, 1637",6,White,,,,,2020,2021,B,1
+03/12/2020,white,Advent,St Francis Xavier,"Priest and Missionary, 1552",6,White,,,,,2020,2021,B,1
+04/12/2020,white,Advent,St Clement of Alexandria,"Teacher of the Faith, c.214",6,White,,,,,2020,2021,B,1
+05/12/2020,violet,Advent,Saturday after First Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+06/12/2020,violet,Advent,Second Sunday of Advent,Advent 2,1,Violet,,,,,2020,2021,B,1
+07/12/2020,white,Advent,St Ambrose of Milan,"Bishop and Teacher of the Faith, 397",6,White,,,,,2020,2021,B,1
+08/12/2020,white,Advent,The Conception of St Mary,Mother of the Lord,5,White,,,,,2020,2021,B,1
+09/12/2020,white,Advent,St Nicholas of Myra,"Bishop, 4th century",6,White,Translated from 6 December,,,,2020,2021,B,1
+10/12/2020,violet,Advent,Thursday after Second Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+11/12/2020,violet,Advent,Friday after Second Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+12/12/2020,violet,Advent,Saturday after Second Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+13/12/2020,violet,Advent,Third Sunday of Advent,Advent 3,1,Violet,,,,,2020,2021,B,1
+14/12/2020,white,Advent,St John of the Cross,"Priest, Teacher of the Faith, 1591",6,White,,,,,2020,2021,B,1
+15/12/2020,violet,Advent,Tuesday after Third Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+16/12/2020,violet,Advent,Wednesday after Third Sunday of Advent,Feria,,Violet,,,Ember day,,2020,2021,B,1
+17/12/2020,violet,Advent,Thursday after Third Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+18/12/2020,violet,Advent,Friday after Third Sunday of Advent,Feria,,Violet,,,Ember day,,2020,2021,B,1
+19/12/2020,violet,Advent,Saturday after Third Sunday of Advent,Feria,,Violet,,,Ember day,,2020,2021,B,1
+20/12/2020,violet,Advent,Fourth Sunday of Advent,Advent 4,1,Violet,,,,,2020,2021,B,1
+21/12/2020,red,Advent,St Thomas,Apostle,4,Red,If not kept on 3 July,,,,2020,2021,B,1
+22/12/2020,violet,Advent,Tuesday after Fourth Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+23/12/2020,violet,Advent,Wednesday after Fourth Sunday of Advent,Feria,,Violet,,,,,2020,2021,B,1
+24/12/2020,violet,Advent,Christmas Eve,,2,Violet,,,,,2020,2021,B,1
+25/12/2020,white,Christmas,Christmas Day,The birth of Jesus Christ,1,White,,,,,2020,2021,B,1
+26/12/2020,red,Christmas,St Stephen,Deacon and Martyr,4,Red,,,,,2020,2021,B,1
+27/12/2020,white,Christmas,First Sunday after Christmas,Christmas 1,2,White,,,,,2020,2021,B,1
+28/12/2020,white,Christmas,The Holy Innocents,The massacre of male children under two years in Bethlehem by King&nbsp;Herod the Great,4,White,,,,,2020,2021,B,1
+29/12/2020,white,Christmas,St John the Evangelist,Apostle and Evangelist,4,White,Translated from 27 December,,,,2020,2021,B,1
+30/12/2020,white,Christmas,Josephine Butler,"Social reformer, 1906",6,White,,,,,2020,2021,B,1
+31/12/2020,white,Christmas,John Wycliffe,"Priest, 1384",6,White,,,,,2020,2021,B,1
+01/01/2021,white,Christmas,The Naming of Jesus,,2,White,,,,,2020,2021,B,1
+02/01/2021,white,Christmas,St Seraphim of Sarov,1833,6,White,,,,,2020,2021,B,1
+03/01/2021,white,Christmas,Second Sunday after Christmas,Christmas 2,2,White,,,,,2020,2021,B,1
+04/01/2021,white,Christmas,Monday after Second Sunday after Christmas,Feria,,White,,,,,2020,2021,B,1
+05/01/2021,white,Christmas,Tuesday after Second Sunday after Christmas,Feria,,White,,,,,2020,2021,B,1
+06/01/2021,white,Epiphany,The Epiphany,The manifestation of Jesus Christ to the Gentiles,1,White,,,,,2020,2021,B,1
+07/01/2021,white,Epiphany,Thursday after the Epiphany,Feria,,White,,,,,2020,2021,B,1
+08/01/2021,white,Epiphany,Friday after the Epiphany,Feria,,White,,,,,2020,2021,B,1
+09/01/2021,white,Epiphany,Saturday after the Epiphany,Feria,,White,,,,,2020,2021,B,1
+10/01/2021,white,Epiphany,First Sunday after Epiphany,Epiphany 1: The Baptism of the Lord,2,White,,,,,2020,2021,B,1
+11/01/2021,red,Epiphany,St David,"King of Scots, 1153",6,Red,,,,,2020,2021,B,1
+12/01/2021,red,Epiphany,William Laud,"Bishop, 1645",,Red,Translated from 10 January,,,,2020,2021,B,1
+13/01/2021,white,Epiphany,St Kentigern (or Mungo),Bishop c.603,4,White,,,,,2020,2021,B,1
+14/01/2021,white,Epiphany,St Hilary of Poitiers,"Bishop and Teacher of the Faith, c.367",6,White,,,,,2020,2021,B,1
+15/01/2021,green,Epiphany,Friday after First Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+16/01/2021,green,Epiphany,Saturday after First Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+17/01/2021,green,Epiphany,Second Sunday after Epiphany,Epiphany 2,3,Green,,,,,2020,2021,B,1
+18/01/2021,white,Epiphany,The Confession of St Peter,,6,White,,,,,2020,2021,B,1
+19/01/2021,white,Epiphany,St Antony of Egypt,"Abbot, 356",6,White,Translated from 17 January,,,,2020,2021,B,1
+20/01/2021,green,Epiphany,Wednesday after Second Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+21/01/2021,red,Epiphany,St Agnes,"Martyr, c.304",6,Red,,,,,2020,2021,B,1
+22/01/2021,green,Epiphany,Friday after Second Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+23/01/2021,green,Epiphany,Saturday after Second Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+24/01/2021,green,Epiphany,Third Sunday after Epiphany,Epiphany 3,3,Green,,,,,2020,2021,B,1
+25/01/2021,white,Epiphany,The Conversion of St Paul,Apostle,4,White,,,,,2020,2021,B,1
+26/01/2021,white,Epiphany,St Timothy and St Titus,Bishops,6,White,,,,,2020,2021,B,1
+27/01/2021,white,Epiphany,St John Chrysostom,"Bishop and Teacher of the Faith, 407",6,White,,,,,2020,2021,B,1
+28/01/2021,white,Epiphany,St Thomas Aquinas,"Teacher of the Faith, 1274",6,White,,,,,2020,2021,B,1
+29/01/2021,white,Epiphany,Francis de Sales,"Bishop, 1622",6,White,Translated from 24 January,,,,2020,2021,B,1
+30/01/2021,red,Epiphany,King Charles I,"King, 1649",6,Red,,,,,2020,2021,B,1
+31/01/2021,green,Epiphany,Fourth Sunday after Epiphany,Epiphany 4,3,Green,,SPB Septuagesima - Violet,,,2020,2021,B,1
+01/02/2021,white,Epiphany,St Bride of Kildare,"Abbess, c.525",6,White,,,,,2020,2021,B,1
+02/02/2021,white,Epiphany,The Presentation of the Lord,,2,White,,,,,2020,2021,B,1
+03/02/2021,green,Epiphany,Wednesday after Fourth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+04/02/2021,red,Epiphany,Charles Mackenzie of Central Africa,"Bishop, Missionary, Martyr, 1862",6,Red,Translated from 31 January,,,"Ordination of the Rt Revd Kevin Pearson, Bishop of Glasgow and Galloway, 2011 (translated from Argyll and The Isles - 1 July 2020)",2020,2021,B,1
+05/02/2021,green,Epiphany,Friday after Fourth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+06/02/2021,red,Epiphany,Paul Miki and the Martyrs of Japan,"Priest, 1597",6,Red,,,,,2020,2021,B,1
+07/02/2021,green,Epiphany,Fifth Sunday after Epiphany,Epiphany 5,3,Green,,SPB Sexagesima - Violet,,,2020,2021,B,1
+08/02/2021,green,Epiphany,Monday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+09/02/2021,green,Epiphany,Tuesday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+10/02/2021,white,Epiphany,St Scholastica,"Religious, 543",6,White,,,,,2020,2021,B,1
+11/02/2021,green,Epiphany,Thursday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+12/02/2021,green,Epiphany,Friday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+13/02/2021,green,Epiphany,Saturday after Fifth Sunday after Epiphany,Feria,,Green,,,,,2020,2021,B,1
+14/02/2021,green,Epiphany,Sunday before Lent,Transfiguration,3,Green,,SPB Quinquagesima - Violet,,,2020,2021,B,1
+15/02/2021,white,Epiphany,Thomas Bray,"Priest and Missionary, 1730",6,White,,,,,2020,2021,B,1
+16/02/2021,white,Epiphany,St Cyril and St Methodius,"Monk, 869 and Bishop, 885, 'Apostles of the Slavs'",6,White,Translated from 14 February,,,,2020,2021,B,1
+17/02/2021,violet,Lent,Ash Wednesday,The beginning of Lent,1,Violet or Lenten Array,,,,,2020,2021,B,1
+18/02/2021,violet,Lent,Thursday after Ash Wednesday,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+19/02/2021,white,Lent,Martin Luther,"Priest and Reformer, 1546",6,White,,,,,2020,2021,B,1
+20/02/2021,white,Lent,St Finan of Lindisfarne,"Bishop, 661",6,White,Translated from 17 February,,,,2020,2021,B,1
+21/02/2021,violet,Lent,First Sunday of Lent,Lent 1,1,Violet or Lenten Array,,,,,2020,2021,B,1
+22/02/2021,violet,Lent,Monday after First Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+23/02/2021,red,Lent,St Polycarp of Smyrna,"Bishop and Martyr, c.156",6,Red,,,,,2020,2021,B,1
+24/02/2021,violet,Lent,Wednesday after First Sunday of Lent,Feria,,Violet or Lenten Array,,,Ember day,,2020,2021,B,1
+25/02/2021,violet,Lent,Thursday after First Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+26/02/2021,violet,Lent,Friday after First Sunday of Lent,Feria,,Violet or Lenten Array,,,Ember day,,2020,2021,B,1
+27/02/2021,violet,Lent,Saturday after First Sunday of Lent,Feria,,Violet or Lenten Array,,,Ember day,,2020,2021,B,1
+28/02/2021,violet,Lent,Second Sunday of Lent,Lent 2,1,Violet or Lenten Array,,,,,2020,2021,B,1
+01/03/2021,white,Lent,St David,"Bishop and Patron of Wales, c.601",6,White,,,,"Ordination of the Rt Revd Anne Dyer as Bishop of Aberdeen and Orkney, 2018",2020,2021,B,1
+02/03/2021,white,Lent,St Chad of Lichfield,"Bishop, 672",6,White,,,,,2020,2021,B,1
+03/03/2021,white,Lent,John and Charles Wesley,"Priests, 1791 and 1788",6,White,,,,,2020,2021,B,1
+04/03/2021,red,Lent,St Adrian of May Island and Companions,"Abbot and Martyrs, 875",6,Red,,,,,2020,2021,B,1
+05/03/2021,violet,Lent,Friday after Second Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+06/03/2021,white,Lent,St Baldred,"Bishop, 608",6,White,,,,,2020,2021,B,1
+07/03/2021,violet,Lent,Third Sunday of Lent,Lent 3,1,Violet or Lenten Array,,,,,2020,2021,B,1
+08/03/2021,white,Lent,St Duthac,"Bishop, 1068",6,White,,,,,2020,2021,B,1
+09/03/2021,red,Lent,St Perpetua and her Companions,"Martyrs, 203",6,Red,Translated from 7 March,,,,2020,2021,B,1
+10/03/2021,red,Lent,St Kessog,"Bishop, c.700",6,Red,,,,,2020,2021,B,1
+11/03/2021,violet,Lent,Thursday after Third Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+12/03/2021,violet,Lent,Friday after Third Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+13/03/2021,violet,Lent,Saturday after Third Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+14/03/2021,violet,Lent,Fourth Sunday of Lent (Mothering Sunday),Lent 4,1,Violet or Lenten Array,,,,,2020,2021,B,1
+15/03/2021,violet,Lent,Monday after Fourth Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+16/03/2021,white,Lent,St Boniface of Ross,"Bishop, 8th century",6,White,,,,,2020,2021,B,1
+17/03/2021,white,Lent,St Patrick,"Bishop and Patron of Ireland, c.461",4,White,,,,,2020,2021,B,1
+18/03/2021,white,Lent,St Cyril of Jerusalem,"Bishop and Teacher of the Faith, 386",6,White,,,,,2020,2021,B,1
+19/03/2021,white,Lent,St Joseph of Nazareth,,4,White,,,,,2020,2021,B,1
+20/03/2021,white,Lent,St Cuthbert,"Bishop, 687",6,White,,,,,2020,2021,B,1
+21/03/2021,violet,Lent,Fifth Sunday of Lent (Passion Sunday: The beginning of Passiontide),Lent 5,1,Violet or Lenten Array,,,,,2020,2021,B,1
+22/03/2021,white,Lent,Thomas Ken,"Bishop, 1711",6,White,,,,,2020,2021,B,1
+23/03/2021,red,Lent,Thomas Cranmer,"Bishop, 1556",6,Red,Translated from 21 March,,,,2020,2021,B,1
+24/03/2021,white,Lent,Paul Couturier,"Priest, 1953",6,White,,,,,2020,2021,B,1
+25/03/2021,white,Lent,The Annunciation of the Lord,,2,White,,,,,2020,2021,B,1
+26/03/2021,violet,Lent,Friday after Fifth Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+27/03/2021,violet,Lent,Saturday after Fifth Sunday of Lent,Feria,,Violet or Lenten Array,,,,,2020,2021,B,1
+28/03/2021,red,Holy Week,The Sunday of the Passion,Palm Sunday: The beginning of Holy Week,1,Red or Violet,,,,,2020,2021,B,1
+29/03/2021,red,Holy Week,Monday of Holy Week,,1,Red or Violet,,,,,2020,2021,B,1
+30/03/2021,red,Holy Week,Tuesday of Holy Week,,1,Red or Violet,,,,,2020,2021,B,1
+31/03/2021,red,Holy Week,Wednesday of Holy Week,,1,Red or Violet,,,,,2020,2021,B,1
+01/04/2021,white,Holy Week,Maundy Thursday,Paschal Triduum,1,White at the Eucharist,,,,,2020,2021,B,1
+02/04/2021,red,Holy Week,Good Friday,Paschal Triduum,1,Red for the Liturgy; Hangings removed,,,,,2020,2021,B,1
+03/04/2021,white,Holy Week,Holy Saturday,Paschal Triduum: Easter Eve,1,Hangings removed; White at the Easter Vigil,,,,,2020,2021,B,1
+04/04/2021,white,Easter,Easter Day,Alleluia! Christ is risen!,1,White,,,,,2020,2021,B,1
+05/04/2021,white,Easter,Monday of Easter week,Easter week,,White,,,,,2020,2021,B,1
+06/04/2021,white,Easter,Tuesday of Easter week,Easter week,,White,,,,,2020,2021,B,1
+07/04/2021,white,Easter,Wednesday of Easter week,Easter week,,White,,,,,2020,2021,B,1
+08/04/2021,white,Easter,Thursday of Easter week,Easter week,,White,,,,,2020,2021,B,1
+09/04/2021,white,Easter,Friday of Easter week,Easter week,,White,,,,,2020,2021,B,1
+10/04/2021,white,Easter,Saturday of Easter week,Easter week,,White,,,,,2020,2021,B,1
+11/04/2021,white,Easter,Second Sunday of Easter,Easter 2,1,White,,SPB First Sunday after Easter,,,2020,2021,B,1
+12/04/2021,white,Easter,William Forbes,"Bishop, 1634",6,White,,,,,2020,2021,B,1
+13/04/2021,white,Easter,George Augustus Selwyn,"Bishop and Missionary, 1878",6,White,Translated from 11 April,,,,2020,2021,B,1
+14/04/2021,white,Easter,Wednesday after Second Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+15/04/2021,white,Easter,Thursday after Second Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+16/04/2021,red,Easter,St Magnus of Orkney,"Martyr, c.1116",6,Red,,,,,2020,2021,B,1
+17/04/2021,red,Easter,St Donnan and Companions,"Abbot and Martyrs, c.617",6,Red,,,,,2020,2021,B,1
+18/04/2021,white,Easter,Third Sunday of Easter,Easter 3,1,White,,SPB Second Sunday after Easter,,,2020,2021,B,1
+19/04/2021,white,Easter,Monday after Third Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+20/04/2021,white,Easter,St Maelrubha of Applecross,"Abbot, 722",6,White,,,,,2020,2021,B,1
+21/04/2021,white,Easter,St Anselm of Canterbury,"Bishop and Teacher of the Faith, 1109",6,White,,,,,2020,2021,B,1
+22/04/2021,white,Easter,Thursday after Third Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+23/04/2021,red,Easter,St George,"Martyr and Patron of England, c.303",6,Red,,,,,2020,2021,B,1
+24/04/2021,white,Easter,Saturday after Third Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+25/04/2021,white,Easter,Fourth Sunday of Easter,Easter 4 (Vocations Sunday),1,White,,SPB Third Sunday after Easter,,,2020,2021,B,1
+26/04/2021,red,Easter,St Mark,Evangelist,4,Red,Translated from 25 April,,,,2020,2021,B,1
+27/04/2021,white,Easter,Albert Ernest Laurie,"Priest, 1937",6,White,Translated from 26 April,,,,2020,2021,B,1
+28/04/2021,white,Easter,Wednesday after Fourth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+29/04/2021,white,Easter,St Catherine of Siena,"Mystic and Teacher of the Faith, 1380",6,White,,,,,2020,2021,B,1
+30/04/2021,white,Easter,Friday after Fourth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+01/05/2021,red,Easter,St Philip and St James,Apostles,4,Red,,,,,2020,2021,B,1
+02/05/2021,white,Easter,Fifth Sunday of Easter,Easter 5,1,White,,SPB Fourth Sunday after Easter,,,2020,2021,B,1
+03/05/2021,white,Easter,St Athanasius,"Bishop and Teacher of the Faith, 373",6,White,Translated from 2 May,,,,2020,2021,B,1
+04/05/2021,white,Easter,Tuesday after Fifth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+05/05/2021,white,Easter,Wednesday after Fifth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+06/05/2021,white,Easter,Thursday after Fifth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+07/05/2021,white,Easter,Friday after Fifth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+08/05/2021,white,Easter,St Julian of Norwich,"Anchoress, c.1417",6,White,,,,,2020,2021,B,1
+09/05/2021,white,Easter,Sixth Sunday of Easter,Easter 6,1,White,,SPB Fifth Sunday after Easter,,,2020,2021,B,1
+10/05/2021,white,Easter,Monday after Sixth Sunday of Easter,Feria,,White,,,Rogation day,,2020,2021,B,1
+11/05/2021,white,Easter,Tuesday after Sixth Sunday of Easter,Feria,,White,,,Rogation day,,2020,2021,B,1
+12/05/2021,white,Easter,Thomas Rattray,"Bishop, 1743",6,White,,,Rogation day,"Ordination of the Rt Revd Dr John Armes as Bishop of Edinburgh, 2012",2020,2021,B,1
+13/05/2021,white,Easter,Ascension Day,Feast of the Ascension of Jesus Christ,1,White,,,,,2020,2021,B,1
+14/05/2021,red,Easter,St Matthias,Apostle,4,Red,,,,,2020,2021,B,1
+15/05/2021,white,Easter,Saturday after Sixth Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+16/05/2021,white,Easter,Seventh Sunday of Easter,Easter 7,1,White,,SPB Sunday after Ascension Day,,,2020,2021,B,1
+17/05/2021,white,Easter,Monday after Seventh Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+18/05/2021,white,Easter,Tuesday after Seventh Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+19/05/2021,white,Easter,Wednesday after Seventh Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+20/05/2021,white,Easter,Thursday after Seventh Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+21/05/2021,white,Easter,St Helena,"Mother of Constantine the Great, c.330",6,White,,,,,2020,2021,B,1
+22/05/2021,white,Easter,Saturday after Seventh Sunday of Easter,Feria,,White,,,,,2020,2021,B,1
+23/05/2021,red,Pentecost,The Day of Pentecost,Whitsunday,1,Red,,,,,2020,2021,B,1
+24/05/2021,white,Pentecost,St William of Perth (or Rochester),1201,6,White,Translated from 23 May,,,,2020,2021,B,1
+25/05/2021,white,Pentecost,"St Bede the Venerable, of Jarrow","Teacher of the Faith, 735",6,White,,,,,2020,2021,B,1
+26/05/2021,white,Pentecost,St Augustine of Canterbury,"Bishop, c.604",6,White,,,Ember day,,2020,2021,B,1
+27/05/2021,green,Pentecost,Thursday after the Day of Pentecost (Whitsunday),Feria,,Green,,,,,2020,2021,B,1
+28/05/2021,green,Pentecost,Friday after the Day of Pentecost (Whitsunday),Feria,,Green,,,Ember day,,2020,2021,B,1
+29/05/2021,green,Pentecost,Saturday after the Day of Pentecost (Whitsunday),Feria; Eve of Trinity Sunday,,Green,,,Ember day,,2020,2021,B,1
+30/05/2021,white,Pentecost,Trinity Sunday,Pentecost 1,2,White,,,,,2020,2021,B,1
+31/05/2021,white,Pentecost,The Visit of St Mary to St Elizabeth,,4,White,,,,,2020,2021,B,1
+01/06/2021,red,Pentecost,St Justin of Rome,"Martyr, c.165",6,Red,,,,,2020,2021,B,1
+02/06/2021,green,Pentecost,Wednesday after Trinity Sunday,Feria,,Green,,,,,2020,2021,B,1
+03/06/2021,white,Pentecost,Corpus Christi,Thanksgiving for Holy Communion,5,White,,,,,2020,2021,B,1
+04/06/2021,white,Pentecost,Pope John XXIII,"Bishop of Rome, Reformer, 1963",6,White,,,,,2020,2021,B,1
+05/06/2021,red,Pentecost,St Boniface of Mainz,"Bishop, Missionary and Martyr, 754",6,Red,,,,,2020,2021,B,1
+06/06/2021,green,Pentecost,Second Sunday after Pentecost,Pentecost 2,3,Green,,SPB Trinity 1,,,2020,2021,B,1
+07/06/2021,green,Pentecost,Monday after Pentecost 2,Feria,,Green,,,,,2020,2021,B,1
+08/06/2021,white,Pentecost,St Ephrem the Syrian,"Deacon and Teacher of the Faith, 373",6,White,,,,,2020,2021,B,1
+09/06/2021,white,Pentecost,St Columba of Iona,"Abbot, 597",4,White,,,,,2020,2021,B,1
+10/06/2021,green,Pentecost,Thursday after Pentecost 2,Feria,,Green,,,,,2020,2021,B,1
+11/06/2021,red,Pentecost,St Barnabus,Apostle,4,Red,,,,,2020,2021,B,1
+12/06/2021,white,Pentecost,"John Skinner, priest and John Skinner, bishop","Priest, 1807 and Bishop, 1816",6,White,,,,,2020,2021,B,1
+13/06/2021,green,Pentecost,Third Sunday after Pentecost,Pentecost 3,3,Green,,SPB Trinity 2,,,2020,2021,B,1
+14/06/2021,white,Pentecost,"St&nbsp;Basil of Caesarea, 379; St&nbsp;Gregory of Nazianzus, c.390; St&nbsp;Gregory of Nyssa, 394",Bishops and Teachers of the Faith,6,White,,,,,2020,2021,B,1
+15/06/2021,green,Pentecost,Tuesday after Pentecost 3,Feria,,Green,,,,,2020,2021,B,1
+16/06/2021,green,Pentecost,Wednesday after Pentecost 3,Feria,,Green,,,,,2020,2021,B,1
+17/06/2021,green,Pentecost,Thursday after Pentecost 3,Feria,,Green,,,,,2020,2021,B,1
+18/06/2021,red,Pentecost,Bernard Mizeki,"Martyr, 1896",6,Red,,,,,2020,2021,B,1
+19/06/2021,green,Pentecost,Saturday after Pentecost 3,Feria,,Green,,,,,2020,2021,B,1
+20/06/2021,green,Pentecost,Fourth Sunday after Pentecost,Pentecost 4,3,Green,,SPB Trinity 3,,,2020,2021,B,1
+21/06/2021,red,Pentecost,St Fillan,"Abbot, c.750",6,Red,Translated from 20 June,,,,2020,2021,B,1
+22/06/2021,red,Pentecost,St Alban,"Martyr, c.303",6,Red,,,,,2020,2021,B,1
+23/06/2021,green,Pentecost,Wednesday after Pentecost 4,Feria,,Green,,,,,2020,2021,B,1
+24/06/2021,white,Pentecost,The Birth of St John the Baptist,,4,White,,,,,2020,2021,B,1
+25/06/2021,white,Pentecost,St Moluag of Lismore,"Bishop, 592",6,White,,,,,2020,2021,B,1
+26/06/2021,white,Pentecost,Robert Leighton,"Bishop, 1684",6,White,,,,,2020,2021,B,1
+27/06/2021,green,Pentecost,Fifth Sunday after Pentecost,Pentecost 5,3,Green,,SPB Trinity 4,,,2020,2021,B,1
+28/06/2021,white,Pentecost,St Irenaeus of Lyons,"Bishop and Teacher of the Faith, c.202",6,White,,,,,2020,2021,B,1
+29/06/2021,red,Pentecost,St Peter (or St Peter and St Paul),Apostles,4,Red,,,,,2020,2021,B,1
+30/06/2021,white,Pentecost,Alexander Jolly,"Bishop, 1838",6,White,Translated from 27 June,,,,2020,2021,B,1
+01/07/2021,white,Pentecost,St Serf,"Bishop, c.500",6,White,,,,,2020,2021,B,1
+02/07/2021,green,Pentecost,Friday after Pentecost 5,Feria,,Green,,,,,2020,2021,B,1
+03/07/2021,red,Pentecost,St Thomas,Apostle,4,Red,If not kept on 21 December,,,,2020,2021,B,1
+04/07/2021,green,Pentecost,Sixth Sunday after Pentecost,Pentecost 6,3,Green,,SPB Trinity 5,,,2020,2021,B,1
+05/07/2021,green,Pentecost,Monday after Pentecost 6,Feria,,Green,,,,,2020,2021,B,1
+06/07/2021,white,Pentecost,St Palladius,"Bishop, c.450",6,White,,,,,2020,2021,B,1
+07/07/2021,white,Pentecost,St Boisil,"Prior of Melrose, c.642",6,White,,,,,2020,2021,B,1
+08/07/2021,green,Pentecost,Thursday after Pentecost 6,Feria,,Green,,,,,2020,2021,B,1
+09/07/2021,green,Pentecost,Friday after Pentecost 6,Feria,,Green,,,,,2020,2021,B,1
+10/07/2021,green,Pentecost,Saturday after Pentecost 6,Feria,,Green,,,,,2020,2021,B,1
+11/07/2021,green,Pentecost,Seventh Sunday after Pentecost,Pentecost 7,3,Green,,SPB Trinity 6,,,2020,2021,B,1
+12/07/2021,white,Pentecost,St Drostan of Deer,"Abbot, c.600",6,White,,,,,2020,2021,B,1
+13/07/2021,white,Pentecost,St Benedict of Nursia,"Abbot, c.550",6,White,Translated from 11 July,,,,2020,2021,B,1
+14/07/2021,green,Pentecost,Wednesday after Pentecost 7,Feria,,Green,,,,,2020,2021,B,1
+15/07/2021,green,Pentecost,Thursday after Pentecost 7,Feria,,Green,,,,,2020,2021,B,1
+16/07/2021,green,Pentecost,Friday after Pentecost 7,Feria,,Green,,,,,2020,2021,B,1
+17/07/2021,green,Pentecost,Saturday after Pentecost 7,Feria,,Green,,,,,2020,2021,B,1
+18/07/2021,green,Pentecost,Eighth Sunday after Pentecost,Pentecost 8,3,Green,,SPB Trinity 7,,,2020,2021,B,1
+19/07/2021,green,Pentecost,Monday after Pentecost 8,Feria,,Green,,,,,2020,2021,B,1
+20/07/2021,green,Pentecost,Tuesday after Pentecost 8,Feria,,Green,,,,,2020,2021,B,1
+21/07/2021,white,Pentecost,William Wilberforce,"Politician and Philanthropist, 1833",6,White,,,,,2020,2021,B,1
+22/07/2021,white,Pentecost,St Mary Magdalene,,4,White,,,,,2020,2021,B,1
+23/07/2021,green,Pentecost,Friday after Pentecost 8,Feria,,Green,,,,,2020,2021,B,1
+24/07/2021,green,Pentecost,Saturday after Pentecost 8,Feria,,Green,,,,,2020,2021,B,1
+25/07/2021,green,Pentecost,Ninth Sunday after Pentecost,Pentecost 9,3,Green,,SPB Trinity 8,,,2020,2021,B,1
+26/07/2021,red,Pentecost,St James,Apostle,4,Red,Translated from 25 July,,,,2020,2021,B,1
+27/07/2021,white,Pentecost,John Comper,"Priest, 1903",6,White,,,,,2020,2021,B,1
+28/07/2021,white,Pentecost,St Anne and St Joachim,"Parents of St Mary, Mother of the Lord",6,White,Translated from 26 July,,,,2020,2021,B,1
+29/07/2021,white,Pentecost,Martha and Mary of Bethany,,6,White,,,,,2020,2021,B,1
+30/07/2021,white,Pentecost,St Silas,Companion of Saint Paul,6,White,,,,,2020,2021,B,1
+31/07/2021,white,Pentecost,St Ignatius Loyola,"Priest and Religious, 1556",6,White,,,,,2020,2021,B,1
+01/08/2021,green,Pentecost,Tenth Sunday after Pentecost,Pentecost 10,3,Green,,SPB Trinity 9,,,2020,2021,B,1
+02/08/2021,green,Pentecost,Monday after Pentecost 10,Feria,,Green,,,,,2020,2021,B,1
+03/08/2021,green,Pentecost,Tuesday after Pentecost 10,Feria,,Green,,,,,2020,2021,B,1
+04/08/2021,green,Pentecost,Wednesday after Pentecost 10,Feria,,Green,,,,,2020,2021,B,1
+05/08/2021,red,Pentecost,St Oswald of Northumbria,"Martyr, 642",6,Red,,,,,2020,2021,B,1
+06/08/2021,white,Pentecost,The Transfiguration of the Lord,,2,White,,,,,2020,2021,B,1
+07/08/2021,green,Pentecost,Saturday after Pentecost 10,Feria,,Green,,,,,2020,2021,B,1
+08/08/2021,green,Pentecost,Eleventh Sunday after Pentecost,Pentecost 11,3,Green,,SPB Trinity 10,,,2020,2021,B,1
+09/08/2021,white,Pentecost,John Mason Neale,"Priest, 1866",6,White,,,,,2020,2021,B,1
+10/08/2021,red,Pentecost,St Lawrence,"Deacon and Martyr, 258",6,Red,,,,,2020,2021,B,1
+11/08/2021,white,Pentecost,St Clare of Assisi,"Religious, 1253",6,White,,,,,2020,2021,B,1
+12/08/2021,white,Pentecost,St Blane,"Missionary, c.590",6,White,,,,,2020,2021,B,1
+13/08/2021,white,Pentecost,Jeremy Taylor,"Bishop, 1667",6,White,,,,,2020,2021,B,1
+14/08/2021,red,Pentecost,St Maximilian Kolbe,"Priest and Martyr, 1941",6,Red,,,,,2020,2021,B,1
+15/08/2021,green,Pentecost,Twefth Sunday after Pentecost,Pentecost 12,3,Green,,SPB Trinity 11,,,2020,2021,B,1
+16/08/2021,white,Pentecost,St Mary the Virgin,Mother of the Lord,4,White,Translated from 15 August,,,,2020,2021,B,1
+17/08/2021,green,Pentecost,Tuesday after Pentecost 12,Feria,,Green,,,,,2020,2021,B,1
+18/08/2021,green,Pentecost,Wednesday after Pentecost 12,Feria,,Green,,,,,2020,2021,B,1
+19/08/2021,green,Pentecost,Thursday after Pentecost 12,Feria,,Green,,,,,2020,2021,B,1
+20/08/2021,white,Pentecost,St Bernard of Clairvaux,"Abbot and Teacher of the Faith, 1153",6,White,,,,,2020,2021,B,1
+21/08/2021,green,Pentecost,Saturday after Pentecost 12,Feria,,Green,,,,,2020,2021,B,1
+22/08/2021,green,Pentecost,Thirteenth Sunday after Pentecost,Pentecost 13,3,Green,,SPB Trinity 12,,,2020,2021,B,1
+23/08/2021,green,Pentecost,Monday after Pentecost 13,Feria,,Green,,,,,2020,2021,B,1
+24/08/2021,red,Pentecost,St Bartholomew,Apostle,4,Red,,,,,2020,2021,B,1
+25/08/2021,white,Pentecost,St Ebba of Coldingham,"Abbess, 683",6,White,,,,"Ordination of the Rt Revd Andrew Swift as Bishop of Brechin, 2018",2020,2021,B,1
+26/08/2021,green,Pentecost,Thursday after Pentecost 13,Feria,,Green,,,,,2020,2021,B,1
+27/08/2021,white,Pentecost,St Monnica,"Mother of St Augustine of Hippo, 387",6,White,,,,,2020,2021,B,1
+28/08/2021,white,Pentecost,St Augustine of Hippo,"Bishop and Teacher of the Faith, 430",6,White,,,,,2020,2021,B,1
+29/08/2021,green,Pentecost,Fourteenth Sunday after Pentecost,Pentecost 14,3,Green,,SPB Trinity 13,,,2020,2021,B,1
+30/08/2021,red,Pentecost,The Beheading of John the Baptist,,4,Red,Translated from 29 August,,,,2020,2021,B,1
+31/08/2021,white,Pentecost,St Aidan of Lindisfarne,"Bishop, 651",6,White,,,,,2020,2021,B,1
+01/09/2021,green,Pentecost,Wednesday after Pentecost 14,Feria,,Green,,,,,2020,2021,B,1
+02/09/2021,red,Pentecost,The Martyrs of New Guinea,1942,6,Red,,,,,2020,2021,B,1
+03/09/2021,white,Pentecost,St Gregory the Great,Bishop and Teacher of the Faith,6,White,,,,,2020,2021,B,1
+04/09/2021,green,Pentecost,Saturday after Pentecost 14,Feria,,Green,,,,,2020,2021,B,1
+05/09/2021,green,Pentecost,Pentecost 15,,3,Green,,SPB Trinity 14,,,2020,2021,B,1
+06/09/2021,green,Pentecost,Monday after Pentecost 15,Feria,,Green,,,,,2020,2021,B,1
+07/09/2021,green,Pentecost,Tuesday after Pentecost 15,Feria,,Green,,,,,2020,2021,B,1
+08/09/2021,white,Pentecost,The Birth of St Mary,Mother of the Lord,5,White,,,,,2020,2021,B,1
+09/09/2021,green,Pentecost,Thursday after Pentecost 15,Feria,,Green,,,,,2020,2021,B,1
+10/09/2021,green,Pentecost,Friday after Pentecost 15,Feria,,Green,,,,,2020,2021,B,1
+11/09/2021,green,Pentecost,Saturday after Pentecost 15,Feria,,Green,,,,,2020,2021,B,1
+12/09/2021,green,Pentecost,Pentecost 16,,3,Green,,SPB Trinity 15,,,2020,2021,B,1
+13/09/2021,red,Pentecost,St Cyprian of Carthage,"Bishop and Martyr, 258",6,Red,,,,,2020,2021,B,1
+14/09/2021,white,Pentecost,Holy Cross Day,,5,White or Red,,,,,2020,2021,B,1
+15/09/2021,green,Pentecost,Wednesday after Pentecost 16,Feria,,Green,,,Ember day,,2020,2021,B,1
+16/09/2021,white,Pentecost,St Ninian of Whithorn,"Bishop, 432",4,White,,,,,2020,2021,B,1
+17/09/2021,white,Pentecost,St Hildegard of Bingen,"Abbess, 1179",6,White,,,Ember day,,2020,2021,B,1
+18/09/2021,green,Pentecost,Saturday after Pentecost 16,Feria,,Green,,,Ember day,,2020,2021,B,1
+19/09/2021,green,Pentecost,Seventeenth Sunday after Pentecost,Pentecost 17,3,Green,,SPB Trinity 16,,,2020,2021,B,1
+20/09/2021,red,Pentecost,John Coleridge Patteson,"Bishop and Martyr, 1871",6,Red,,,,,2020,2021,B,1
+21/09/2021,red,Pentecost,St Matthew,Apostle and Evangelist,4,Red,,,,,2020,2021,B,1
+22/09/2021,green,Pentecost,Wednesday after Pentecost 17,Feria,,Green,,,,,2020,2021,B,1
+23/09/2021,white,Pentecost,St Adamnan of Iona,"Abbot, 704",6,White,,,,,2020,2021,B,1
+24/09/2021,green,Pentecost,Friday after Pentecost 17,Feria,,Green,,,,,2020,2021,B,1
+25/09/2021,white,Pentecost,St Finnbar of Caithness,"Bishop, c.610",6,White,,,,,2020,2021,B,1
+26/09/2021,green,Pentecost,Eighteenth Sunday after Pentecost,Pentecost 18,3,Green,,SPB Trinity 17,,,2020,2021,B,1
+27/09/2021,white,Pentecost,St Vincent de Paul,"Priest, 1660",6,White,,,,,2020,2021,B,1
+28/09/2021,green,Pentecost,Tuesday after Pentecost 18,Feria,,Green,,,,,2020,2021,B,1
+29/09/2021,white,Pentecost,Michael and All Angels,,4,White,,,,,2020,2021,B,1
+30/09/2021,white,Pentecost,St Jerome,"Priest and Teacher of the Faith, 420",6,White,,,,,2020,2021,B,1
+01/10/2021,white,Pentecost,St Gregory the Enlightener,"Bishop, 'Apostle of Armenia', c.332",6,White,,,,,2020,2021,B,1
+02/10/2021,green,Pentecost,Saturday after Pentecost 18,Feria,,Green,,,,,2020,2021,B,1
+03/10/2021,green,Pentecost,Nineteenth Sunday after Pentecost,Pentecost 19,3,Green,,SPB Trinity 18,,,2020,2021,B,1
+04/10/2021,white,Pentecost,St Francis of Assisi,"Deacon and Friar, 1226",6,White,,,,,2020,2021,B,1
+05/10/2021,green,Pentecost,Tuesday after Pentecost 19,Feria,,Green,,,,,2020,2021,B,1
+06/10/2021,green,Pentecost,Wednesday after Pentecost 19,Feria,,Green,,,,,2020,2021,B,1
+07/10/2021,green,Pentecost,Thursday after Pentecost 19,Feria,,Green,,,,,2020,2021,B,1
+08/10/2021,white,Pentecost,Alexander Penrose Forbes,"Bishop, 1875",6,White,,,,,2020,2021,B,1
+09/10/2021,green,Pentecost,Saturday after Pentecost 19,Feria,,Green,,,,,2020,2021,B,1
+10/10/2021,green,Pentecost,Twentieth Sunday after Pentecost,Pentecost 20,3,Green,,SPB Trinity 19,,,2020,2021,B,1
+11/10/2021,white,Pentecost,St Kenneth,"Abbot, 600",6,White,,,,,2020,2021,B,1
+12/10/2021,white,Pentecost,Elizabeth Fry,"Social reformer and philanthropist, 1845",6,White,,,,,2020,2021,B,1
+13/10/2021,green,Pentecost,Wednesday after Pentecost 20,Feria,,Green,,,,"Ordination of the Rt Revd Mark Strange, Primus as Bishop of Moray, Ross and Caithness, 2007",2020,2021,B,1
+14/10/2021,green,Pentecost,Thursday after Pentecost 20,Feria,,Green,,,,,2020,2021,B,1
+15/10/2021,white,Pentecost,St Teresa of Avila,"Teacher of the Faith, 1582",6,White,,,,,2020,2021,B,1
+16/10/2021,green,Pentecost,Saturday after Pentecost 20,Feria,,Green,,,,,2020,2021,B,1
+17/10/2021,green,Pentecost,Twenty-first Sunday after Pentecost,Pentecost 21,3,Green,,SPB Trinity 20,,,2020,2021,B,1
+18/10/2021,red,Pentecost,St Luke,Evangelist,4,Red,,,,,2020,2021,B,1
+19/10/2021,white,Pentecost,Henry Martyn,"Priest and Missionary, 1812",6,White,,,,,2020,2021,B,1
+20/10/2021,red,Pentecost,St Ignatius of Antioch,"Bishop and Martyr, c.115",6,Red,Translated from 17 October,,,"Ordination of the Rt Revd Ian Paton as Bishop of St Andrews, Dunkeld and Dunblane, 2018",2020,2021,B,1
+21/10/2021,green,Pentecost,Thursday after Pentecost 21,Feria,,Green,,,,,2020,2021,B,1
+22/10/2021,green,Pentecost,Friday after Pentecost 21,Feria,,Green,,,,,2020,2021,B,1
+23/10/2021,red,Pentecost,St James of Jerusalem,"Martyr, c.62",4,Red,,,,,2020,2021,B,1
+24/10/2021,green,Pentecost,Twenty-second Sunday after Pentecost,Pentecost 22,3,Green,,SPB Trinity 21,,,2020,2021,B,1
+25/10/2021,green,Pentecost,Monday after Pentecost 22,Feria,,Green,,,,,2020,2021,B,1
+26/10/2021,green,Pentecost,Tuesday after Pentecost 22,Feria,,Green,,,,,2020,2021,B,1
+27/10/2021,green,Pentecost,Wednesday after Pentecost 22,Feria,,Green,,,,,2020,2021,B,1
+28/10/2021,red,Pentecost,St Simon and St Jude,Apostles,4,Red,,,,,2020,2021,B,1
+29/10/2021,red,Pentecost,James Hannington and Companions,"Bishop and Martyrs, 1885",6,Red,,,,,2020,2021,B,1
+30/10/2021,green,Pentecost,Saturday after Pentecost 22,Feria,,Green,,,,,2020,2021,B,1
+31/10/2021,green,Pentecost,Twenty-third Sunday after Pentecost,Pentecost 23,3,Green,,SPB Trinity 22,,,2020,2021,B,1
+01/11/2021,white,Pentecost,All Saints,All Hallows' Day,2,White,,,,,2020,2021,B,1
+02/11/2021,violet,Pentecost,All Souls,Commemoration of All the Faithful Departed,5,Violet or White,,,,,2020,2021,B,1
+03/11/2021,white,Pentecost,Richard Hooker,"Priest and Teacher of the Faith, 1660",6,White,,,,,2020,2021,B,1
+04/11/2021,green,Pentecost,Thursday after Pentecost 23,Feria,,Green,,,,,2020,2021,B,1
+05/11/2021,green,Pentecost,Friday after Pentecost 23,Feria,,Green,,,,,2020,2021,B,1
+06/11/2021,green,Pentecost,Saturday after Pentecost 23,Feria,,Green,,,,,2020,2021,B,1
+07/11/2021,green,Pentecost,Twenty-fourth Sunday after Pentecost,Pentecost 24,3,Green,,SPB Trinity 23,,,2020,2021,B,1
+08/11/2021,white,Pentecost,St Willibrord,"Bishop and Missionary, 739",6,White,Translated from 7 November,,,,2020,2021,B,1
+09/11/2021,white,Pentecost,George Hay Forbes,"Priest, 1875",6,White,,,,,2020,2021,B,1
+10/11/2021,white,Pentecost,St Leo the Great,"Bishop and Teacher of the Faith, 461",6,White,,,,,2020,2021,B,1
+11/11/2021,white,Pentecost,St Martin of Tours,"Bishop, c.397",6,White,,,,,2020,2021,B,1
+12/11/2021,white,Pentecost,St Machar,"Bishop, c.600",6,White,,,,,2020,2021,B,1
+13/11/2021,green,Pentecost,Saturday after Pentecost 24,Feria,,Green,,,,,2020,2021,B,1
+14/11/2021,green,Pentecost,Remembrance Sunday,Pentecost 25,3,Green,,SPB Trinity 24,,"Ordination of Samuel Seabury, Bishop, 1784",2020,2021,B,1
+15/11/2021,green,Pentecost,Monday after Pentecost 25,Feria,,Green,,,,,2020,2021,B,1
+16/11/2021,white,Pentecost,St Margaret of Scotland,"Queen of Scots, 1093",4,White,,,,,2020,2021,B,1
+17/11/2021,white,Pentecost,St Hugh of Lincoln,"Bishop, 1200",6,White,,,,,2020,2021,B,1
+18/11/2021,white,Pentecost,St Fergus,"Bishop, c.750",6,White,,,,,2020,2021,B,1
+19/11/2021,white,Pentecost,St Hilda of Whitby,"Abbess, 680",6,White,,,,,2020,2021,B,1
+20/11/2021,green,Pentecost,Saturday after Pentecost 25,Feria,,Green,,,,,2020,2021,B,1
+21/11/2021,white,Pentecost,The Last Sunday after Pentecost,Christ the King,3,White or Red,,SPB Sunday next before Advent,,,2020,2021,B,1
+22/11/2021,white,Pentecost,St Cecilia,"Martyr, c.230",6,White,,,,,2020,2021,B,1
+23/11/2021,red,Pentecost,St Clement of Rome,"Bishop and Martyr, c.100",6,Red,,,,,2020,2021,B,1
+24/11/2021,white,Pentecost,Lucy Menzies,"Scholar and Mystic, 1954",6,White,,,,,2020,2021,B,1
+25/11/2021,white,Pentecost,St Columban,"Bishop, 615",6,White,Translated from 21 November,,,,2020,2021,B,1
+26/11/2021,green,Pentecost,Friday after the Last Sunday after Pentecost,Feria,,Green,,,,,2020,2021,B,1
+27/11/2021,green,Pentecost,Saturday after the Last Sunday after Pentecost,Feria,,Green,,,,,2020,2021,B,1
