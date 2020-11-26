@@ -59,10 +59,20 @@
             </div>
         </header>
 
-        <!-- <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
-            <strong>SEC digital calendar 2019&ndash;2020</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
-        </div> -->
+        <!-- NOTICE -->
+        <?php 
+            $current_ts  = time();
+            $deadline_ts = mktime(0,0,0,12,5,2020);  // The date.  First 3 zeros are time then month, day and year
+            if ($current_ts --> $deadline_ts) {
+        ?>
+            <!-- Display nothing -->
+        <?php } else { ?>
+            <div class="alert alert-dark text-center damask-<?php echo("$todayTheme"); ?> alert-sec" role="alert">
+                <strong>SEC digital calendar 2020&ndash;2021</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
+            </div>
+        <?php } ?>
 
+        <!-- TODAY'S FEAST -->
         <main role="main" class="homepage-feast--today inner cover text-left">
             <p class="date"><?php echo date("l j F Y"); ?></p>
             <h4 class="lead season">Season of <?php echo($todaySeason); ?></h4>
