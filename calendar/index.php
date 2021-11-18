@@ -45,7 +45,7 @@
                 <h2 class="masthead-brand"><a href="../">SEC digital calendar</a></h2>
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link" href="../">Home</a>
-                    <a class="nav-link active" href="calendar/">Calendar</a>
+                    <a class="nav-link active" href="/calendar/">Calendar</a>
                     <a class="nav-link" href="../subscribe/">Subscribe</a>
                     <a class="nav-link" href="../about/">About</a>
                 </nav>

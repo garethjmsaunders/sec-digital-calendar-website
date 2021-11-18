@@ -24,15 +24,15 @@
  * @since       1.0.0
  */
 
-$updateDate    = 'Thursday 21 November 2019';
-$updateVersion = '2.4.0';
-$filename      = './php/csv-lookup-redesign.csv';
+$updateDate    = 'Thursday 18 November 2021';
+$updateVersion = '2.5.0';
+$filename      = './php/csv-lookup.csv';
 
-// OLD 2018-2019 iCalendar feed
-$showOldIcalendar = 'https://calendar.google.com/calendar/ical/if7dt6qt198hg42jrve3upe5bs%40group.calendar.google.com/public/basic.ics';
+// OLD 2020–2021 iCalendar feed
+$showOldIcalendar = 'https://calendar.google.com/calendar/ical/93joucetdqdkk5g6q47f5ivhn4%40group.calendar.google.com/public/basic.ics';
 
-// NEW 2019-2020 iCalendar feed
-$showNewIcalendar = 'https://calendar.google.com/calendar/ical/cbo88e250n8pdaok06jqafd98c%40group.calendar.google.com/public/basic.ics';
+// NEW 2021–2022 iCalendar feed
+$showNewIcalendar = 'https://calendar.google.com/calendar/ical/t556cbppbia8ls1q9eh7ph0oss%40group.calendar.google.com/public/basic.ics';
 
 
 
