@@ -1,0 +1,7 @@
+<IfModule mod_headers.c>
+Header set Cache-Control "private"
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^seccalendar.org.uk [NC]
+RewriteRule ^(.*)$ http://www.seccalendar.org.uk/$1 [L,R=301]
