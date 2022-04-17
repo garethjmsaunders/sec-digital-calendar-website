@@ -267,6 +267,13 @@ aware of it." (p.7)
     background-color: rgba(255,255,255,.5);
 }
 
+/* LITURGICAL COLOURS
+ */
+.rubric {
+    opacity: 0.5;
+}
+
+
 
 
 /* === 6. Responsive CSS ============================
