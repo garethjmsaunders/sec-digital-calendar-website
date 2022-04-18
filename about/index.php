@@ -60,14 +60,14 @@
                 <li><a href="../terms/">Terms and conditions</a></li>
             </ul>
 
-            <hr class="deep">
+            <hr>
             <h3>History of the digital calendar</h3>
             <p>I first created the SEC digital calendar files for my own use in 2004 and started sharing it with a few colleagues. There are now people all over the world using it.</p>
             <p>I do it to glorify God and as a practical resource for my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
             <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
             <p><a href="https://www.garethjmsaunders.co.uk/contact/">The Revd Gareth J M Saunders</a></p>
 
-            <hr class="deep">
+            <hr>
             <h3>Donate</h3>
             <p>These files are free and always will be.</p>
             <p>Each year it takes me a few weeks to compile and test these files. If you find this useful and would like to say thank you, please consider making a donation to the <a href="https://pkdcharity.charitycheckout.co.uk/profile">Polycystic Kidney Disease Charity UK</a>.</p>
@@ -77,7 +77,7 @@
 
             <p><a href="https://pkdcharity.charitycheckout.co.uk/profile" class="btn btn-info">Donate now</a></p>
 
-            <hr class="deep">
+            <hr>
             <h3>Useful SEC resources</h3>
             <dl>
                 <dt>Twitter</dt>
@@ -90,11 +90,13 @@
                 <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a></dd>
             </dl>
 
-            <hr class="deep">
+            <hr>
             <h3>Other resources</h3>
             <dl>
                 <dt>Church of England</dt>
                     <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; created by Fr Simon Rundell.</dd>
+                <dt>Church of England daily prayer</dt>
+                    <dd><a href="https://aimermedia.com/app/dailyprayer/">Daily Prayer</a>: the official common worship app from the Church of England</dd>
                 <dt>Venite app</dt>
                     <dd><a href="https://www.venite.app">Venite app</a> is an interactive resource from the Rev Greg Johnston that enables you to, among other things, select a daily office to pray.</dd>
                 <dt>The Episcopal Church (USA)</dt>

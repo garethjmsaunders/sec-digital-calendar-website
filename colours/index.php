@@ -60,13 +60,13 @@
 
             <p>The liturgical colours used within the Scottish Episcopal Church are <a href="#white">white or gold</a>, <a href="#red">red</a>, <a href="#green">green</a>, <a href="#violet">violet</a>, <a href="#lenten-array">Lenten array</a>, <a href="#rose">rose</a> and <a href="#black">black</a>; there is also a direction for no liturgical colour (<a href="#hangings-removed">hangings removed</a>) during the final days of Holy Week.</p>
 
-            <hr id="white" class="deep">
+            <hr id="calendar">
             <h3>Calendar 2021–2022</h3>
             <p>Download and print this handy liturgical colours calendar PDF for 2021-2022.</p>
             <p><a href="liturgical-colours-2021-2022.pdf"><img src="liturgical-colours-2021-2022.gif" alt="Liturgical colours calendar 2021-2022"></a></p>
             <p><a href="liturgical-colours-2021-2022.pdf" class="btn btn-primary">Download PDF calendar 2021–2022</a></p>
             
-            <hr id="white" class="deep white">
+            <hr id="white">
             <h3>White or gold</h3>
             <p>Symbolism: celebration, exuberance, glory, innocence, joy, light, purity, resurrection, victory</p>
             <p><img src="../assets/img/damask-white.png" alt="white"></p>
@@ -111,7 +111,7 @@
             </ul>
 
 
-            <hr id="red" class="deep red">
+            <hr id="red">
             <h3>Red</h3>
             <p>Symbolism: suffering of the Lord, Holy Spirit, commemoration of the apostles and martyrs</p>
             <p><img src="../assets/img/damask-red.png" alt="red"></p>
@@ -134,7 +134,7 @@
             </ul>
 
 
-            <hr id="green" class="deep green">
+            <hr id="green">
             <h3>Green</h3>
             <p>Symbolism: everlasting life, fidelity, hope, nature, neutrality</p>
             <p><img src="../assets/img/damask-green.png" alt="green"></p>
@@ -146,7 +146,7 @@
             </ul>
 
 
-            <hr id="violet" class="deep violet">
+            <hr id="violet">
             <h3>Violet</h3>
             <p>Symbolism: mourning, penance, preparation, repentance, sacrifice, sorrow</p>
             <p><img src="../assets/img/damask-violet.png" alt="violet"></p>
@@ -174,7 +174,7 @@
             </ul>
 
 
-            <hr id="lenten-array" class="deep lenten-array">
+            <hr id="lenten-array">
             <h3>Lenten array</h3>
             <p>Symbolism: mourning, penance, repentance, and sorrow.</p>
             <p><img src="../assets/img/damask-lenten-array.png" alt="lenten array is unbleached ecru and scarlet"></p>
@@ -187,7 +187,7 @@
             </ul>
 
 
-            <hr id="rose" class="deep rose">
+            <hr id="rose">
             <h3>Rose</h3>
             <p>Symbolism: anticipation, subdued joy</p>
             <p><img src="../assets/img/damask-rose.png" alt="rose"></p>
@@ -200,7 +200,7 @@
             </ul>
 
 
-            <hr id="hangings-removed" class="deep hangings-removed">
+            <hr id="hangings-removed">
             <h3>Hangings removed</h3>
             <p>Symbolism: absence, mourning, penance, repentance and sorrow.</p>
             <p><img src="../assets/img/damask-hangings-removed.png" alt="rose"></p>
@@ -212,7 +212,7 @@
             </ul>
 
 
-            <hr id="black" class="deep black">
+            <hr id="black">
             <h3>Black</h3>
             <p>Symbolism: death, grief, mourning</p>
             <p><img src="../assets/img/damask-black.png" alt="black"></p>
