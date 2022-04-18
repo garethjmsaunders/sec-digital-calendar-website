@@ -74,7 +74,7 @@
 
         <footer>
             <p><a href="../">Home</a> &middot; Calendar &middot; <a href="../subscribe/">Subscribe</a> &middot; <a href="../colours">Liturgical colours</a> &middot; <a href="../about/">About</a></p>
-            <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
+            <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="../terms/">Terms and conditions</a></p>
         </footer>
     </div>
 </body>
