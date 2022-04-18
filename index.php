@@ -72,6 +72,11 @@
             </div>
         <?php } ?>
 
+        <!-- Notice for Liturgical colours calendar -->
+        <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
+                <strong>NEW</strong> <a href="colours/" class="alert-link">Guide to liturgical colours</a> with downloadable calendar PDF
+            </div>
+
         <!-- TODAY'S FEAST -->
         <main role="main" class="homepage-feast--today inner cover text-left">
             <p class="date"><?php echo date("l j F Y"); ?></p>

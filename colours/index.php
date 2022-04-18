@@ -60,12 +60,16 @@
 
             <p>The liturgical colours used within the Scottish Episcopal Church are <a href="#white">white or gold</a>, <a href="#red">red</a>, <a href="#green">green</a>, <a href="#violet">violet</a>, <a href="#lenten-array">Lenten array</a>, <a href="#rose">rose</a> and <a href="#black">black</a>; there is also a direction for no liturgical colour (<a href="#hangings-removed">hangings removed</a>) during the final days of Holy Week.</p>
 
-
+            <hr id="white" class="deep">
+            <h3>Calendar 2021–2022</h3>
+            <p>Download and print this handy liturgical colours calendar PDF for 2021-2022.</p>
+            <p><a href="liturgical-colours-2021-2022.pdf"><img src="liturgical-colours-2021-2022.gif" alt="Liturgical colours calendar 2021-2022"></a></p>
+            <p><a href="liturgical-colours-2021-2022.pdf" class="btn btn-primary">Download PDF calendar 2021–2022</a></p>
             
             <hr id="white" class="deep white">
             <h3>White or gold</h3>
             <p>Symbolism: celebration, exuberance, glory, innocence, joy, light, purity, resurrection, victory</p>
-            <p><img src="../assets/img/damask-white.png" alt="white" width="50%"></p>
+            <p><img src="../assets/img/damask-white.png" alt="white"></p>
             <p>White contains all the colours of the rainbow and is worn on major festivals. Vestments may be white, ivory, cream or silver, gold or yellow.</p>
             <p>As a colour for funerals, particularly of children and clergy, white points to the hope of Easter.</p>
             <p>When to use:</p>
@@ -110,7 +114,7 @@
             <hr id="red" class="deep red">
             <h3>Red</h3>
             <p>Symbolism: suffering of the Lord, Holy Spirit, commemoration of the apostles and martyrs</p>
-            <p><img src="../assets/img/damask-red.png" alt="red" width="50%"></p>
+            <p><img src="../assets/img/damask-red.png" alt="red"></p>
             <p>Red is the colour of fire and blood. Fire symbolises the Holy Spirit which came as tongues of fire at Pentecost (Acts 2). Representing blood, red symbolises Jesus's suffering during Holy Week, as well as the martyrs of the church.</p>
             <p>When to use:</p>
             <ul>
@@ -133,7 +137,7 @@
             <hr id="green" class="deep green">
             <h3>Green</h3>
             <p>Symbolism: everlasting life, fidelity, hope, nature, neutrality</p>
-            <p><img src="../assets/img/damask-green.png" alt="green" width="50%"></p>
+            <p><img src="../assets/img/damask-green.png" alt="green"></p>
             <p>Green is worn during what many parts of the Church refers to as 'ordinary time'. The colour of nature, green symbolises life and growth through each new day.</p>
             <p>When to use:</p>
             <ul>
@@ -145,7 +149,7 @@
             <hr id="violet" class="deep violet">
             <h3>Violet</h3>
             <p>Symbolism: mourning, penance, preparation, repentance, sacrifice, sorrow</p>
-            <p><img src="../assets/img/damask-violet.png" alt="violet" width="50%"></p>
+            <p><img src="../assets/img/damask-violet.png" alt="violet"></p>
             <p>In the Scottish Episcopal Church a distinction is made between violet (liturgical colour) and purple (worn by bishops).</p>
             <p>Violet is a penetential colour that represents the eschatological expectation of Advent as well as the preparation for the paschal mystery during Lent.</p>
             <p>As a colour for funerals, violet references the hope of both Advent and Lent.</p>
@@ -173,7 +177,7 @@
             <hr id="lenten-array" class="deep lenten-array">
             <h3>Lenten array</h3>
             <p>Symbolism: mourning, penance, repentance, and sorrow.</p>
-            <p><img src="../assets/img/damask-lenten-array.png" alt="lenten array is unbleached ecru and scarlet" width="50%"></p>
+            <p><img src="../assets/img/damask-lenten-array.png" alt="lenten array is unbleached ecru and scarlet"></p>
             <p>During Lent, an alternative to violet is Lenten array from the English Sarum rite.</p>
             <p>The Sarum rite was developed at Salisbury Cathedral (Old Sarum) and used from the late 11th to the mid-16th century. Violet cloth would have been expensive to dye. So, the Sarum tradition used unbleached linen with crimson orphreys (ornamental stripes). This was sometimes referred to as 'Lenten white' or ash.</p>
             <p>Symbolically, unbleached linen offers an absence of colour during Lent. Lenten Array also includes the veiling of the altar and reredos, statues, icons and crosses.</p>
@@ -186,7 +190,7 @@
             <hr id="rose" class="deep rose">
             <h3>Rose</h3>
             <p>Symbolism: anticipation, subdued joy</p>
-            <p><img src="../assets/img/damask-rose.png" alt="rose" width="50%"></p>
+            <p><img src="../assets/img/damask-rose.png" alt="rose"></p>
             <p>Throughout both Advent and Lent, all Sundays are festivals. Each season includes one Sunday where the solemnity of the penetential season is lightened to one of subdued joy. This may be represented symbolically by replacing the liturgical colour of violet with rose (not pink).</p>
             <p>During Advent, if an Advent wreath and candles is used, the third candle may be rose.</p>
             <p>When to use:</p>
@@ -199,7 +203,7 @@
             <hr id="hangings-removed" class="deep hangings-removed">
             <h3>Hangings removed</h3>
             <p>Symbolism: absence, mourning, penance, repentance and sorrow.</p>
-            <p><img src="../assets/img/damask-hangings-removed.png" alt="rose" width="50%"></p>
+            <p><img src="../assets/img/damask-hangings-removed.png" alt="rose"></p>
             <p>There is no liturgical colour suggested for Good Friday (except at holy communion: red) and Holy Saturday (the day between Good Friday and Easter Day). Instead, the direction 'hangings removed' is given in the lectionary and calendar.</p>
             <p>Following the Eucharist of the Last Supper on Maundy Thursday, the altar is stripped and all decorations are removed from the sanctuary, nave and any side chapel (apart from the altar of repose). The church building remains bare until the Easter Vigil, symbolising the stripping of Jesus before his crucifixion, death and lying in the tomb.</p>
             <p>When to use:</p>
@@ -211,7 +215,7 @@
             <hr id="black" class="deep black">
             <h3>Black</h3>
             <p>Symbolism: death, grief, mourning</p>
-            <p><img src="../assets/img/damask-black.png" alt="black" width="50%"></p>
+            <p><img src="../assets/img/damask-black.png" alt="black"></p>
             <p>Black has traditionally been the colour of mourning and grief.</p>
             <p>When to use:</p>
             <ul>

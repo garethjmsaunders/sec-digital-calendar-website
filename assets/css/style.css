@@ -202,21 +202,15 @@ aware of it." (p.7)
     background-repeat: both;
     background-position: all;
 }
-.damask-default {
-    background-image: url('../../assets/img/damask-default.png');
-}
-.damask-violet {
-    background-image: url('../../assets/img/damask-violet.png');
-}
-.damask-green {
-    background-image: url('../../assets/img/damask-green.png');
-}
-.damask-red {
-    background-image: url('../../assets/img/damask-red.png');
-}
-.damask-white {
-    background-image: url('../../assets/img/damask-white.png');
-}
+.damask-black   {background-image: url('../../assets/img/damask-black.png');}
+.damask-default {background-image: url('../../assets/img/damask-default.png');}
+.damask-green   {background-image: url('../../assets/img/damask-green.png');}
+.damask-hangings-removed {background-image: url('../../assets/img/damask-hangings-removed.png');}
+.damask-lenten-array     {background-image: url('../../assets/img/damask-lenten-array.png');}
+.damask-red     {background-image: url('../../assets/img/damask-red.png');}
+.damask-rose    {background-image: url('../../assets/img/damask-rose.png');}
+.damask-violet  {background-image: url('../../assets/img/damask-violet.png');}
+.damask-white   {background-image: url('../../assets/img/damask-white.png');}
 
 
 /* MASTHEAD LINK
