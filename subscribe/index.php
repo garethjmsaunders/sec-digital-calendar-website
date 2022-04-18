@@ -64,8 +64,10 @@
 
             <ul>
                 <li><a href="https://support.google.com/calendar/answer/37118?hl=en-GB">How to subscribe using Google Calendar</a></li>
+                <li><a href="https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DAndroid">How to subscribe using Android</a></li>
                 <li><a href="https://support.office.com/en-gb/article/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c">How to subscribe using Microsoft Outlook.com</a></li>
                 <li><a href="https://support.apple.com/en-gb/guide/calendar/icl1022/mac">How to subscribe using Apple iCal</a></li>
+                <li><a href="https://support.apple.com/en-us/HT202361">How to subscribe using Apple iPhone</a></li>
             </ul>
 
             <h3>Import</h3>
