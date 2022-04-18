@@ -96,7 +96,7 @@
                 <dt>Church of England</dt>
                     <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; created by Fr Simon Rundell.</dd>
                 <dt>Venite app</dt>
-                    <dd><a href="https://www.venite.app">Venite app</a> is an interactive resource from the Rev Greg Johnston that enables you to select a daily office to pray.</dd>
+                    <dd><a href="https://www.venite.app">Venite app</a> is an interactive resource from the Rev Greg Johnston that enables you to, among other things, select a daily office to pray.</dd>
                 <dt>The Episcopal Church (USA)</dt>
                     <dd><a href="http://episcotech.org/">EpiscoTech</a> offers iCalendar files that contain liturgical calendar entries for the Episcopal Church calendar; created by the Revd Richard E Fichter, Jr.</dd>
                 <dt>Roman Catholic Church</dt>
