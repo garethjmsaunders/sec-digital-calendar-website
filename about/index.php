@@ -53,10 +53,15 @@
             <h1>About</h1>
             <p class="lead">Subscribe to the Scottish Episcopal Church calendar and lectionary in your electronic calendar. Synchronise it with your mobile device.</p>
             <p>These files allow you to <a href="../subscribe/">subscribe or import</a> the Scottish Episcopal Church calendar (saints’ days, festivals and readings) into Google Calendar, Microsoft Outlook, Apple iCal, or any other compatible calendar application that supports iCalendar files or importing CSV files.</p>
-            <p>Read the <a href="../terms/">terms and conditions</a> for more information.</p>
+
+            <h3>See also</h3>
+            <ul>
+                <li><a href="../colours">Liturgical colours</a></li>
+                <li><a href="../terms/">Terms and conditions</a></li>
+            </ul>
 
             <hr class="deep">
-            <h3>History</h3>
+            <h3>History of the digital calendar</h3>
             <p>I first created the SEC digital calendar files for my own use in 2004 and started sharing it with a few colleagues. There are now people all over the world using it.</p>
             <p>I do it to glorify God and as a practical resource for my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
             <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
