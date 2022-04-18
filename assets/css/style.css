@@ -159,9 +159,15 @@ lists and so on." (SMACSS, p.7)
 }
 
 .alert-sec,
-.alert-sec a.alert-link {
+.alert-sec a.alert-link,
+a.view-more {
     color: white;
 }
+
+a.view-more {
+    font-weight: 300;
+}
+
 .alert-sec {
     border-color: transparent;
     border-radius: 10px;
@@ -170,10 +176,12 @@ lists and so on." (SMACSS, p.7)
 }
 .alert-sec a:link.alert-link,
 .alert-sec a:visited.alert-link,
-.alert-sec a:active.alert-link {
+.alert-sec a:active.alert-link,
+.view-more a:active {
     text-decoration: underline;
 }
-.alert-sec a:hover.alert-link {
+.alert-sec a:hover.alert-link,
+.view-more a:hover {
     text-decoration: none;
 }
 

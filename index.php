@@ -162,6 +162,10 @@
                         <?php echo($dayEightFeast); ?>, <?php echo($dayEightFeastDescription); ?><?php if ($dayEightFeastClass!==''){ echo(' ('.$dayEightFeastClass.')');} else {echo(',');}?> <?php echo($dayEightLiturgicalColour); ?>
                     </td>
                 </tr>
+                <tr>
+                    <td><a href="calendar/" class="view-more">View more&hellip;</a></td>
+                    <td>&nbsp;</td>
+                </tr>
             </table>
 
         </aside>
