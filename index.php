@@ -65,7 +65,7 @@
             $deadline_ts = mktime(0,0,0,12,5,2020);  // The date.  First 3 zeros are time then month, day and year
             if ($current_ts --> $deadline_ts) {
         ?>
-            <!-- Display nothing -->
+            <!-- Display nothing before deadline -->
         <?php } else { ?>
             <div class="alert alert-dark text-center damask-<?php echo("$todayTheme"); ?> alert-sec" role="alert">
                 <strong>SEC digital calendar 2020&ndash;2021</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
@@ -73,9 +73,18 @@
         <?php } ?>
 
         <!-- Notice for Liturgical colours calendar -->
-        <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
+        <?php 
+            $current_ts  = time();
+            $deadline_ts = mktime(0,0,0,5,2,2022);  // The date.  First 3 zeros are time then month, day and year
+            if ($current_ts < $deadline_ts) {
+        ?>
+            <!-- Display before deadline -->
+            <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
                 <strong>NEW</strong> <a href="colours/" class="alert-link">Guide to liturgical colours</a> with downloadable calendar PDF
             </div>
+        <?php } else { ?>
+            <!-- Display after deadline -->
+        <?php } ?>
 
         <!-- TODAY'S FEAST -->
         <main role="main" class="homepage-feast--today inner cover text-left">
