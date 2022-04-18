@@ -106,7 +106,8 @@ main {
 
 /* HOMEPAGE
 */
-.homepage-feast--tomorrow {
+.homepage-feast--tomorrow,
+.homepage-feast--next {
     margin-top: 2rem;
     padding-left: 1rem !important;
 }
@@ -174,6 +175,15 @@ lists and so on." (SMACSS, p.7)
 .alert-sec a:hover.alert-link {
     text-decoration: none;
 }
+
+
+/* Homepage next seven days table */
+.homepage-feast--nextseven tr td {
+    padding: 0.5rem;
+    opacity: 0.5;
+}
+
+
 
 /* === 4. STATE ============================
 "State rules are ways to describe how our modules or

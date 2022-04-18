@@ -183,15 +183,40 @@ N daily
     $d = new DateTime('', new DateTimeZone('Europe/London'));
     $todaysDate = $d->format('d/m/Y');
 
-    // Today + 1
-    $dplusone = new DateTime('+1 day');
-    $tomorrowsDate = $dplusone->format('d/m/Y');
+    // Today + 1 (Tomorrow)
+    $dplusone   = new DateTime('+1 day');
+    $dayTwoDate = $dplusone->format('d/m/Y');
+    $dayTwoDay  = $dplusone->format('D d F');
 
     // Today + 2
-    $dplustwo = new DateTime('+2 day');
+    $dplustwo     = new DateTime('+2 day');
     $dayThreeDate = $dplustwo->format('d/m/Y');
+    $dayThreeDay  = $dplustwo->format('D d F');
 
+    // Today + 3
+    $dplusthree  = new DateTime('+3 day');
+    $dayFourDate = $dplusthree->format('d/m/Y');
+    $dayFourDay  = $dplusthree->format('D d F');
 
+    // Today + 4
+    $dplusfour   = new DateTime('+4 day');
+    $dayFiveDate = $dplusfour->format('d/m/Y');
+    $dayFiveDay  = $dplusfour->format('D d F');
+
+    // Today + 5
+    $dplusfive  = new DateTime('+5 day');
+    $daySixDate = $dplusfive->format('d/m/Y');
+    $daySixDay  = $dplusfive->format('D d F');
+
+    // Today + 6
+    $dplussix     = new DateTime('+6 day');
+    $daySevenDate = $dplussix->format('d/m/Y');
+    $daySevenDay  = $dplussix->format('D d F');
+
+    // Today + 7
+    $dplusseven   = new DateTime('+7 day');
+    $dayEightDate = $dplusseven->format('d/m/Y');    
+    $dayEightDay  = $dplusseven->format('D d F');    
 
 
 //  CSV column B - Look up today's colour (theme)
@@ -203,20 +228,43 @@ N daily
 
 //  CSV column D - Look up today's feast day name
     $todayFeast = $lookup['feast'][$todaysDate];
-    $tomorrowFeast = $lookup['feast'][$tomorrowsDate];
+    $dayTwoFeast = $lookup['feast'][$dayTwoDate];
     $dayThreeFeast = $lookup['feast'][$dayThreeDate];
+    $dayFourFeast = $lookup['feast'][$dayFourDate];
+    $dayFiveFeast = $lookup['feast'][$dayFiveDate];
+    $daySixFeast = $lookup['feast'][$daySixDate];
+    $daySevenFeast = $lookup['feast'][$daySevenDate];
+    $dayEightFeast = $lookup['feast'][$dayEightDate];
 
 //  CSV column E - Look up today's feast description
     $todayFeastDescription = $lookup['description'][$todaysDate];
-    $tomorrowFeastDescription = $lookup['description'][$tomorrowsDate];
+    $dayTwoFeastDescription = $lookup['description'][$dayTwoDate];
+    $dayThreeFeastDescription = $lookup['description'][$dayThreeDate];
+    $dayFourFeastDescription = $lookup['description'][$dayFourDate];
+    $dayFiveFeastDescription = $lookup['description'][$dayFiveDate];
+    $daySixFeastDescription = $lookup['description'][$daySixDate];
+    $daySevenFeastDescription = $lookup['description'][$daySevenDate];
+    $dayEightFeastDescription = $lookup['description'][$dayEightDate];
 
 //  CSV column F - Look up today's class
     $todayFeastClass = $lookup['class'][$todaysDate];
-    $tomorrowFeastClass = $lookup['class'][$tomorrowsDate];
+    $dayTwoFeastClass = $lookup['class'][$dayTwoDate];
+    $dayThreeFeastClass = $lookup['class'][$dayThreeDate];
+    $dayFourFeastClass = $lookup['class'][$dayFourDate];
+    $dayFiveFeastClass = $lookup['class'][$dayFiveDate];
+    $daySixFeastClass = $lookup['class'][$daySixDate];
+    $daySevenFeastClass = $lookup['class'][$daySevenDate];
+    $dayEightFeastClass = $lookup['class'][$dayEightDate];
 
 //  CSV column G - Look up today's liturgical colour
     $todayLiturgicalColour = $lookup['liturgical-colour'][$todaysDate];
-    $tomorrowLiturgicalColour = $lookup['liturgical-colour'][$tomorrowsDate];
+    $dayTwoLiturgicalColour = $lookup['liturgical-colour'][$dayTwoDate];
+    $dayThreeLiturgicalColour = $lookup['liturgical-colour'][$dayThreeDate];
+    $dayFourLiturgicalColour = $lookup['liturgical-colour'][$dayFourDate];
+    $dayFiveLiturgicalColour = $lookup['liturgical-colour'][$dayFiveDate];
+    $daySixLiturgicalColour = $lookup['liturgical-colour'][$daySixDate];
+    $daySevenLiturgicalColour = $lookup['liturgical-colour'][$daySevenDate];
+    $dayEightLiturgicalColour = $lookup['liturgical-colour'][$dayEightDate];
 
 //  CSV column H - Look up today's translation
     $todayFeastTranslated = $lookup['translated'][$todaysDate];

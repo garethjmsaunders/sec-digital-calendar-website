@@ -91,9 +91,73 @@
             <p class="bishop occasional"><?php echo($todayBishop); ?></p>
         </main>
 
-        <aside class="text-left">
-            <p class="homepage-feast--tomorrow">Tomorrow: <?php echo($tomorrowFeast); ?>, <?php echo($tomorrowFeastDescription); ?><?php if ($tomorrowFeastClass!==''){ echo(' ('.$tomorrowFeastClass.')');} else {echo(',');}?> <?php echo($tomorrowLiturgicalColour); ?></p>
+        <hr>
+
+        <!-- NEXT SEVEN DAYS -->
+        <aside class="text-left inner cover">
+            <p>Next seven days&hellip;</p>
+            <table class="homepage-feast--nextseven">
+                <tr>
+                    <td>
+                        <?php echo($dayTwoDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($dayTwoFeast); ?>, <?php echo($dayTwoFeastDescription); ?><?php if ($dayTwoFeastClass!==''){ echo(' ('.$dayTwoFeastClass.')');} else {echo(',');}?> <?php echo($dayTwoLiturgicalColour); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo($dayThreeDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($dayThreeFeast); ?>, <?php echo($dayThreeFeastDescription); ?><?php if ($dayThreeFeastClass!==''){ echo(' ('.$dayThreeFeastClass.')');} else {echo(',');}?> <?php echo($dayThreeLiturgicalColour); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo($dayFourDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($dayFourFeast); ?>, <?php echo($dayFourFeastDescription); ?><?php if ($dayFourFeastClass!==''){ echo(' ('.$dayFourFeastClass.')');} else {echo(',');}?> <?php echo($dayFourLiturgicalColour); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo($dayFiveDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($dayFiveFeast); ?>, <?php echo($dayFiveFeastDescription); ?><?php if ($dayFiveFeastClass!==''){ echo(' ('.$dayFiveFeastClass.')');} else {echo(',');}?> <?php echo($dayFiveLiturgicalColour); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo($daySixDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($daySixFeast); ?>, <?php echo($daySixFeastDescription); ?><?php if ($daySixFeastClass!==''){ echo(' ('.$daySixFeastClass.')');} else {echo(',');}?> <?php echo($daySixLiturgicalColour); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo($daySevenDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($daySevenFeast); ?>, <?php echo($daySevenFeastDescription); ?><?php if ($daySevenFeastClass!==''){ echo(' ('.$daySevenFeastClass.')');} else {echo(',');}?> <?php echo($daySevenLiturgicalColour); ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <?php echo($dayEightDay); ?>
+                    </td>
+                    <td>
+                        <?php echo($dayEightFeast); ?>, <?php echo($dayEightFeastDescription); ?><?php if ($dayEightFeastClass!==''){ echo(' ('.$dayEightFeastClass.')');} else {echo(',');}?> <?php echo($dayEightLiturgicalColour); ?>
+                    </td>
+                </tr>
+            </table>
+
         </aside>
+
+        <hr>
 
         <footer class="mt-auto">
             <p class="homepage-rcl">
