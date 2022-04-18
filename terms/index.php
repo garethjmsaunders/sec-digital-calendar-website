@@ -99,8 +99,8 @@ for any purpose, even commercially</li>
             <p>Where possible I have always translated (moved) the festival of a saint, if it coincides with a higher-category feast, to the next available date. When this is not possible, due to no available day, that feast day will be omited for the year.</p>
         </main>
         <footer>
-            <p><a href="../">Home</a> &middot; <a href="../calendar/">Calendar</a> &middot; <a href="../subscribe/">Subscribe</a> &middot; <a href="../about/">About</a></p>
-            <p><a href="../terms/">Terms and conditions</a> &middot; 2004&ndash;<?php echo date("Y"); ?> &middot; <a href="http://twitter.com/seccalendar">Twitter</a> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a></p>
+            <p><a href="../">Home</a> &middot; <a href="../calendar/">Calendar</a> &middot; <a href="../subscribe/">Subscribe</a> &middot; <a href="../colours/">Liturgical colours<a> &middot; <a href="../about/">About</a></p>
+            <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br>Terms and conditions</p>
         </footer>
     </div>
 </body>
