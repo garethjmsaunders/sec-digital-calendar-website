@@ -78,7 +78,7 @@
             <p><a href="https://pkdcharity.charitycheckout.co.uk/profile" class="btn btn-info">Donate now</a></p>
 
             <hr class="deep">
-            <h3>Useful resources</h3>
+            <h3>Useful SEC resources</h3>
             <dl>
                 <dt>Twitter</dt>
                 <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a> These are usually updates on when I start compiling the file each year plus updates on bugs found and fixed and new features added.</dd>
@@ -91,14 +91,16 @@
             </dl>
 
             <hr class="deep">
-            <h3>Other editions</h3>
+            <h3>Other resources</h3>
             <dl>
                 <dt>Church of England</dt>
-                <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; created by Fr Simon Rundell.</dd>
+                    <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; created by Fr Simon Rundell.</dd>
+                <dt>Venite app</dt>
+                    <dd><a href="https://www.venite.app">Venite app</a> is am interactive resource from the Rev Greg Johnston that enables you to select a daily office to pray.</dd>
                 <dt>The Episcopal Church (USA)</dt>
-                <dd><a href="http://episcotech.org/">EpiscoTech</a> offers iCalendar files that contain liturgical calendar entries for the Episcopal Church calendar; created by the Revd Richard E Fichter, Jr.</dd>
+                    <dd><a href="http://episcotech.org/">EpiscoTech</a> offers iCalendar files that contain liturgical calendar entries for the Episcopal Church calendar; created by the Revd Richard E Fichter, Jr.</dd>
                 <dt>Roman Catholic Church</dt>
-                <dd><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Catholic Apptitude</a> offers a number of similar calendar and lectionary resources for the Roman Catholic calendar.</dd>
+                    <dd><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Catholic Apptitude</a> offers a number of similar calendar and lectionary resources for the Roman Catholic calendar.</dd>
             </dl>
         </main>
 
