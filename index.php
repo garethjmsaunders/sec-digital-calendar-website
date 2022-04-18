@@ -104,7 +104,7 @@
 
         <!-- NEXT SEVEN DAYS -->
         <aside class="text-left inner cover">
-            <p>Next seven days&hellip;</p>
+            <p class="next-seven">Next seven days&hellip;</p>
             <table class="homepage-feast--nextseven">
                 <tr>
                     <td>

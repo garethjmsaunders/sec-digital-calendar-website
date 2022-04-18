@@ -58,7 +58,8 @@ main a.btn {
 }
 
 main p,
-main dd {
+main dd,
+.next-seven {
     font-weight: 300;
 }
 
