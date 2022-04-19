@@ -80,7 +80,7 @@
         ?>
             <!-- Display before deadline -->
             <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
-                <strong>NEW</strong> <a href="colours/" class="alert-link">Guide to liturgical colours</a> with downloadable calendar PDF
+                <strong>NEW</strong> <a href="colours/" class="alert-link">Guide to liturgical colours</a> with printable PDF calendar
             </div>
         <?php } else { ?>
             <!-- Display after deadline -->
