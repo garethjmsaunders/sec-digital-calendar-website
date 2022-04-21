@@ -78,17 +78,26 @@
             <p><a href="https://pkdcharity.charitycheckout.co.uk/profile" class="btn btn-info">Donate now</a></p>
 
             <hr>
-            <h3>Useful SEC resources</h3>
+            <h3>SEC digital calendar resources</h3>
             <dl>
                 <dt>Twitter</dt>
-                <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a> These are usually updates on when I start compiling the file each year plus updates on bugs found and fixed and new features added.</dd>
+                    <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a> These are usually updates on when I start compiling the file each year plus updates on bugs found and fixed and new features added.</dd>
                 <dt>Facebook group</dt>
-                <dd><a href="https://www.facebook.com/groups/secoutlook/">SEC digital calendar and lectionary</a></dd>
-                <dt>Pisky Kalendar</dt>
-                <dd>Twitter account: <a href="https://twitter.com/piskykalendar">@piskykalendar</a>—A kalendar of the saints of the Scottish Episcopal Church.</dd>
-                <dt>A4 booklet</dt>
-                <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a></dd>
+                    <dd>Public Facebook group for updates and discussions about the <a href="https://www.facebook.com/groups/secoutlook/">SEC digital calendar and lectionary</a></dd>
+                <dt>GitHub repositories</dt>
+                    <dd>Open source code respositories for the <a href="https://github.com/garethjmsaunders/sec-digital-calendar">SEC digital calendar files</a> and this <a href="https://github.com/garethjmsaunders/sec-digital-calendar-website">SEC digital calendar website</a>.</dd>
             </dl>
+
+            <hr>
+            <h3>Scottish Episcopal Church resources</h3>
+                <dt>Scottish Episcopal Church</dt>
+                    <dd>Website for the <a href="https://www.scotland.anglican.org">Scottish Episcopal Church</a>.</dd>
+                <dt>Scottish Episcopal Church liturgies</dt>
+                    <dd><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies/">Downloadable liturgies<a> including the Calendar and Lectionary, and Guide.</dd>
+                <dt>A Scottish Kalendar (A4 booklet)</dt>
+                    <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a> and also an accompanying Twitter account: <a href="https://twitter.com/piskykalendar">@piskykalendar</a></dd>
+                <dt>Kalendars of Scottish Saints (1872)</dt>
+                    <dd>Downloadable publication,  <a href="https://archive.org/details/kalendarsofscott00forb/page/n9/mode/2up">Kalendars of Scottish Saints</a> by the Right Reverend Alexander Penrose Forbes, DCL, Bishop of Brechin. "An attempt to fix the districts of their several missions and the churches where they were chiefly had in remembrance."</dd>
 
             <hr>
             <h3>Other resources</h3>
