@@ -24,8 +24,6 @@
  * @since       1.0.0
  */
 
-$updateDate    = 'Thursday 18 November 2021';
-$updateVersion = '2.5.0';
 $filename      = './php/csv-lookup.csv';
 
 // OLD 2020–2021 iCalendar feed
