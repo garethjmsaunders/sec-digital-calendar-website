@@ -27,7 +27,6 @@
 $filename      = './php/csv-lookup.csv';
 
 
-
 /**
  * Open the CSV file, if it exists 
  * and read in all the data to a multidimensional array.
@@ -54,18 +53,15 @@ if (($handle = fopen("$filename", "r")) !== FALSE)
     }
 
     // Close the file.
+    echo("<h1>Read CSV file</h1><pre style='color:white;'>"); print_r($csv_multidimensional_array); echo("</pre>");
     fclose($handle);
 } else {
-    echo('CANNOT OPEN FILE');
+    echo("<h1 style='color:red'>CANNOT OPEN FILE</h1>");
 }
 
 
-
-
 /**
- * FUNCTION: Take the row-ified data and columnize the array.
- * Multidimensional array = $csv_multidimensional_array[$array_key][$current_data_row]
- * e.g. $array_key[0][0]
+ * FUNCTION: Take the row-ified data and columnize the array
  *
  * @version     1.1.0 2022-05-01
  * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
@@ -73,25 +69,27 @@ if (($handle = fopen("$filename", "r")) !== FALSE)
  * @since       0.1.0
  */
 
-function columnize_array( $csv_multidimensional_array )
+function columnize_array ( $csv_multidimensional_array )
 {
     $array = array();
-    foreach ( $csv_multidimensional_array as $key=>$value )
+    foreach ( $csv_multidimensional_array as $row=>$row_data )
     {
-        // Re-parse into useful array data.
-        if ( $key === 0 )
+
+        // This is the top row of data, the column labels
+        if ( $row === 0 )
         {
-            foreach ( $value as $key2=>$value2 )
+            foreach ( $row_data as $column=>$column_name_label )
             {
-                $array[$key2] = array();
-                $array[$key2][] = $value2;
+                $array[$column] = array();
+                $array[$column][] = $column_name_label;
             }
         }
-        else if ( $key > 0 )
+        // Now read the rest of the rows of the file into an array 
+        else if ( $row > 0 )
         {
-            foreach ( $value as $key3=>$value3 )
+            foreach ( $row_data as $column=>$data_value )
             {
-                $array[$key3][] = $value3;
+                $array[$column][] = $data_value;
             }
         }
         else
@@ -99,6 +97,7 @@ function columnize_array( $csv_multidimensional_array )
             // nothing
         }
     }
+    # echo("<h1>columnize_array</h1><pre style='color:white;'>"); print_r($array); echo("</pre>");
     return $array;
 }
 
@@ -119,22 +118,29 @@ function columnize_array( $csv_multidimensional_array )
 
 function group_columns( $array = null ) {
     $lookup = array();
-    foreach ( $array as $day=>$dataForFeastDay ) {
+    foreach ( $array as $column=>$data_for_each_feast_day ) {
         // process each column
-        // $day = column number
-        // $dataForFeastDay = array of rows
-        if ( $day === 0 ) {} else { // working on column 2 or higher
-            $lookup[$dataForFeastDay[0]] = array();
-            foreach ( $array[0] as $day1=>$dataForFeastDay1 ) {
-                if ($dataForFeastDay1 > 0) { // ignore the column heading
-                    // Store the first column variable in as the key.
-                    // Store the value associated with this item as the value.
-                    // TODO: Explain exactly what this does, with an example.
-                    $lookup[$dataForFeastDay[0]][$dataForFeastDay1] = $dataForFeastDay[$day1];
+        // $column = column number
+        // $data_for_each_feast_day = array of rows
+        if ( $column === 0 ) {
+            // DO NOTHING -- Ignore the date
+            // The first column is now the date, we don't need [18/11/2021][18/11/2021], etc !!
+        } else {
+            // Create a new array for each column label, e.g. [theme][], [season][], etc.
+            $lookup[$data_for_each_feast_day[0]] = array();
+
+            // Loop through the rest of the data...
+            // Store the first column data (the date) as the key.
+            // Store the value associated with this item as the value.
+            // e.g. [theme][18/11/2021] => white; [season][18/11/2021] => Pentecost; etc.
+            foreach ( $array[0] as $day_as_key=>$feast_day_data ) {
+                if ($feast_day_data > 0) { // ignore the column heading
+                    $lookup[$data_for_each_feast_day[0]][$feast_day_data] = $data_for_each_feast_day[$day_as_key];
                 }
             }
         }
     }
+    # echo("<h1>Group columns</h1><pre style='color:white;'>"); print_r($lookup); echo("</pre>");
     return $lookup;
 }
 
