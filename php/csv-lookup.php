@@ -48,7 +48,7 @@ if (($handle = fopen("$filename", "r")) !== FALSE)
         // Populate the multidimensional array.
         for ($current_data_row = 0; $current_data_row < $total_keys_in_row; $current_data_row++)
         {
-            $csv_array[$array_key][$current_data_row] = $data_rows[$current_data_row];
+            $csv_multidimensional_array[$array_key][$current_data_row] = $data_rows[$current_data_row];
         }
         $array_key++;
     }
@@ -64,17 +64,19 @@ if (($handle = fopen("$filename", "r")) !== FALSE)
 
 /**
  * FUNCTION: Take the row-ified data and columnize the array.
+ * Multidimensional array = $csv_multidimensional_array[$array_key][$current_data_row]
+ * e.g. $array_key[0][0]
  *
- * @version     1.0.1 2022-05-01
+ * @version     1.1.0 2022-05-01
  * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       0.1.0
  */
 
-function columnizeArray( $csv_array )
+function columnize_array( $csv_multidimensional_array )
 {
     $array = array();
-    foreach ( $csv_array as $key=>$value )
+    foreach ( $csv_multidimensional_array as $key=>$value )
     {
         // Re-parse into useful array data.
         if ( $key === 0 )
@@ -102,7 +104,6 @@ function columnizeArray( $csv_array )
 
 
 
-
 /**
  * FUNCTION: Look up information in the CSV array.
  * Create a multidimensional array using date as the key.
@@ -116,7 +117,7 @@ function columnizeArray( $csv_array )
 
 // TODO: Change the variable names to make the code easier to read.
 
-function groupColumns( $array = null ) {
+function group_columns( $array = null ) {
     $lookup = array();
     foreach ( $array as $day=>$dataForFeastDay ) {
         // process each column
@@ -168,7 +169,7 @@ M rcl
 N daily
 */
 
-    $lookup = groupColumns(columnizeArray($csv_array));
+    $lookup = group_columns(columnize_array($csv_multidimensional_array));
 
 //  CSV column A - Get today's date which is the lookup key for feast and colour
     // $todaysDate = date("d/m/Y");
