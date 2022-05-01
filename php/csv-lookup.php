@@ -26,13 +26,6 @@
 
 $filename      = './php/csv-lookup.csv';
 
-// OLD 2020–2021 iCalendar feed
-$showOldIcalendar = 'https://calendar.google.com/calendar/ical/93joucetdqdkk5g6q47f5ivhn4%40group.calendar.google.com/public/basic.ics';
-
-// NEW 2021–2022 iCalendar feed
-$showNewIcalendar = 'https://calendar.google.com/calendar/ical/t556cbppbia8ls1q9eh7ph0oss%40group.calendar.google.com/public/basic.ics';
-
-
 
 
 /**
