@@ -7,8 +7,8 @@
  *
  * @package     SEC digital calendar
  * @subpackage  CSV lookup
- * @version     1.3.0 2018-11-23
- * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
+ * @version     1.3.1 2022-05-01
+ * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0
  */
@@ -18,8 +18,8 @@
 /**
  * Initiate variables.
  *
- * @version     1.3.0 2019-11-21
- * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
+ * @version     1.3.1 2022-05-01
+ * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0
  */
@@ -29,10 +29,11 @@ $filename      = './php/csv-lookup.csv';
 
 
 /**
- * Open the CSV file, if it exists.
+ * Open the CSV file, if it exists 
+ * and read in all the data to a multidimensional array.
  *
- * @version     1.0.0 2013-12-04
- * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
+ * @version     1.1.0 2022-05-01
+ * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0
  */
@@ -40,16 +41,16 @@ $filename      = './php/csv-lookup.csv';
 if (($handle = fopen("$filename", "r")) !== FALSE)
 {
     // Set the parent multidimensional array key to 0.
-    $nn = 0;
-    while (($data = fgetcsv($handle, 0, ",")) !== FALSE) {
+    $array_key = 0;
+    while (($data_rows = fgetcsv($handle, 0, ",")) !== FALSE) {
         // Count the total keys in the row.
-        $c = count($data);
+        $total_keys_in_row = count($data_rows);
         // Populate the multidimensional array.
-        for ($x=0;$x<$c;$x++)
+        for ($current_data_row = 0; $current_data_row < $total_keys_in_row; $current_data_row++)
         {
-            $csvarray[$nn][$x] = $data[$x];
+            $csv_array[$array_key][$current_data_row] = $data_rows[$current_data_row];
         }
-        $nn++;
+        $array_key++;
     }
 
     // Close the file.
@@ -64,16 +65,16 @@ if (($handle = fopen("$filename", "r")) !== FALSE)
 /**
  * FUNCTION: Take the row-ified data and columnize the array.
  *
- * @version     1.0.0 2013-12-04
- * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
+ * @version     1.0.1 2022-05-01
+ * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       0.1.0
  */
 
-function columnizeArray( $csvarray )
+function columnizeArray( $csv_array )
 {
     $array = array();
-    foreach ( $csvarray as $key=>$value )
+    foreach ( $csv_array as $key=>$value )
     {
         // Re-parse into useful array data.
         if ( $key === 0 )
@@ -107,8 +108,8 @@ function columnizeArray( $csvarray )
  * Create a multidimensional array using date as the key.
  * Columns: date,feast,colour,year,rcl,daily,showold,nextyear
  *
- * @version     1.0.0 2013-12-04
- * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
+ * @version     1.0.1 2022-05-01
+ * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0
 */
@@ -142,8 +143,8 @@ function groupColumns( $array = null ) {
 /**
  * Look up today's date, feast, colour, and church years from the CSV file.
  *
- * @version     1.0.0 2013-12-04
- * @author      Gareth J M Saunders <gjms1@st-andrews.ac.uk>
+ * @version     1.0.1 2022-05-01
+ * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0
  */
@@ -167,7 +168,7 @@ M rcl
 N daily
 */
 
-    $lookup = groupColumns(columnizeArray($csvarray));
+    $lookup = groupColumns(columnizeArray($csv_array));
 
 //  CSV column A - Get today's date which is the lookup key for feast and colour
     // $todaysDate = date("d/m/Y");
