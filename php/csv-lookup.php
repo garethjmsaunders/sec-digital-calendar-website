@@ -7,7 +7,7 @@
  *
  * @package     SEC digital calendar
  * @subpackage  CSV lookup
- * @version     2.0.0 2022-05-02
+ * @version     2.1.0 2022-05-02
  * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     http://opensource.org/licenses/gpl-license.php, GNU Public License
  * @since       1.0.0

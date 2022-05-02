@@ -26,9 +26,7 @@
     <link rel="icon" sizes="192x192" href="/apple-touch-icon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <!-- Bootstrap v4.4.1 -->
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- Bootstrap v4.4.6 -->
+    <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
 
