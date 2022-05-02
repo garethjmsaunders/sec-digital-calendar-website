@@ -291,7 +291,8 @@ if ($debug === 0){/*OFF*/} else {
 */
 
 /* Today */
-$today = new DateTime('', new DateTimeZone('Europe/London'));
+date_default_timezone_set('Europe/London');
+$today = new DateTime();
 $date_key = $today->format('d/m/Y');                                    // CSV column A
 $today_theme                = $lookup['theme'][$date_key];              // CSV column B
 $today_season               = $lookup['season'][$date_key];             // CSV column C
