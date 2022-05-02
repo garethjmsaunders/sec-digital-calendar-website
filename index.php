@@ -98,6 +98,7 @@
             <!-- .btn -->
             <hr>
             <p class="bishop occasional"><?php echo($today_bishop); ?></p>
+            <p class="readingsCollect"><?php echo nl2br($today_readings_collect); ?></p>
         </main>
 
         <hr>

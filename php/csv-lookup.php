@@ -308,6 +308,7 @@ $today_year_from            = $lookup['year-from'][$date_key];          // CSV c
 $today_year_to              = $lookup['year-to'][$date_key];            // CSV column M
 $today_rcl                  = $lookup['rcl'][$date_key];                // CSV column N
 $today_daily                = $lookup['daily'][$date_key];              // CSV column O
+$today_readings_collect     = $lookup['readings-collect'][$date_key];   // CSV column P
 
 /* Show next n days... */
 $max_days_to_show = 14;
