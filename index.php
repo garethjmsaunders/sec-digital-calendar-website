@@ -26,8 +26,10 @@
     <link rel="icon" sizes="192x192" href="/apple-touch-icon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <!-- CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap v4.4.1 -->
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Bootstrap v4.4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
 
     <?php
@@ -98,7 +100,10 @@
             <!-- .btn -->
             <hr>
             <p class="bishop occasional"><?php echo($today_bishop); ?></p>
-            <p class="readingsCollect"><?php echo nl2br($today_readings_collect); ?></p>
+
+            <p><button type="button" class="btn btn-secondary" id="js-show-hide-btn">Readings and collect</button></p>
+
+            <p class="readings-collect" id="js-readings-collect"><?php echo nl2br($today_readings_collect); ?></p>
         </main>
 
         <hr>
@@ -120,5 +125,22 @@
             <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
         </footer>
     </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    $( document ).ready(function() {
+        console.log('jQuery ready...');
+        $('#js-show-hide-btn').click(function() {
+            console.log('button clicked');
+            // $('#js-readings-collect').toggle();
+            $( '#js-readings-collect' ).toggle( 'slow', function() {
+                // Animation complete.
+            });
+        })
+
+    });    
+</script>
+
 </body>
 </html>
