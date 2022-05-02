@@ -27,7 +27,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" data-version="4.6.1">
     <link href="assets/css/style.css" rel="stylesheet">
 
     <?php
@@ -136,7 +136,6 @@
                 // Animation complete.
             });
         })
-
     });    
 </script>
 
