@@ -45,7 +45,7 @@
     </script>
 </head>
 
-<body class="banner cover-height damask damask-<?php echo("$todayTheme"); ?> text-center theme">
+<body class="banner cover-height damask damask-<?php echo("$today_theme"); ?> text-center theme">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="inner">
@@ -67,7 +67,7 @@
         ?>
             <!-- Display nothing before deadline -->
         <?php } else { ?>
-            <div class="alert alert-dark text-center damask-<?php echo("$todayTheme"); ?> alert-sec" role="alert">
+            <div class="alert alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
                 <strong>SEC digital calendar 2020&ndash;2021</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
             </div>
         <?php } ?>
@@ -79,7 +79,7 @@
             if ($current_ts < $deadline_ts) {
         ?>
             <!-- Display before deadline -->
-            <div class="alert alert-dark text-center damask-<?php echo("$todayTheme"); ?> alert-sec" role="alert">
+            <div class="alert alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
                 <strong>NEW</strong> <a href="colours/" class="alert-link">Guide to liturgical colours</a> with printable PDF calendar
             </div>
         <?php } else { ?>
@@ -89,98 +89,34 @@
         <!-- TODAY'S FEAST -->
         <main role="main" class="homepage-feast--today inner cover text-left">
             <p class="date"><?php echo date("l j F Y"); ?></p>
-            <h4 class="lead season">Season of <?php echo($todaySeason); ?></h4>
-            <h1 class="cover-heading"><?php echo($todayFeast); ?></h1>
-            <p class="lead"><span class="description always"><?php echo($todayFeastDescription); ?></span><?php if($todayFeastClass !=='') {echo(" <span class=\"feast-class occasional badge badge-light\">$todayFeastClass</span> ");} else { echo(', '); } ?><span class="liturgical-colour always"><?php echo($todayLiturgicalColour); ?></span></p>
-            <p class="spb occasional"><?php echo($todayFeastSpb); ?></p>
-            <p class="translated occasional"><?php echo($todayFeastTranslated); ?></p>
-            <p class="emberogation occasional"><?php echo($todayEmberogation); ?></p>
+            <h4 class="lead season">Season of <?php echo($today_season); ?></h4>
+            <h1 class="cover-heading"><?php echo($today_feast); ?></h1>
+            <p class="lead"><span class="description always"><?php echo($today_description); ?></span><?php if($today_class !=='') {echo(" <span class=\"feast-class occasional badge badge-light\">$today_class</span> ");} else { echo(', '); } ?><span class="liturgical-colour always"><?php echo($today_liturgical_colour); ?></span></p>
+            <p class="spb occasional"><?php echo($today_spb); ?></p>
+            <p class="translated occasional"><?php echo($today_translated); ?></p>
+            <p class="emberogation occasional"><?php echo($today_emberogation); ?></p>
             <!-- .btn -->
             <hr>
-            <p class="bishop occasional"><?php echo($todayBishop); ?></p>
+            <p class="bishop occasional"><?php echo($today_bishop); ?></p>
         </main>
 
         <hr>
 
-        <!-- NEXT SEVEN DAYS -->
-        <aside class="text-left inner cover">
-            <p class="next-seven">Next seven days&hellip;</p>
-            <table class="homepage-feast--nextseven">
-                <tr>
-                    <td>
-                        <?php echo($dayTwoDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($dayTwoFeast); ?>, <?php echo($dayTwoFeastDescription); ?><?php if ($dayTwoFeastClass!==''){ echo(' ('.$dayTwoFeastClass.')');} else {echo(',');}?> <?php echo($dayTwoLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <?php echo($dayThreeDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($dayThreeFeast); ?>, <?php echo($dayThreeFeastDescription); ?><?php if ($dayThreeFeastClass!==''){ echo(' ('.$dayThreeFeastClass.')');} else {echo(',');}?> <?php echo($dayThreeLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <?php echo($dayFourDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($dayFourFeast); ?>, <?php echo($dayFourFeastDescription); ?><?php if ($dayFourFeastClass!==''){ echo(' ('.$dayFourFeastClass.')');} else {echo(',');}?> <?php echo($dayFourLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <?php echo($dayFiveDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($dayFiveFeast); ?>, <?php echo($dayFiveFeastDescription); ?><?php if ($dayFiveFeastClass!==''){ echo(' ('.$dayFiveFeastClass.')');} else {echo(',');}?> <?php echo($dayFiveLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <?php echo($daySixDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($daySixFeast); ?>, <?php echo($daySixFeastDescription); ?><?php if ($daySixFeastClass!==''){ echo(' ('.$daySixFeastClass.')');} else {echo(',');}?> <?php echo($daySixLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <?php echo($daySevenDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($daySevenFeast); ?>, <?php echo($daySevenFeastDescription); ?><?php if ($daySevenFeastClass!==''){ echo(' ('.$daySevenFeastClass.')');} else {echo(',');}?> <?php echo($daySevenLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <?php echo($dayEightDay); ?>
-                    </td>
-                    <td>
-                        <?php echo($dayEightFeast); ?>, <?php echo($dayEightFeastDescription); ?><?php if ($dayEightFeastClass!==''){ echo(' ('.$dayEightFeastClass.')');} else {echo(',');}?> <?php echo($dayEightLiturgicalColour); ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="calendar/" class="view-more">View more&hellip;</a></td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
-
+        <!-- NEXT FEASTS -->
+        <aside class="text-left inner cover damask-<?php echo("$today_theme"); ?>">
+            <p class="next-seven">Next &hellip;</p>
+            <?php echo($table_data); ?>
         </aside>
 
         <hr>
 
         <footer class="mt-auto">
             <p class="homepage-rcl">
-                Revised Common Lectionary readings: Year <?php echo($todayRcl); ?><br />
-                Daily Eucharist and Daily Prayer: Year <?php echo($todayDaily); ?><br />
-                Liturgical year: <?php echo($todayYearFrom); ?>&ndash;<?php echo($todayYearTo); ?></p>
+                Revised Common Lectionary readings: Year <?php echo($today_rcl); ?><br />
+                Daily Eucharist and Daily Prayer: Year <?php echo($today_daily); ?><br />
+                Liturgical year: <?php echo($today_year_from); ?>&ndash;<?php echo($today_year_to); ?></p>
             <p>Home &middot; <a href="./calendar/">Calendar</a> &middot; <a href="./subscribe/">Subscribe</a> &middot; <a href="./colours/">Liturgical colours</a> &middot; <a href="./about/">About</a></p>
             <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
-
-
         </footer>
     </div>
 </body>
