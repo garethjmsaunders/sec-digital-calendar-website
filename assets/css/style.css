@@ -81,6 +81,7 @@ one or more modules together." (SMACSS, p.7)
 */
 .masthead {
     margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .masthead-brand {
     margin-bottom: 0;
@@ -187,11 +188,25 @@ a.view-more {
 
 
 /* Homepage next seven days table */
+
+
 .homepage-feast--nextseven tr td {
     padding: 0.5rem;
-    opacity: 0.5;
+    opacity: 0.7;
+    vertical-align: top;
 }
 
+.homepage-feast--date-cell {
+    white-space: nowrap;
+}
+
+.homepage-feast--nextseven tr:hover td {
+    opacity: 1;
+}
+
+.homepage-feast--nextseven tr.sunday {
+    color: gold;
+}
 
 
 /* === 4. STATE ============================
