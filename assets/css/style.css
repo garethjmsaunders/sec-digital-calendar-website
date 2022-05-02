@@ -187,9 +187,16 @@ a.view-more {
 }
 
 
+/* Homepage readings and collects  */
+
+.readings-collect {
+    font-weight: 100;
+    display: none;
+}
+
+
+
 /* Homepage next seven days table */
-
-
 .homepage-feast--nextseven tr td {
     padding: 0.5rem;
     opacity: 0.7;
