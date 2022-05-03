@@ -108,7 +108,7 @@
 
         <!-- NEXT FEASTS -->
         <aside class="text-left inner cover damask-<?php echo("$today_theme"); ?>">
-            <p class="next-seven">Next &hellip;</p>
+            <p class="next-feasts">Next &hellip;</p>
             <?php echo($table_data); ?>
         </aside>
 
@@ -128,14 +128,19 @@
 
 <script>
     $( document ).ready(function() {
-        console.log('jQuery ready...');
-        $('#js-show-hide-btn').click(function() {
+        
+        // Toggle today's readings and collect
+        $('#js-show-hide-btn').click(function() 
+        {
             console.log('button clicked');
             // $('#js-readings-collect').toggle();
             $( '#js-readings-collect' ).toggle( 'slow', function() {
                 // Animation complete.
             });
-        })
+        });
+
+        // Toggle next readings and collect
+
     });    
 </script>
 

@@ -313,8 +313,11 @@ $today_readings_collect     = $lookup['readings-collect'][$date_key];   // CSV c
 /* Show next n days... */
 $max_days_to_show = 14;
 $max_days_to_show++;
-$table_data = '<table class="homepage-feast--nextseven">';
 
+// Top of tables
+$table_data = '<table class="homepage-next-feast-table">';
+
+// Table data
 for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
 {
     $date = new DateTime("+$counter day");
@@ -322,9 +325,9 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
     
     $check_day = $date->format('l');
     if ($check_day == 'Sunday') {
-        $row_class = "sunday";
+        $is_it_sunday = "sunday";
     } else {
-        $row_class = "weekday";
+        $is_it_sunday = "mtwtfs";
     }
 
     $next_day_text = $date->format('l j F');
@@ -339,10 +342,13 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
             $next_class = ', ';
         };
     $next_liturgical_colour = $lookup['liturgical-colour'][$next_date];
+    $next_readings_collect = nl2br($lookup['readings-collect'][$next_date]);
 
-    $table_data = $table_data . "<tr class=$row_class><td class='homepage-feast--date-cell'>$next_day_text</td>";
+    $table_data = $table_data . "<tr class='$is_it_sunday js-date-row'><td class='homepage-feast--date-cell'>$next_day_text</td>";
     $table_data = $table_data . "<td>$next_feast, $next_description$next_class $next_liturgical_colour</td></tr>";
+    $table_data = $table_data . "<tr class='js-readings-row'><td colspan='2'>$next_readings_collect;</td></tr>";
 }
 
-    $table_data = $table_data . "<tr><td><a href='calendar/' class='view-more'>View more…</a></td></tr>";
-    $table_data = $table_data . "</table>";
+// Bottom of table
+$table_data = $table_data . "<tr><td><a href='calendar/' class='view-more'>View more…</a></td></tr>";
+$table_data = $table_data . "</table>";

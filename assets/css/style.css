@@ -59,7 +59,7 @@ main a.btn {
 
 main p,
 main dd,
-.next-seven {
+.next-feasts {
     font-weight: 300;
 }
 
@@ -196,8 +196,28 @@ a.view-more {
 
 
 
-/* Homepage next seven days table */
-.homepage-feast--nextseven tr td {
+/* Homepage next feasts table */
+
+/* DEBUG */
+table.homepage-next-feast-table, tr, td {
+    border: 3px solid black;
+}
+
+/*
+TABLE
+.homepage-next-feast-table
+
+Row to click
+.js-date-row
+
+Row to toggle
+.js-readings-row
+
+*/
+
+
+
+.homepage-feast--next-feasts-table tr td {
     padding: 0.5rem;
     opacity: 0.7;
     vertical-align: top;
@@ -207,13 +227,22 @@ a.view-more {
     white-space: nowrap;
 }
 
-.homepage-feast--nextseven tr:hover td {
+.homepage-feast--next-feasts-table tr:hover td {
     opacity: 1;
 }
 
-.homepage-feast--nextseven tr.sunday {
+.homepage-feast--next-feasts-table tr.sunday {
     color: gold;
+    text-shadow: 2px 2px 6px #000;
+
 }
+
+/* Rows of readings and collects */
+.homepage-feast--next-feasts-table-readings-row {
+    display: table-row;
+    width: 100%;
+}
+
 
 
 /* === 4. STATE ============================
