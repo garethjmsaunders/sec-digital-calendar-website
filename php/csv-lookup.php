@@ -315,7 +315,7 @@ $max_days_to_show = 14;
 $max_days_to_show++;
 
 // Top of tables
-$table_data = '<table class="homepage-next-feast-table">';
+$table_data = '<table class="homepage-next-feast-table"><tbody>';
 
 // Table data
 for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
@@ -344,11 +344,11 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
     $next_liturgical_colour = $lookup['liturgical-colour'][$next_date];
     $next_readings_collect = nl2br($lookup['readings-collect'][$next_date]);
 
-    $table_data = $table_data . "<tr class='$is_it_sunday js-date-row'><td class='homepage-feast--date-cell'>$next_day_text</td>";
+    $table_data = $table_data . "<tr class='next-date-row $is_it_sunday js-click-date-row' title='Click to show readings and collect'><td class='homepage-feast--date-cell'>$next_day_text</td>";
     $table_data = $table_data . "<td>$next_feast, $next_description$next_class $next_liturgical_colour</td></tr>";
-    $table_data = $table_data . "<tr class='js-readings-row'><td colspan='2'>$next_readings_collect;</td></tr>";
+    $table_data = $table_data . "<tr class='next-readings-row--hide'><td colspan='2'><div class='next-readings-div js-toggle-readings-div'>$next_readings_collect</div></td></tr>";
 }
 
 // Bottom of table
 $table_data = $table_data . "<tr><td><a href='calendar/' class='view-more'>View more…</a></td></tr>";
-$table_data = $table_data . "</table>";
+$table_data = $table_data . "</tbody></table>";

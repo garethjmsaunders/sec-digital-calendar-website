@@ -198,28 +198,23 @@ a.view-more {
 
 /* Homepage next feasts table */
 
-/* DEBUG */
-table.homepage-next-feast-table, tr, td {
-    border: 3px solid black;
+tr.next-date-row {
+    cursor: pointer;
 }
 
-/*
-TABLE
-.homepage-next-feast-table
+.darkglass {
+    background:  rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
 
-Row to click
-.js-date-row
+.hide,
+.js-toggle-readings-div {
+    display: none;
+}
 
-Row to toggle
-.js-readings-row
-
-*/
-
-
-
-.homepage-feast--next-feasts-table tr td {
+.homepage-next-feast-table tr td {
     padding: 0.5rem;
-    opacity: 0.7;
+    xopacity: 0.7;
     vertical-align: top;
 }
 
@@ -227,20 +222,28 @@ Row to toggle
     white-space: nowrap;
 }
 
-.homepage-feast--next-feasts-table tr:hover td {
-    opacity: 1;
+.homepage-next-feast-table tr:hover {
+    color:  gold;
 }
 
-.homepage-feast--next-feasts-table tr.sunday {
+.homepage-next-feast-table tr.sunday {
     color: gold;
-    text-shadow: 2px 2px 6px #000;
-
 }
 
-/* Rows of readings and collects */
-.homepage-feast--next-feasts-table-readings-row {
-    display: table-row;
-    width: 100%;
+
+.next-readings-row--hide {
+    display: none;
+}
+
+.next-readings-div {
+    padding-left:  1.5rem;
+    border-left: 2px dashed white;
+}
+
+.selected {
+    color: gold;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px 2px #111;
 }
 
 

@@ -107,7 +107,7 @@
         <hr>
 
         <!-- NEXT FEASTS -->
-        <aside class="text-left inner cover damask-<?php echo("$today_theme"); ?>">
+        <aside class="text-left inner cover xdamask-<?php echo("$today_theme"); ?>">
             <p class="next-feasts">Next &hellip;</p>
             <?php echo($table_data); ?>
         </aside>
@@ -132,15 +132,32 @@
         // Toggle today's readings and collect
         $('#js-show-hide-btn').click(function() 
         {
-            console.log('button clicked');
-            // $('#js-readings-collect').toggle();
             $( '#js-readings-collect' ).toggle( 'slow', function() {
                 // Animation complete.
             });
         });
 
         // Toggle next readings and collect
+        // Current code just opens everything.
+        // I wonder if I need to identify which row has been clicked
+        // ($this)? and then find the next row and toggleClass on the div 
+        // inside it?
+        // Then I need to style it correctly to make it stand out better
+        // Also consider updating the general styling for that table
 
+        $('.js-click-date-row').click(function() 
+        {
+            
+            // First, close all open rows
+            
+
+            $(this).toggleClass('selected');
+
+            // Second, open the row next to the one clicked
+            $(this).next().toggleClass('next-readings-row--hide').find('.js-toggle-readings-div').toggle('slow', 'swing', function() {
+                // animation complete
+            });
+        });
     });    
 </script>
 
