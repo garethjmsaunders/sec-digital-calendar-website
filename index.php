@@ -125,40 +125,40 @@
     </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="application/javascript">
 
-<script>
-    $( document ).ready(function() {
-        
-        // Toggle today's readings and collect
-        $('#js-show-hide-btn').click(function() 
-        {
-            $( '#js-readings-collect' ).toggle( 'slow', function() {
-                // Animation complete.
-            });
+    $(document).ready(function() {
+
+        // === TODAY =======================
+
+        $('#js-show-hide-btn').click(function() {
+            $('#js-readings-collect').toggle('slow');
         });
 
-        // Toggle next readings and collect
-        // Current code just opens everything.
-        // I wonder if I need to identify which row has been clicked
-        // ($this)? and then find the next row and toggleClass on the div 
-        // inside it?
-        // Then I need to style it correctly to make it stand out better
-        // Also consider updating the general styling for that table
+        // === NEXT ========================
 
-        $('.js-click-date-row').click(function() 
-        {
-            
-            // First, close all open rows
-            
+        $('.next-date-feast-row').click(function() {
 
-            $(this).toggleClass('selected');
+            $this = $(this);
+            $target = $this.next().find('.next-readings-div');
 
-            // Second, open the row next to the one clicked
-            $(this).next().toggleClass('next-readings-row--hide').find('.js-toggle-readings-div').toggle('slow', 'swing', function() {
-                // animation complete
-            });
-        });
-    });    
+            // If the row clicked is already open, close it
+            if ($target.hasClass('js-selected')) {
+                $target.toggle('slow').toggleClass('js-selected');
+                $this.parent().find('.next-date-feast-row').removeClass('js-selected-row');
+            // Else, close any open blocks...
+            } else {
+                // Deselect date row
+                $this.parent().find('.next-date-feast-row').removeClass('js-selected-row');
+                // Close reading block
+                $('div.js-selected').toggleClass('js-selected').toggle('slow');;
+                // Now, open the row clicked and add the correct classes
+                $target.toggle('slow').addClass('js-selected');
+                $this.addClass('js-selected-row');
+            }
+        });    
+    });
+
 </script>
 
 </body>

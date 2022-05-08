@@ -195,55 +195,55 @@ a.view-more {
 }
 
 
+/* Homepage NEXT feasts table */
 
-/* Homepage next feasts table */
-
-tr.next-date-row {
-    cursor: pointer;
-}
-
-.darkglass {
-    background:  rgba(0,0,0,0.5);
-    border-radius: 15px;
-}
-
-.hide,
-.js-toggle-readings-div {
-    display: none;
-}
-
+/* Layout */
 .homepage-next-feast-table tr td {
     padding: 0.5rem;
-    xopacity: 0.7;
     vertical-align: top;
 }
 
-.homepage-feast--date-cell {
-    white-space: nowrap;
-}
+    /* row 1 */
+    .next-date-feast-row {
+        cursor: pointer;
+    }
+        .next-date-cell {
+            white-space: nowrap;
+        }
 
-.homepage-next-feast-table tr:hover {
-    color:  gold;
-}
+        .next-feast-cell {}
 
-.homepage-next-feast-table tr.sunday {
+    /* row 2 */
+    .next-readings-row {}
+
+        .next-readings-cell {}
+
+            .next-readings-div {
+                padding-left:  1.5rem;
+                border-left: 2px dashed white;
+            }
+            .next-readings-div-hide {
+                display: none;
+            }
+
+/* Theme */
+.sunday {
     color: gold;
 }
-
-
-.next-readings-row--hide {
-    display: none;
+.next-date-feast-row:hover {
+    xcolor: #9caab4;
+    opacity: 0.6;
 }
-
-.next-readings-div {
-    padding-left:  1.5rem;
-    border-left: 2px dashed white;
-}
-
-.selected {
-    color: gold;
+.js-selected-row {
     font-weight: bold;
-    text-shadow: 2px 2px 2px 2px #111;
+}
+.js-selected-row:hover {
+    color: white;
+    opacity: 1;
+}
+.js-selected-row.sunday:hover {
+    color: gold;
+    opacity: 1;
 }
 
 
@@ -266,6 +266,12 @@ they describe how modules or layouts might look. Most
 sites don’t require a layer of theming but it is good to be
 aware of it." (p.7)
 */
+
+
+.darkglass {
+    background:  rgba(0,0,0,0.5);
+}
+
 
 /* BACKGROUND (damask)
    Pattern from Pattern Cooler

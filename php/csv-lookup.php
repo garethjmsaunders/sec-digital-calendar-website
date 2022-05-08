@@ -344,9 +344,13 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
     $next_liturgical_colour = $lookup['liturgical-colour'][$next_date];
     $next_readings_collect = nl2br($lookup['readings-collect'][$next_date]);
 
-    $table_data = $table_data . "<tr class='next-date-row $is_it_sunday js-click-date-row' title='Click to show readings and collect'><td class='homepage-feast--date-cell'>$next_day_text</td>";
-    $table_data = $table_data . "<td>$next_feast, $next_description$next_class $next_liturgical_colour</td></tr>";
-    $table_data = $table_data . "<tr class='next-readings-row--hide'><td colspan='2'><div class='next-readings-div js-toggle-readings-div'>$next_readings_collect</div></td></tr>";
+    $table_data = $table_data . "<tr class='next-date-feast-row $is_it_sunday' title='Readings and collect'>";
+    $table_data = $table_data . "    <td class='next-date-cell'>$next_day_text</td>";
+    $table_data = $table_data . "    <td class='next-feast-cell'>$next_feast, $next_description$next_class $next_liturgical_colour</td>";
+    $table_data = $table_data . "</tr>";
+    $table_data = $table_data . "<tr class='next-readings-row'>";
+    $table_data = $table_data . "    <td colspan='2' class='next-readings-cell''><div class='next-readings-div next-readings-div-hide'>$next_readings_collect</div></td>";
+    $table_data = $table_data . "</tr>";
 }
 
 // Bottom of table
