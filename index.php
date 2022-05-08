@@ -107,8 +107,8 @@
         <hr>
 
         <!-- NEXT FEASTS -->
-        <aside class="text-left inner cover damask-<?php echo("$today_theme"); ?>">
-            <p class="next-seven">Next &hellip;</p>
+        <aside class="text-left inner cover xdamask-<?php echo("$today_theme"); ?>">
+            <p class="next-feasts">Next &hellip;</p>
             <?php echo($table_data); ?>
         </aside>
 
@@ -124,19 +124,41 @@
         </footer>
     </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/jquery-3.6.0.min.js"></script>
+<script type="application/javascript">
 
-<script>
-    $( document ).ready(function() {
-        console.log('jQuery ready...');
+    $(document).ready(function() {
+
+        // === TODAY =======================
+
         $('#js-show-hide-btn').click(function() {
-            console.log('button clicked');
-            // $('#js-readings-collect').toggle();
-            $( '#js-readings-collect' ).toggle( 'slow', function() {
-                // Animation complete.
-            });
-        })
-    });    
+            $('#js-readings-collect').toggle('slow');
+        });
+
+        // === NEXT ========================
+
+        $('.next-date-feast-row').click(function() {
+
+            $this = $(this);
+            $target = $this.next().find('.next-readings-div');
+
+            // If the row clicked is already open, close it
+            if ($target.hasClass('js-selected')) {
+                $target.toggle('slow').toggleClass('js-selected');
+                $this.parent().find('.next-date-feast-row').removeClass('js-selected-row');
+            // Else, close any open blocks...
+            } else {
+                // Deselect date row
+                $this.parent().find('.next-date-feast-row').removeClass('js-selected-row');
+                // Close reading block
+                $('div.js-selected').toggleClass('js-selected').toggle('slow');;
+                // Now, open the row clicked and add the correct classes
+                $target.toggle('slow').addClass('js-selected');
+                $this.addClass('js-selected-row');
+            }
+        });    
+    });
+
 </script>
 
 </body>

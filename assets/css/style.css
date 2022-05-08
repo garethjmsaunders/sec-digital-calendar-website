@@ -59,7 +59,7 @@ main a.btn {
 
 main p,
 main dd,
-.next-seven {
+.next-feasts {
     font-weight: 300;
 }
 
@@ -195,25 +195,57 @@ a.view-more {
 }
 
 
+/* Homepage NEXT feasts table */
 
-/* Homepage next seven days table */
-.homepage-feast--nextseven tr td {
+/* Layout */
+.homepage-next-feast-table tr td {
     padding: 0.5rem;
-    opacity: 0.7;
     vertical-align: top;
 }
 
-.homepage-feast--date-cell {
-    white-space: nowrap;
-}
+    /* row 1 */
+    .next-date-feast-row {
+        cursor: pointer;
+    }
+        .next-date-cell {
+            white-space: nowrap;
+        }
 
-.homepage-feast--nextseven tr:hover td {
+        .next-feast-cell {}
+
+    /* row 2 */
+    .next-readings-row {}
+
+        .next-readings-cell {}
+
+            .next-readings-div {
+                padding-left:  1.5rem;
+                border-left: 2px dashed white;
+            }
+            .next-readings-div-hide {
+                display: none;
+            }
+
+/* Theme */
+.sunday {
+    color: gold;
+}
+.next-date-feast-row:hover {
+    xcolor: #9caab4;
+    opacity: 0.6;
+}
+.js-selected-row {
+    font-weight: bold;
+}
+.js-selected-row:hover {
+    color: white;
+    opacity: 1;
+}
+.js-selected-row.sunday:hover {
+    color: gold;
     opacity: 1;
 }
 
-.homepage-feast--nextseven tr.sunday {
-    color: gold;
-}
 
 
 /* === 4. STATE ============================
@@ -234,6 +266,12 @@ they describe how modules or layouts might look. Most
 sites don’t require a layer of theming but it is good to be
 aware of it." (p.7)
 */
+
+
+.darkglass {
+    background:  rgba(0,0,0,0.5);
+}
+
 
 /* BACKGROUND (damask)
    Pattern from Pattern Cooler
