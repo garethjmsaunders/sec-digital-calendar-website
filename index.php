@@ -124,7 +124,7 @@
         </footer>
     </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/jquery-3.6.0.min.js"></script>
 <script type="application/javascript">
 
     $(document).ready(function() {
