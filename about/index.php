@@ -110,6 +110,8 @@
                     <dd><a href="https://www.venite.app">Venite app</a> is an interactive resource from the Rev Greg Johnston that enables you to, among other things, select a daily office to pray.</dd>
                 <dt>The Episcopal Church (USA)</dt>
                     <dd><a href="http://episcotech.org/">EpiscoTech</a> offers iCalendar files that contain liturgical calendar entries for the Episcopal Church calendar; created by the Revd Richard E Fichter, Jr.</dd>
+                <dt>Roman Catholic Church in England and Wales</dt>
+                    <dd><a href="http://www.liturgyoffice.org.uk/">Liturgy Office</a> offers a number of resources about liturgical calendars and their use in the Roman Catholic Church in England and Wales</dd>
                 <dt>Roman Catholic Church</dt>
                     <dd><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Catholic Apptitude</a> offers a number of similar calendar and lectionary resources for the Roman Catholic calendar.</dd>
             </dl>
