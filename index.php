@@ -172,7 +172,7 @@
 
         // Next: Readings
         $(".next-readings-div:contains('SPB')").html(function(_, html) {
-           return  html.replace(/(SPB)/g, 'Scottish Prayer Book (SPB)')
+           return  html.replace(/(SPB)/g, '<br>Scottish Prayer Book (SPB)')
         });
 
     });
