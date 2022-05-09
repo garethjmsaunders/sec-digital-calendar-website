@@ -89,7 +89,7 @@
             </dl>
 
             <hr>
-            <h3>Scottish Episcopal Church resources</h3>
+            <h3>Scottish Episcopalian resources</h3>
                 <dt>Scottish Episcopal Church</dt>
                     <dd>Website for the <a href="https://www.scotland.anglican.org">Scottish Episcopal Church</a>.</dd>
                 <dt>Scottish Episcopal Church liturgies</dt>
@@ -100,7 +100,7 @@
                     <dd>Downloadable publication,  <a href="https://archive.org/details/kalendarsofscott00forb/page/n9/mode/2up">Kalendars of Scottish Saints</a> by the Right Reverend Alexander Penrose Forbes, DCL, Bishop of Brechin. "An attempt to fix the districts of their several missions and the churches where they were chiefly had in remembrance."</dd>
 
             <hr>
-            <h3>Other resources</h3>
+            <h3>Anglican resources</h3>
             <dl>
                 <dt>Church of England</dt>
                     <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; created by Fr Simon Rundell.</dd>
@@ -110,11 +110,28 @@
                     <dd><a href="https://www.venite.app">Venite app</a> is an interactive resource from the Rev Greg Johnston that enables you to, among other things, select a daily office to pray.</dd>
                 <dt>The Episcopal Church (USA)</dt>
                     <dd><a href="http://episcotech.org/">EpiscoTech</a> offers iCalendar files that contain liturgical calendar entries for the Episcopal Church calendar; created by the Revd Richard E Fichter, Jr.</dd>
+            </dl>
+
+            <h3>Roman Catholic resources</h3>
+            <dl>
                 <dt>Roman Catholic Church in England and Wales</dt>
                     <dd><a href="http://www.liturgyoffice.org.uk/">Liturgy Office</a> offers a number of resources about liturgical calendars and their use in the Roman Catholic Church in England and Wales</dd>
                 <dt>Roman Catholic Church</dt>
                     <dd><a href="http://catholicapptitude.org/apps/catholic-calendar-apps/">Catholic Apptitude</a> offers a number of similar calendar and lectionary resources for the Roman Catholic calendar.</dd>
             </dl>
+
+            <h3>Books on liturgical ceremony</h3>
+            <dl>
+                <dt><i><a href="https://www.amazon.co.uk/Ceremonies-Roman-Rite-Described/dp/0860124622">The Ceremonies of the Roman Rite Described</a></i> by Fortescue and O'Connell</dt>
+                    <dd>Now in at least its 15th edition, this volume is an important, revised and updated ceremonial manual, published to guide and assist in celebrating the traditional liturgy today. While this manual is obviously intended for Roman Catholic liturgy there is a lot here that is also useful for Scottish Episcopal Church liturgy, particularly celebrating the Eucharist (said, sung, with sub-deacon, deacon and priest), benediction, advent, holy week services, baptisms, funerals, marriages, blessing of the sick and dying.</dd>
+                <dt><i><a href="https://www.amazon.co.uk/Ceremonies-Modern-Roman-Peter-Elliott/dp/0898708303/ref=sr_1_1?crid=3QKOZZ2LSV0KL&keywords=Ceremonies+of+the+Modern+Roman+Rite&qid=1652097885&s=books&sprefix=ceremonies+of+the+modern+roman+rite%2Cstripbooks%2C106&sr=1-1">Ceremonies of the Modern Roman Rite: The Eucharist and the Liturgy of the Hours</a></i> by Monsignor Peter J Elliot</dt>
+                    <dd>Another Roman Catholic volume that is faithful to the renewal of worship authorised by the Second Vatican Council. <i>Ceremonies</i> sets out the liturgical duties of bishops, priests and deacons, acolytes and servers, lectors and eucharistic ministers, etc., with guidance on vessels and vestments, how to carry out ceremonial actions, the deacon, ministering the Eucharist to the sick, children's liturgy, Eucharistic adoration, Eucharistic processions, celebrating vespers in a parish, eucharistic ministries and the laity, the location of the tabernacle, etc.</dd>
+                <dt><i><a href="https://www.amazon.co.uk/Priests-Handbook-Ceremonies-published-December/dp/B01MR2RB8I/">A Priest's Handbook: The Ceremonies of the Church</a></i> by Dennis G Michno</dt>
+                    <dd>Written from an American Episcopal Church perspective, this volume also covers similar ground to Fortescue and O'Connell, and Elliot. It includes a nice couple of chapters on the calendar and lectionary, and daily office. It is not as thorough as Fortescue and O'Connell but it does offer an Anglican perspective on the ceremony.</dd>
+                <dt><i><a href="https://www.amazon.co.uk/New-Altar-Guild-Book-Revised/dp/0819216577/">The New Altar Guild Book</a></i> by Barbara Gent and Betty Sturges</dt>
+                    <dd>This is an update of a classic guide on altar guild ministry that offers a blend of liturgical history, sacramental theology and practical tips. The authors combine how-to advice with creative ideas on preparing for the traditional liturgies and simpler, special-occasion services. This is a useful handbook for ordinands as well as servers and altar guild members.</dd>
+            </dl>   
+
         </main>
 
         <footer>
