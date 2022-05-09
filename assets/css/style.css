@@ -219,6 +219,7 @@ a.view-more {
         .next-readings-cell {}
 
             .next-readings-div {
+                font-weight: 100;
                 padding-left:  1.5rem;
                 border-left: 2px dashed white;
             }
