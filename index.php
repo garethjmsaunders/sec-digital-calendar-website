@@ -156,7 +156,25 @@
                 $target.toggle('slow').addClass('js-selected');
                 $this.addClass('js-selected-row');
             }
-        });    
+        });
+
+        // === SPB ABBR ====================
+
+        // Today: SPB field
+        $(".spb:contains('SPB')").html(function(_, html) {
+           return  html.replace(/(SPB)/g, '<abbr title="Scottish Prayer Book" class="spb">$1</abbr>')
+        });
+
+        // Today: Readings field
+        $(".readings-collect:contains('SPB')").html(function(_, html) {
+           return  html.replace(/(SPB)/g, '<abbr title="Scottish Prayer Book" class="spb">$1</abbr>')
+        });
+
+        // Next: Readings
+        $(".next-readings-div:contains('SPB')").html(function(_, html) {
+           return  html.replace(/(SPB)/g, '<abbr title="Scottish Prayer Book" class="spb">$1</abbr>')
+        });
+
     });
 
 </script>
