@@ -162,17 +162,17 @@
 
         // Today: SPB field
         $(".spb:contains('SPB')").html(function(_, html) {
-           return  html.replace(/(SPB)/g, '<abbr title="Scottish Prayer Book" class="spb">$1</abbr>')
+           return  html.replace(/(SPB)/g, 'Scottish Prayer Book (SPB)')
         });
 
         // Today: Readings field
         $(".readings-collect:contains('SPB')").html(function(_, html) {
-           return  html.replace(/(SPB)/g, '<abbr title="Scottish Prayer Book" class="spb">$1</abbr>')
+           return  html.replace(/(SPB)/g, 'Scottish Prayer Book (SPB)')
         });
 
         // Next: Readings
         $(".next-readings-div:contains('SPB')").html(function(_, html) {
-           return  html.replace(/(SPB)/g, '<abbr title="Scottish Prayer Book" class="spb">$1</abbr>')
+           return  html.replace(/(SPB)/g, 'Scottish Prayer Book (SPB)')
         });
 
     });
