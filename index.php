@@ -156,6 +156,7 @@
                 $target.toggle('slow').addClass('js-selected');
                 $this.addClass('js-selected-row');
             }
+
         });
 
         // === SPB ABBR ====================
