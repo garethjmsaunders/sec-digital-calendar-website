@@ -80,6 +80,9 @@ for any purpose, even commercially</li>
             <h4>Source code</h4>
             <p>The source code for this project is freely available from <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a>, under a GNU General Public License v3.0. Download, clone or fork the files for your own use.</p>
 
+            <h3>Privacy policy</h3>
+            <p>This website collects and processes no personal information. It uses Google Analytics which collects anonymous information about your device, browser and location which are used for improving how this website works.</p>
+
             <h3>Cookies</h3>
             <p>This website uses 'performance cookies' set by the <a href="https://www.google.com/analytics">Google Analytics</a> web service.</p>
             <p>These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies don’t collect information that identifies a visitor. All information these cookies collect is aggregated and therefore anonymous. It is only used to improve how this website works.</p>
