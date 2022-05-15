@@ -83,7 +83,7 @@
                 <dt>Twitter</dt>
                     <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a> These are usually updates on when I start compiling the file each year plus updates on bugs found and fixed and new features added.</dd>
                 <dt>Facebook group</dt>
-                    <dd>Public Facebook group for updates and discussions about the <a href="https://www.facebook.com/groups/secoutlook/">SEC digital calendar and lectionary</a></dd>
+                    <dd>Public Facebook group for updates and discussions about the <a href="https://www.facebook.com/groups/secdigitalcalendar/">SEC digital calendar and lectionary</a></dd>
                 <dt>GitHub repositories</dt>
                     <dd>Open source code respositories for the <a href="https://github.com/garethjmsaunders/sec-digital-calendar">SEC digital calendar files</a> and this <a href="https://github.com/garethjmsaunders/sec-digital-calendar-website">SEC digital calendar website</a>.</dd>
             </dl>
