@@ -48,6 +48,9 @@
       gtag('js', new Date());
       gtag('config', 'UA-1866588-7');
     </script>
+
+    <!-- Google Search Console verification -->
+    <meta name="google-site-verification" content="DLv-E5XqwZGKo32fJsQ5AbP7UUJ6TWLk0fYjpeKEpXc" />
 </head>
 
 <body class="banner cover-height damask damask-<?php echo("$today_theme"); ?> text-center theme">
