@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>SEC digital calendar | Browser extension</title>
+    <title>SEC digital calendar | Browser extensions</title>
 
     <!-- meta -->
     <link rel="canonical" href="https://seccalendar.org.uk/">
@@ -11,7 +11,7 @@
     <meta name="description" content="Google Chrome extension to display the Scottish Episcopal Church digital calendar and lectionary in a popup window in your browser.">
     <meta name="generator" content="Sublime Text 4">
     <meta name="host" content="SiteGround">
-    <meta name="keywords" content="SEC, Scottish Episcopal Church, pisky, #pisky, calendar, kalendar, lectionary, saints, readings, festivals, Outlook, Google Calendar, iCal, iCalendar" />
+    <meta name="keywords" content="SEC, Scottish Episcopal Church, pisky, #pisky, calendar, kalendar, lectionary, saints, readings, festivals, Outlook, Google Calendar, iCal, iCalendar, Mozilla, Firefox, Google, Chrome, browser, Opera, Brave, Vivaldi, Edge" />
     <meta name="rating" content="general" />
     <meta name="robots" content="index" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,7 +50,7 @@
 
         <main role="main" class="inner cover text-left Xcontent Xmain-block">
 
-            <h1>Chrome and Firefox extension</h1>
+            <h1>Chrome and Firefox extensions</h1>
             <p class="lead">View the Scottish Episcopal Church digital calendar and lectionary in a popup window on your web browser's toolbar.</p>
             
             <p><img src="../assets/img/google-chrome-ext-screenshot.jpg" alt="Screenshot of popup window showing SEC Digital Calendar" width="100%"></p>

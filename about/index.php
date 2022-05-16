@@ -56,6 +56,7 @@
 
             <h3>See also</h3>
             <ul>
+                <li><a href="../extension">Google Chrome and Mozilla Firefox extensions</a></li>
                 <li><a href="../colours">Liturgical colours</a></li>
                 <li><a href="../terms/">Terms and conditions</a></li>
             </ul>
