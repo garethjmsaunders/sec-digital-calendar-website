@@ -61,10 +61,17 @@
 
             <p>Want to move everything to a full tab? Right-click a link and select 'Open link in new tab'.</p>
 
+            <hr>
+            <h3>Install</h3>
             <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Google Chrome</a> and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
+
+            <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-chrome.png" alt="test"> Add to Google Chrome</button></a></p>
             
             <p><a href="https://addons.mozilla.org/addon/sec-digital-calendar/"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-firefox.png" alt="test"> Add to Mozilla Firefox</button></a></p>
-            <p><a href="#"><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-chrome.png" alt="test"> Coming soon for Google Chrome</button></a></p>
+
+            <hr>
+            <h3>Support</h3>
+            <p>For support or to suggest a feature, please email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a> or raise a support issue at GitHub for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension/issues">Google Chrome</a> or <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension/issues">Mozilla Firefox</a>.</p>
             
         </main>
 
