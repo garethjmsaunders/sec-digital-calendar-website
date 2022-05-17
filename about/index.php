@@ -48,7 +48,7 @@
             </div>
         </header>
 
-        <main role="main" class="inner cover text-left Xcontent Xmain-block">
+        <main role="main" class="inner cover text-left">
 
             <h1>About</h1>
             <p class="lead">Subscribe to the Scottish Episcopal Church calendar and lectionary in your electronic calendar. Synchronise it with your mobile device.</p>
@@ -56,7 +56,7 @@
 
             <h3>See also</h3>
             <ul>
-                <li><a href="../extension">Google Chrome and Mozilla Firefox extensions</a></li>
+                <li><a href="../extension">Extensions for Google Chrome and Mozilla Firefox</a></li>
                 <li><a href="../colours">Liturgical colours</a></li>
                 <li><a href="../terms/">Terms and conditions</a></li>
             </ul>
@@ -67,6 +67,20 @@
             <p>I do it to glorify God and as a practical resource for my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
             <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
             <p><a href="https://www.garethjmsaunders.co.uk/contact/">The Revd Gareth J M Saunders</a></p>
+
+            <hr>
+            <h3>Contact</h3>
+            <p>If you would like to contact Gareth about any aspect of the SEC digital calendar and lectionary or report a mistake, email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a>.</p>
+
+            <hr>
+            <h4>GitHub issues</h4>
+            <p>For those who are more technically minded, you can raise issues on GitHub for the following SEC digital calendar projects:</p>
+            <ul>
+                <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar/issues">CSV and iCalendar data</a></li>
+                <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar-website/issues">Website</a></li>
+                <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension/issues">Google Chrome extension</a></li>
+                <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension/issues">Mozilla Firefox extension</a></li>
+            </ul>
 
             <hr>
             <h3>Donate</h3>

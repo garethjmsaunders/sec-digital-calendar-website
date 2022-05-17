@@ -63,8 +63,8 @@
 
             <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Google Chrome</a> and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
             
+            <p><a href="https://addons.mozilla.org/addon/sec-digital-calendar/"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-firefox.png" alt="test"> Add to Mozilla Firefox</button></a></p>
             <p><a href="#"><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-chrome.png" alt="test"> Coming soon for Google Chrome</button></a></p>
-            <p><a href="#"><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-firefox.png" alt="test"> Coming soon for Mozilla Firefox</button></a></p>
             
         </main>
 
