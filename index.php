@@ -83,12 +83,12 @@
         <!-- Notice for Liturgical colours calendar -->
         <?php 
             $current_ts  = time();
-            $deadline_ts = mktime(0,0,0,5,2,2022);  // The date.  First 3 zeros are time then month, day and year
+            $deadline_ts = mktime(0,0,0,6,17,2022);  // The date.  First 3 zeros are time then month, day and year
             if ($current_ts < $deadline_ts) {
         ?>
             <!-- Display before deadline -->
             <div class="alert alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
-                <strong>NEW</strong> <a href="colours/" class="alert-link">Guide to liturgical colours</a> with printable PDF calendar
+                <strong>NEW</strong> <a href="extension/" class="alert-link">Chrome and Firefox extensions</a> are now available.
             </div>
         <?php } else { ?>
             <!-- Display after deadline -->
