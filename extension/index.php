@@ -50,7 +50,7 @@
 
         <main role="main" class="inner cover text-left Xcontent Xmain-block">
 
-            <h1>Chrome and Firefox extensions</h1>
+            <h1>Browser extensions</h1>
             <p class="lead">View the Scottish Episcopal Church digital calendar and lectionary in a popup window on your web browser's toolbar.</p>
             
             <p><img src="../assets/img/google-chrome-ext-screenshot.jpg" alt="Screenshot of popup window showing SEC Digital Calendar" width="100%"></p>
@@ -63,7 +63,9 @@
 
             <hr>
             <h3>Install</h3>
-            <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Google Chrome</a> and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
+            <p>Install the extension for the following web browsers:</p>
+            
+            <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-brave.png" alt="test"> Add to Brave</button></a></p>
 
             <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-chrome.png" alt="test"> Add to Google Chrome</button></a></p>
             
@@ -74,6 +76,10 @@
             <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-edge.png" alt="test"> Coming soon for Microsoft Edge</button></p>
             <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-opera.png" alt="test"> Coming soon for Opera</button></p>
             <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-safari.png" alt="test"> Coming soon for Safari</button></p>
+
+            <hr>
+            <h3>Code</h3>
+            <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Chromium</a> (includes Brave, Google Chrome, Microsoft Edge, Opera, Apple Safari and Vivaldi) and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
 
             <hr>
             <h3>Support</h3>
