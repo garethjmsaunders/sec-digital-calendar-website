@@ -69,6 +69,12 @@
             
             <p><a href="https://addons.mozilla.org/addon/sec-digital-calendar/"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-firefox.png" alt="test"> Add to Mozilla Firefox</button></a></p>
 
+            <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-vivaldi.png" alt="test"> Add to Vivaldi</button></a></p>
+
+            <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-edge.png" alt="test"> Coming soon for Microsoft Edge</button></p>
+            <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-opera.png" alt="test"> Coming soon for Opera</button></p>
+            <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-safari.png" alt="test"> Coming soon for Safari</button></p>
+
             <hr>
             <h3>Support</h3>
             <p>For support or to suggest a feature, please email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a> or raise a support issue at GitHub for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension/issues">Google Chrome</a> or <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension/issues">Mozilla Firefox</a>.</p>

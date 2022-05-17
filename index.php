@@ -67,7 +67,7 @@
             </div>
         </header>
 
-        <!-- NOTICE -->
+        <!-- Next year's data notice -->
         <?php 
             $current_ts  = time();
             $deadline_ts = mktime(0,0,0,12,5,2020);  // The date.  First 3 zeros are time then month, day and year
@@ -80,19 +80,6 @@
             </div>
         <?php } ?>
 
-        <!-- Notice for Liturgical colours calendar -->
-        <?php 
-            $current_ts  = time();
-            $deadline_ts = mktime(0,0,0,6,17,2022);  // The date.  First 3 zeros are time then month, day and year
-            if ($current_ts < $deadline_ts) {
-        ?>
-            <!-- Display before deadline -->
-            <div class="alert alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
-                <strong>NEW</strong> <a href="extension/" class="alert-link">Chrome and Firefox extensions</a> are now available.
-            </div>
-        <?php } else { ?>
-            <!-- Display after deadline -->
-        <?php } ?>
 
         <!-- TODAY'S FEAST -->
         <main role="main" class="homepage-feast--today inner cover text-left">
@@ -112,7 +99,20 @@
             <p class="readings-collect" id="js-readings-collect"><?php echo nl2br($today_readings_collect); ?></p>
         </main>
 
-        <hr>
+        <!-- Special notice -->
+        <?php 
+            $current_ts  = time();
+            $deadline_ts = mktime(0,0,0,6,17,2022);  // The date.  First 3 zeros are time then month, day and year
+            if ($current_ts < $deadline_ts) {
+        ?>
+            <!-- Display before deadline -->
+            <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
+                <strong>NEW</strong> <a href="extension/" class="alert-link"><img src="assets/icons/internet-browser-chrome.png" alt="Chrome logo"> Chrome and <img src="assets/icons/internet-browser-firefox.png" alt="Firefox logo"> Firefox extensions</a> are now available.
+            </div>
+        <?php } else { ?>
+            <!-- Display after deadline -->
+        <?php } ?>
+        
 
         <!-- NEXT FEASTS -->
         <aside class="text-left inner cover xdamask-<?php echo("$today_theme"); ?>">
