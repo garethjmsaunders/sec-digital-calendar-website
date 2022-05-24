@@ -68,12 +68,14 @@
             <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-brave.png" alt="test"> Add to Brave</button></a></p>
 
             <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-chrome.png" alt="test"> Add to Google Chrome</button></a></p>
+        
+            <p><a href="https://microsoftedge.microsoft.com/addons/detail/sec-digital-calendar-and-/ideimciaekophgpodbeahcfojjeklpah"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-edge.png" alt="test"> Add to Microsoft Edge</button></a></p>
             
             <p><a href="https://addons.mozilla.org/addon/sec-digital-calendar/"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-firefox.png" alt="test"> Add to Mozilla Firefox</button></a></p>
 
             <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-vivaldi.png" alt="test"> Add to Vivaldi</button></a></p>
 
-            <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-edge.png" alt="test"> Coming soon for Microsoft Edge</button></p>
+                
             <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-opera.png" alt="test"> Coming soon for Opera</button></p>
             <p><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-safari.png" alt="test"> Coming soon for Safari</button></p>
 

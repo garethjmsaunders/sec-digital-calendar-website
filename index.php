@@ -107,7 +107,7 @@
         ?>
             <!-- Display before deadline -->
             <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
-                <strong>NEW</strong> <a href="extension/" class="alert-link"><img src="assets/icons/internet-browser-chrome.png" alt="Chrome logo"> Chrome and <img src="assets/icons/internet-browser-firefox.png" alt="Firefox logo"> Firefox extensions</a> are now available.
+                <strong>NEW</strong> Web browser extensions for <a href="extension/" class="alert-link"><img src="assets/icons/internet-browser-chrome.png" alt="Chrome logo"> Chrome <img src="assets/icons/internet-browser-firefox.png" alt="Firefox logo"> Firefox and <img src="assets/icons/internet-browser-edge.png" alt="Edge logo"> Edge</a> are now available.
             </div>
         <?php } else { ?>
             <!-- Display after deadline -->
