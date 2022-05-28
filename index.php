@@ -101,7 +101,8 @@
 
                 <p>RESOURCES
                 <br><a href="https://www.scotland.anglican.org/spirituality/prayer/daily-offices">Daily Prayer</a>
-                <br><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies">Liturgies</a></p>
+                <br><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies">Liturgies</a>
+                <br><a href="https://www.biblegateway.com">Bible Gateway</a></p>
             </div>
         </main>
 
