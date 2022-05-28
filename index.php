@@ -99,7 +99,7 @@
             <p class="readings-collect" id="js-readings-collect"><?php echo nl2br($today_readings_collect); ?></p>
         </main>
 
-        <!-- Special notice -->
+        <!-- WEB BROWSER EXTENSIONS Special notice -->
         <?php 
             $current_ts  = time();
             $deadline_ts = mktime(0,0,0,6,17,2022);  // The date.  First 3 zeros are time then month, day and year
@@ -107,7 +107,7 @@
         ?>
             <!-- Display before deadline -->
             <div class="alert alert-dark text-center damask-default alert-sec" role="alert">
-                <strong>NEW</strong> Web browser extensions for <a href="extension/" class="alert-link"><img src="assets/icons/internet-browser-chrome.png" alt="Chrome logo"> Chrome <img src="assets/icons/internet-browser-firefox.png" alt="Firefox logo"> Firefox and <img src="assets/icons/internet-browser-edge.png" alt="Edge logo"> Edge</a>.
+                <strong>NEW</strong> Web browser extensions for <a href="extension/" class="alert-link"><span class="browser-icon browser-chrome">Chrome</span>, <span class="browser-icon browser-firefox">Firefox</span> and <span class="browser-icon browser-edge">Edge</span></a>.
             </div>
         <?php } else { ?>
             <!-- Display after deadline -->

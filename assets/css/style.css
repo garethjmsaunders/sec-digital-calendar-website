@@ -186,6 +186,30 @@ a.view-more {
     text-decoration: none;
 }
 
+/* Browser extensions alert icons */
+
+.browser-icon {
+    background-repeat: no-repeat;
+    padding-left: 29px;
+    position: relative;
+}
+
+.browser-icon:before {
+    position: absolute;
+    top: 0;
+}
+
+.browser-chrome {
+    background-image: url(../icons/internet-browser-chrome.png);
+}
+
+.browser-firefox {
+    background-image: url(../icons/internet-browser-firefox.png);
+}
+
+.browser-edge {
+    background-image: url(../icons/internet-browser-edge.png);    
+}
 
 /* Homepage readings and collects  */
 
