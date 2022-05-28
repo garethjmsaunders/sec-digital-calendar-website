@@ -191,8 +191,8 @@
             <h3>Rose</h3>
             <p>Symbolism: anticipation, subdued joy</p>
             <p><img src="../assets/img/damask-rose.png" alt="rose"></p>
-            <p>Throughout both Advent and Lent, all Sundays are festivals. Each season includes one Sunday where the solemnity of the penetential season is lightened to one of subdued joy. This may be represented symbolically by replacing the liturgical colour of violet with rose (not pink).</p>
-            <p>During Advent, if an Advent wreath and candles is used, the third candle may be rose.</p>
+            <p>Throughout both Advent and Lent, all Sundays are festivals. Both seasons include one Sunday where the solemnity of the penetential season is lightened to one of subdued joy. This may be represented symbolically by replacing the liturgical colour of violet with rose (not pink).</p>
+            <p>During Advent, if an Advent wreath and candles are used, the third candle may be rose.</p>
             <p>When to use:</p>
             <ul>
                 <li>Gaudete Sunday <span class="rubric">(Third Sunday of Advent)</span></li>
@@ -204,7 +204,7 @@
             <h3>Hangings removed</h3>
             <p>Symbolism: absence, mourning, penance, repentance and sorrow.</p>
             <p><img src="../assets/img/damask-hangings-removed.png" alt="rose"></p>
-            <p>There is no liturgical colour suggested for Good Friday (except at holy communion: red) and Holy Saturday (the day between Good Friday and Easter Day). Instead, the direction 'hangings removed' is given in the lectionary and calendar.</p>
+            <p>There is no liturgical colour suggested for Good Friday (except red at holy communion) and Holy Saturday (the day between Good Friday and Easter Day). Instead, the direction 'hangings removed' is given in the lectionary and calendar.</p>
             <p>Following the Eucharist of the Last Supper on Maundy Thursday, the altar is stripped and all decorations are removed from the sanctuary, nave and any side chapel (apart from the altar of repose). The church building remains bare until the Easter Vigil, symbolising the stripping of Jesus before his crucifixion, death and lying in the tomb.</p>
             <p>When to use:</p>
             <ul>
