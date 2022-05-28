@@ -96,7 +96,13 @@
 
             <p><button type="button" class="btn btn-secondary" id="js-show-hide-btn">Readings and collect</button></p>
 
-            <p class="readings-collect" id="js-readings-collect"><?php echo nl2br($today_readings_collect); ?></p>
+            <div class="readings-collect" id="js-readings-collect">
+                <p><?php echo nl2br($today_readings_collect); ?></p>
+
+                <p>RESOURCES
+                <br><a href="https://www.scotland.anglican.org/spirituality/prayer/daily-offices">Daily Prayer</a>
+                <br><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies">Liturgies</a></p>
+            </div>
         </main>
 
         <!-- WEB BROWSER EXTENSIONS Special notice -->
