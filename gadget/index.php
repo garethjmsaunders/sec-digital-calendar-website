@@ -50,15 +50,19 @@
 
         <main role="main" class="inner cover text-left">
 
-            <h1>Windows Sidebar Gadget</h1>
+            <h1>Windows Sidebar Gadget beta</h1>
             <p class="lead">View the Scottish Episcopal Church digital calendar and lectionary in a Windows Sidebar Gadget.</p>
             
             <p><img src="../assets/gadget/screenshot.png" alt="Screenshot of SEC Digital Calendar Windows Sidebar Gadget"></p>
+
+            <div class="alert alert-dark alert-sec text-center damask-red">⚠ WARNING This Windows Sidebar Gadget is still in beta. It may still need some cosmetic tweaks.</div>
 
             <p>Windows Vista and Windows 7 supported Sidebar Gadgets, mini applications that sat on the desktop or on a sidebar. These are still available in Windows 7, 8, 8.1, 10 and 11 by installing the application <a href="https://8gadgetpack.net/">8GadgetPack</a>.<p>
 
             <h3>How it works</h3>
             <p>The gadget displays the latest information from the SEC digital calendar website.</p>
+
+            <p>Long feast day names and descriptions will be truncated. This is expected behaviour.</p>
 
             <p>Hover over the feast day to view more information in a tooltip. This will show:</p>
 

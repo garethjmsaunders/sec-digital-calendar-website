@@ -75,7 +75,7 @@
         ?>
             <!-- Display nothing before deadline -->
         <?php } else { ?>
-            <div class="alert alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
+            <div class="alert alert-sec alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
                 <strong>SEC digital calendar 2020&ndash;2021</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
             </div>
         <?php } ?>
