@@ -139,19 +139,19 @@
             <dl>
                 <dt><i>The Ceremonies of the Roman Rite Described</i> by Fortescue and O'Connell</dt>
                     <dd>
-                        <p>Burns & Oates Ltd; 15th edition (2009). ISBN 13: 9780860124627</p>
+                        <p>Burns & Oates Ltd; 15th edition (2009). ISBN&nbsp;13:&nbsp;9780860124627</p>
                         <p>This volume is an important, revised and updated ceremonial manual, published to guide and assist in celebrating the traditional liturgy today. While this manual is obviously intended for Roman Catholic liturgy there is a lot here that is also useful for Scottish Episcopal Church liturgy, particularly celebrating the Eucharist (said, sung, with sub-deacon, deacon and priest), benediction, advent, holy week services, baptisms, funerals, marriages, blessing of the sick and dying.</p>
                         <ul>
-                            <li><a href="https://www.bloomsbury.com/uk/ceremonies-of-the-roman-rite-described-9780860124627/">Buy on Bloomsbury UK</a> (publisher)</li>
-                            <li><a href="https://www.abebooks.co.uk/servlet/SearchResults?kn=9780860124627">Buy on AbeBooks UK</a></li>
-                            <li><a href="https://www.amazon.co.uk/Ceremonies-Roman-Rite-Described/dp/0860124622">Buy on Amazon UK</a></li>                        
+                            <li><a href="https://www.bloomsbury.com/uk/ceremonies-of-the-roman-rite-described-9780860124627/">Buy at Bloomsbury UK</a> (publisher)</li>
+                            <li><a href="https://www.abebooks.co.uk/servlet/SearchResults?kn=9780860124627">Buy at AbeBooks UK</a></li>
+                            <li><a href="https://www.amazon.co.uk/Ceremonies-Roman-Rite-Described/dp/0860124622">Buy at Amazon UK</a></li>                        
                             <li><a href="https://www.waterstones.com/book/the-ceremonies-of-the-roman-rite-described/adrian-fortescue/the-reverend-dr-j-b-o-connell/9780860124627">Buy at Waterstones UK</a></li>
                         </ul>
                     </dd>
 
                 <dt><i>Ceremonies of the Modern Roman Rite: The Eucharist and the Liturgy of the Hours</i> by Monsignor Peter J Elliot</dt>
                     <dd>
-                        <p>Ignatius Press; 2nd edition (2004). ISBN 13: 9780898708301</p>
+                        <p>Ignatius Press; 2nd edition (2004). ISBN&nbsp;13:&nbsp;9780898708301</p>
                         <p>Another Roman Catholic volume that is faithful to the renewal of worship authorised by the Second Vatican Council. <i>Ceremonies</i> sets out the liturgical duties of bishops, priests and deacons, acolytes and servers, lectors and eucharistic ministers, etc., with guidance on vessels and vestments, how to carry out ceremonial actions, the deacon, ministering the Eucharist to the sick, children's liturgy, Eucharistic adoration, Eucharistic processions, celebrating vespers in a parish, eucharistic ministries and the laity, the location of the tabernacle, etc.</p>
                         <ul>
                             <li><a href="https://ignatius.com/ceremonies-of-the-modern-roman-rite-2nd-edition-cmrr2p">Buy at Ignatius Press USA</a> (publisher)</li>
@@ -163,7 +163,7 @@
 
                 <dt><i>A Priest's Handbook: The Ceremonies of the Church</i> by Dennis G Michno</dt>
                     <dd>
-                        <p>Church Publishing, Inc. (1998) ISBN 13: 9780819217684</p>
+                        <p>Church Publishing, Inc. (1998) ISBN&nbsp;13:&nbsp;9780819217684</p>
                         <p>Written from an American Episcopal Church perspective, this volume also covers similar ground to Fortescue and O'Connell, and Elliot. It includes a nice couple of chapters on the calendar and lectionary, and daily office. It is not as thorough as Fortescue and O'Connell but it does offer an Anglican perspective on the ceremony.</p>
                         <ul>
                             <li><a href="https://www.churchpublishing.org/products/apriestshandbook">Buy at Church Publishing USA</a> (publisher)</li>
@@ -174,10 +174,9 @@
                     </dd>
                 <dt><i>The New Altar Guild Book</i> by Barbara Gent and Betty Sturges</dt>
                     <dd>
-                        <p> Continuum International Publishing Group; 2nd revised edition (1996)ISBN 13: 9780819216571</p>
+                        <p> Continuum International Publishing Group; 2nd revised edition (1996) ISBN&nbsp;13:&nbsp;9780819216571</p>
                         <p>This is an update of a classic guide on altar guild ministry that offers a blend of liturgical history, sacramental theology and practical tips. The authors combine how-to advice with creative ideas on preparing for the traditional liturgies and simpler, special-occasion services. This is a useful handbook for ordinands as well as servers and altar guild members.</p>
                     <ul>
-                        <li></li>
                         <li><a href="https://www.abebooks.co.uk/servlet/SearchResults?kn=9780819216571">Buy at AbeBooks UK</a></li>
                         <li><a href="https://www.amazon.co.uk/New-Altar-Guild-Book-Revised/dp/0819216577/">Buy at Amazon UK</a></li>
                         <li><a href="https://www.waterstones.com/book/the-new-altar-guild-book/barbara-gent/betty-sturges/9780819216571">Buy at Waterstones UK</a></li>
