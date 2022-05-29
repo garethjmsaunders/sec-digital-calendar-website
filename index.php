@@ -90,19 +90,18 @@
             <p class="spb occasional"><?php echo($today_spb); ?></p>
             <p class="translated occasional"><?php echo($today_translated); ?></p>
             <p class="emberogation occasional"><?php echo($today_emberogation); ?></p>
-            <!-- .btn -->
             <hr>
             <p class="bishop occasional"><?php echo($today_bishop); ?></p>
 
+            <!-- button to toggle readings and collect-->
             <p><button type="button" class="btn btn-secondary" id="js-show-hide-btn">Readings and collect</button></p>
 
             <div class="readings-collect" id="js-readings-collect">
                 <p><?php echo nl2br($today_readings_collect); ?></p>
-
-                <p>RESOURCES
-                <br><a href="https://www.scotland.anglican.org/spirituality/prayer/daily-offices">Daily Prayer</a>
-                <br><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies">Liturgies</a>
-                <br><a href="https://www.biblegateway.com">Bible Gateway</a></p>
+                <p>RESOURCES</p>
+                <p><a href="https://www.scotland.anglican.org/spirituality/prayer/daily-offices"><button type="button" class="btn btn-secondary">Daily Prayer</button></a></p>
+                <p><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies"><button type="button" class="btn btn-secondary">Liturgies</button></a></p>
+                <p><a href="https://www.biblegateway.com"><button type="button" class="btn btn-secondary">Bible Gateway</button></a></p>
             </div>
         </main>
 
@@ -123,7 +122,7 @@
 
         <!-- NEXT FEASTS -->
         <aside class="text-left inner cover xdamask-<?php echo("$today_theme"); ?>">
-            <p class="next-feasts">Next &hellip;</p>
+            <h2 class="next-feasts">Next &hellip;</h2>
             <?php echo($table_data); ?>
         </aside>
 

@@ -63,6 +63,11 @@ main dd,
     font-weight: 300;
 }
 
+.next-feasts {
+    font-size: 1em;
+    margin: 0 0 1.25em 0.3em;
+}
+
 /* HEADINGS
 Create bigger gap between paragraphs
 */
@@ -214,8 +219,10 @@ a.view-more {
 /* Homepage readings and collects  */
 
 .readings-collect {
-    font-weight: 100;
+    border-left: 2px dashed white;
     display: none;
+    font-weight: 100;
+    padding-left: 1.3rem;
 }
 
 
