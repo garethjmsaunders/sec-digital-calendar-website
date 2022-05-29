@@ -154,7 +154,7 @@ lists and so on." (SMACSS, p.7)
     border-radius: 15px;
     padding: 1.5rem 1.5rem 1.5rem;
     box-shadow:  0 0 5rem rgba(0, 0, 0, .5);
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 .embed-calendar-code {
@@ -178,7 +178,7 @@ a.view-more {
     border-color: transparent;
     border-radius: 10px;
     box-shadow:  0 0 2rem rgba(0,0,0,.5);
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .alert-sec a:link.alert-link,
 .alert-sec a:visited.alert-link,
