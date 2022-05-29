@@ -121,7 +121,7 @@
         
 
         <!-- NEXT FEASTS -->
-        <aside class="text-left inner cover xdamask-<?php echo("$today_theme"); ?>">
+        <aside class="text-left inner cover">
             <h2 class="next-feasts">Next &hellip;</h2>
             <?php echo($table_data); ?>
         </aside>
@@ -132,7 +132,8 @@
             <p class="homepage-rcl">
                 Revised Common Lectionary readings: Year <?php echo($today_rcl); ?><br />
                 Daily Eucharist and Daily Prayer: Year <?php echo($today_daily); ?><br />
-                Liturgical year: <?php echo($today_year_from); ?>&ndash;<?php echo($today_year_to); ?></p>
+                Liturgical year: <?php echo($today_year_from); ?>&ndash;<?php echo($today_year_to); ?>
+            </p>
             <p>Home &middot; <a href="./calendar/">Calendar</a> &middot; <a href="./subscribe/">Subscribe</a> &middot; <a href="./colours/">Liturgical colours</a> &middot; <a href="./about/">About</a></p>
             <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="terms/">Terms and conditions</a></p>
         </footer>
