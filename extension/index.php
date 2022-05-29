@@ -85,7 +85,7 @@
 
             <hr>
             <h3>Source code</h3>
-            <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Chromium</a> (includes Brave, Google Chrome, Microsoft Edge, Opera and Vivaldi) and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
+            <p>View the source code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Chromium</a> (includes Brave, Google Chrome, Microsoft Edge, Opera and Vivaldi) and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
             
         </main>
 
