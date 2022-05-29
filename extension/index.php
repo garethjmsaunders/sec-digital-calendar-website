@@ -50,7 +50,7 @@
 
         <main role="main" class="inner cover text-left Xcontent Xmain-block">
 
-            <h1>Browser extensions</h1>
+            <h1>Browser toolbar extensions</h1>
             <p class="lead">View the Scottish Episcopal Church digital calendar and lectionary in a popup window on your web browser's toolbar.</p>
             
             <p><img src="../assets/img/google-chrome-ext-screenshot.jpg" alt="Screenshot of popup window showing SEC Digital Calendar" width="100%"></p>
@@ -79,12 +79,13 @@
             <p><a href="https://addons.opera.com/en-gb/extensions/details/sec-digital-calendar-and-lectionary/"><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-opera.png" alt="test"> Add to Opera Developer or Opera Beta</button></a></p>
 
             <hr>
-            <h3>Code</h3>
-            <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Chromium</a> (includes Brave, Google Chrome, Microsoft Edge, Opera, Apple Safari and Vivaldi) and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
+            <h3>Support</h3>
+            <p>For technical support or to suggest a feature, please email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a></p>
+            <p>Alternatively, raise a support issue on GitHub for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension/issues">Google Chrome</a> or <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension/issues">Mozilla Firefox</a>.</p>
 
             <hr>
-            <h3>Support</h3>
-            <p>For support or to suggest a feature, please email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a> or raise a support issue at GitHub for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension/issues">Google Chrome</a> or <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension/issues">Mozilla Firefox</a>.</p>
+            <h3>Source code</h3>
+            <p>View the code for <a href="https://github.com/garethjmsaunders/sec-digital-calendar-chrome-extension">Chromium</a> (includes Brave, Google Chrome, Microsoft Edge, Opera, Apple Safari and Vivaldi) and <a href="https://github.com/garethjmsaunders/sec-digital-calendar-firefox-extension">Mozilla Firefox</a> on GitHub.</p>
             
         </main>
 
