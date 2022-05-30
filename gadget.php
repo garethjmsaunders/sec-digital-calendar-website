@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="homepage cover-height">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>SEC digital calendar | Windows Sidebar Gadget</title>
@@ -8,27 +8,18 @@
     <meta name="author" content="The Revd Gareth J M Saunders">
     <meta name="copyright" content="Copyright (c) <?php echo(date('Y')); ?> Gareth J M Saunders" />
     <meta name="description" content="Windows Sidebar Gadget to display Scottish Episcopal Church digital calendar and lectionary">
-    <meta name="generator" content="Sublime Text 3">
+    <meta name="generator" content="Sublime Text 4">
     <meta name="host" content="SiteGround">
-    <meta name="keywords" content="SEC, Scottish Episcopal Church, pisky, #pisky, calendar, kalendar, lectionary, saints, readings, festivals, Outlook, Google Calendar, iCal, iCalendar" />
+    <meta name="keywords" content="SEC, Scottish Episcopal Church, pisky, #pisky, calendar, kalendar, lectionary, saints, readings, festivals, Outlook, Google Calendar, iCal, iCalendar, Windows, Vista, Windows 7, Windows 8, Windows 8.1, Windows 10, Windows 11, 8Gadget Sidebar, gadget" />
     <meta name="rating" content="general" />
     <meta name="robots" content="no-index" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Force page refresh -->
-    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <meta http-equiv="expires" content="-1" />
-
-    <!-- CSS -->
-    <xlink href="assets/css/bootstrap.min.css" rel="stylesheet" data-version="4.6.1">
-    <xlink href="assets/css/style.css" rel="stylesheet">
 
     <?php
         error_reporting(0);
         include('php/csv-lookup.php');
 
-        // Title for hover over feast in Windows Sidebar Gadget
+        // Title for hover over feast name in Windows Sidebar Gadget
 
         $feast_title = date("l j F Y");
         $feast_title = $feast_title . " &bull; Season of $today_season &bull; ";
@@ -37,7 +28,7 @@
         if ( $today_class !=='') {
             $feast_title = $feast_title . "($today_class) ";
         } else {
-            // no class
+            // no class info
         }
 
         $feast_title = $feast_title . "$today_liturgical_colour &bull; ";
@@ -46,13 +37,13 @@
         if ( $today_translated !=='') {
             $feast_title = $feast_title . "[$today_translated] ";
         } else {
-            /*$feast_title = $feast_title . "Translated from 45 December &bull; ";*/
+            // no translated feast info
         }
 
         if ( $today_emberogation !=='') {
             $feast_title = $feast_title . "$today_emberogation";
         } else {
-            /*$feast_title = $feast_title . "Rogation Day";*/
+            // not ember day or rogation day
         }
     ?>
 
@@ -61,12 +52,11 @@
         body {
             background-color: black;
             color: white;
+            font-family: "Segoe UI", Arial, sans-serif;
             font-size: 12px;
-            text-align: left;
-            font-family: "Segoe UI", Arial;
             margin: 0;
             padding: 10px;
-
+            text-align: left;
         }
 
         .damask {
@@ -86,7 +76,9 @@
             background-image: url('../../assets/img/damask-white.png');
         }
 
-        .main {
+        .gadget {
+            height: 100%;
+            width: 100%;
         }
 
         .lozenge {
@@ -111,6 +103,18 @@
             padding: 0;
         }
 
+        a,
+        a:link,
+        a:visited,
+        a:active {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover,
+        .feast a:hover {
+            color: #ddd;
+        }
+
         .description {
             height: 36px;
             line-height: 12px;            
@@ -125,18 +129,18 @@
 
 <body class="damask damask-<?php echo("$today_theme"); ?>">
 
-    <div class="main">
+    <div class="gadget">
 
         <div class="logo">
-            <img src="assets/gadget/lozenge.png" alt="SEC logo" title="refresh" class="lozenge" id="reload" onClick="window.location.reload(true);">
+            <img src="assets/gadget/lozenge.png" alt="SEC logo" title="Refresh gadget" class="lozenge" id="reload" onClick="window.location.reload(true);">
         </div>
 
-        <div class="season">
+        <div class="season" title="Season of <?php echo($today_season); ?>">
             <?php echo($today_season); ?>
         </div>
 
         <div class="feast">
-            <p title="<?php echo($feast_title); ?>"><?php echo($today_feast); ?></p>
+            <p><a href="https://www.seccalendar.org.uk/" title="<?php echo($feast_title); ?>"><?php echo($today_feast); ?></a></p>
         </div>
 
         <div class="description" title="<?php echo($today_description); ?>">
