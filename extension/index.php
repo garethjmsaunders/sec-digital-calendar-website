@@ -76,7 +76,7 @@
             <p><a href="https://chrome.google.com/webstore/detail/sec-digital-calendar-and/ldnfoojlojcjfkgaiimnhmnmdbnmehai"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-vivaldi.png" alt="test"> Add to Vivaldi</button></a></p>
 
                 
-            <p><a href="https://addons.opera.com/en-gb/extensions/details/sec-digital-calendar-and-lectionary/"><button type="button" class="btn btn-secondary"><img src="../assets/icons/internet-browser-opera.png" alt="test"> Add to Opera Developer or Opera Beta</button></a></p>
+            <p><a href="https://addons.opera.com/en-gb/extensions/details/sec-digital-calendar-and-lectionary/"><button type="button" class="btn btn-primary"><img src="../assets/icons/internet-browser-opera.png" alt="test"> Add to Opera</button></a></p>
 
             <hr>
             <h3>Support</h3>
