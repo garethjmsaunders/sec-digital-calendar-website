@@ -52,7 +52,10 @@
 
             <h1>About</h1>
             <p class="lead">Subscribe to the Scottish Episcopal Church calendar and lectionary in your electronic calendar. Synchronise it with your mobile device.</p>
+
             <p>These files allow you to <a href="../subscribe/">subscribe or import</a> the Scottish Episcopal Church calendar (saints’ days, festivals and readings) into Google Calendar, Microsoft Outlook, Apple iCal, or any other compatible calendar application that supports iCalendar files or importing CSV files.</p>
+
+            <p>This is not an official resource of the Scottish Episcopal Church but a private project. Feel free to edit these files to create your own project. See <a href="../terms/">terms and conditions</a> for license details.</p>
 
             <h3>See also</h3>
             <ul>
