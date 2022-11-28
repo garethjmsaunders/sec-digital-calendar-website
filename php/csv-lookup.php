@@ -13,7 +13,18 @@
  * @since       1.0.0
  *
  * ------------------------------------------
- *
+ * 
+ * TABLE OF CONTENTS
+ * 
+ * 1. CSV DATA TO ARRAY
+ *    Open the CSV file (if it exists, otherwise throw an error),
+ *    then copy data from CSV file into a multidimensional array as rows of data.
+ * 
+ * 2. FUNCTION: transform_data_to_columns()
+ *    Transform data in array from rows to columns
+ * 
+ * 3. FUNCTION: transform_data_to_column_by_label
+ * 
  */
 
 
