@@ -9,7 +9,7 @@
     <meta name="author" content="The Revd Gareth J M Saunders">
     <meta name="copyright" content="Copyright (c) <?php echo(date('Y')); ?> Gareth J M Saunders" />
     <meta name="description" content="Scottish Episcopal Church digital calendar and lectionary in a digital format for importing into Google Calendar, Microsoft Outlook, etc">
-    <meta name="generator" content="Sublime Text 3">
+    <meta name="generator" content="Sublime Text 4">
     <meta name="host" content="SiteGround">
     <meta name="keywords" content="SEC, Scottish Episcopal Church, pisky, #pisky, calendar, kalendar, lectionary, saints, readings, festivals, Outlook, Google Calendar, iCal, iCalendar" />
     <meta name="rating" content="general" />
