@@ -122,7 +122,7 @@
 
         <!-- NEXT FEASTS -->
         <aside class="text-left inner cover">
-            <h2 class="next-feasts">Next &hellip;</h2>
+            <h2 class="next-feasts">Next (feasts, readings and collects) &hellip;</h2>
             <?php echo($table_data); ?>
         </aside>
 
