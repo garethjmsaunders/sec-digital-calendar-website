@@ -70,6 +70,13 @@
                 <textarea id="embed" class="embed-calendar-code">&lt;iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MXU3ZWRybnNqcm1kdHFzNGswbjc5c2Y2ZzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23336699&amp;hl=en_GB&amp;showTz=1&amp;showCalendars=0&amp;showTabs=1&amp;showPrint=1&amp;showDate=1&amp;showNav=1&amp;showTitle=0" style="border:solid 1px #777" width="640" height="600" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea>
             </div>
             <hr class="deep">
+            <div class="inner cover">
+                <p>Other ways to view the calendar.</p>
+                <ul>
+                    <li><a href="../extension">Browser toolbar extensions</a></li>
+                    <li><a href="../gadget">Windows Sidebar Gadget</a></li>
+                </ul>
+            </div>
         </main>
 
         <footer>
