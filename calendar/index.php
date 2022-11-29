@@ -73,6 +73,7 @@
             <div class="inner cover">
                 <p>Other ways to view the calendar.</p>
                 <ul>
+                    <li><a href="../subscribe">Subscribe to the iCalendar feed</a></li>
                     <li><a href="../extension">Browser toolbar extensions</a></li>
                     <li><a href="../gadget">Windows Sidebar Gadget</a></li>
                 </ul>
