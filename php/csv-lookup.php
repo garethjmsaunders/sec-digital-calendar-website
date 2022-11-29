@@ -355,7 +355,7 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
     $next_liturgical_colour = $lookup['liturgical-colour'][$next_date];
     $next_readings_collect = nl2br($lookup['readings-collect'][$next_date]);
 
-    $table_data = $table_data . "<tr class='next-date-feast-row $is_it_sunday' title='Readings and collect'>";
+    $table_data = $table_data . "<tr class='next-date-feast-row $is_it_sunday' title='Toggle row for readings and collect'>";
     $table_data = $table_data . "    <td class='next-date-cell'>$next_day_text</td>";
     $table_data = $table_data . "    <td class='next-feast-cell'>$next_feast, $next_description$next_class $next_liturgical_colour</td>";
     $table_data = $table_data . "</tr>";
