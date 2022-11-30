@@ -230,7 +230,7 @@ a.view-more {
 
 /* Layout */
 .homepage-next-feast-table tr td {
-    padding: 0.5rem;
+    padding: 0.25rem;
     vertical-align: top;
 }
 
@@ -239,7 +239,8 @@ a.view-more {
         cursor: pointer;
     }
         .next-date-cell {
-            white-space: nowrap;
+            /* Approx 200px works  */
+            width: 12em;
         }
 
         .next-feast-cell {}
@@ -257,6 +258,7 @@ a.view-more {
             .next-readings-div-hide {
                 display: none;
             }
+
 
 /* Theme */
 .sunday {
