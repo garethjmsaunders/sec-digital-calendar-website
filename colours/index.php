@@ -64,7 +64,7 @@
             <h3>Calendar 2022–2023</h3>
             <p>Download and print this handy liturgical colours calendar PDF for 2022-2023.</p>
             <p><a href="liturgical-colours-2022-2023.pdf"><img src="liturgical-colours-2022-2023.png" alt="Liturgical colours calendar 2021-2022"></a></p>
-            <p><a href="liturgical-colours-2022-2023.pdf" class="btn btn-primary">Download PDF calendar 2021–2022</a></p>
+            <p><a href="liturgical-colours-2022-2023.pdf" class="btn btn-primary">Download PDF calendar 2022–2023</a></p>
             
             <hr id="white">
             <h3>White or gold</h3>
