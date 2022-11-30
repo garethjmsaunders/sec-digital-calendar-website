@@ -61,10 +61,10 @@
             <p>The liturgical colours used within the Scottish Episcopal Church are <a href="#white">white or gold</a>, <a href="#red">red</a>, <a href="#green">green</a>, <a href="#violet">violet</a>, <a href="#lenten-array">Lenten array</a>, <a href="#rose">rose</a> and <a href="#black">black</a>; there is also a direction for no liturgical colour (<a href="#hangings-removed">hangings removed</a>) during the final days of Holy Week.</p>
 
             <hr id="calendar">
-            <h3>Calendar 2021–2022</h3>
-            <p>Download and print this handy liturgical colours calendar PDF for 2021-2022.</p>
-            <p><a href="liturgical-colours-2021-2022.pdf"><img src="liturgical-colours-2021-2022.gif" alt="Liturgical colours calendar 2021-2022"></a></p>
-            <p><a href="liturgical-colours-2021-2022.pdf" class="btn btn-primary">Download PDF calendar 2021–2022</a></p>
+            <h3>Calendar 2022–2023</h3>
+            <p>Download and print this handy liturgical colours calendar PDF for 2022-2023.</p>
+            <p><a href="liturgical-colours-2022-2023.pdf"><img src="liturgical-colours-2022-2023.png" alt="Liturgical colours calendar 2021-2022"></a></p>
+            <p><a href="liturgical-colours-2022-2023.pdf" class="btn btn-primary">Download PDF calendar 2021–2022</a></p>
             
             <hr id="white">
             <h3>White or gold</h3>
