@@ -281,6 +281,17 @@ a.view-more {
 }
 
 
+/* SUBSCRIBE iCalendar feeds  */
+
+.ical-feed {
+    background: transparent !important;
+    color: white;
+    font-family: monospace;
+    min-height: 6rem;
+    padding: 0.5em;
+    width: 100%;
+}
+
 
 /* === 4. STATE ============================
 "State rules are ways to describe how our modules or

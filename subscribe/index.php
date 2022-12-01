@@ -58,9 +58,11 @@
 
             <!-- Perpetual -->
             <p><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics" class="btn btn-primary">iCalendar feed .ics (auto updates annually)</a></p>
+            <p><textarea class="ical-feed">https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics</textarea></p>
             
             <!-- 2022-2023 -->
             <p><a href="https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics" class="btn btn-secondary">iCalendar feed .ics (2022–2023)</a></p>
+            <p><textarea class="ical-feed">https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics</textarea></p>
 
             <ul>
                 <li><a href="https://support.google.com/calendar/answer/37118?hl=en-GB">How to subscribe using Google Calendar</a></li>
