@@ -25,7 +25,7 @@
     <link href="../assets/css/style.css" type="text/css" rel="stylesheet">
 
     <!-- JavaScript -->
-    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/jquery-3.6.1.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
