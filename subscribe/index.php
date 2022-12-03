@@ -73,9 +73,9 @@
             </ul>
 
             <h3>Import</h3>
-            <p>Use this option if you wish to import a <tt>CSV</tt> file with the data into a new or existing calendar in Google Calendar, Microsoft Outlook or Apple iCal.</p>
-            <p><a href="../download/sec-master-calendar-2022-2023.csv" class="btn btn-secondary">Download .csv file (2022–2023)</a></p>
-            <p><a href="https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics" class="btn btn-secondary">Download .ics file (2022–2023)</a></p>
+            <p>Use this option if you wish to import a <tt>CSV</tt> or <tt>iCalendar</tt> file with the data into a new or existing calendar in Google Calendar, Microsoft Outlook, Apple Calendar, GNOME Calendar or any other compatible calendar application that supports iCalendar files or importing CSV files..</p>
+            <p><a href="../download/sec-master-calendar-2022-2023.csv" class="btn btn-secondary">Download Comma Separated Values (*.csv) file (2022–2023)</a></p>
+            <p><a href="https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics" class="btn btn-secondary">Download iCalendar (*.ics) file (2022–2023)</a></p>
             <ul>
                 <li><a href="https://support.google.com/calendar/answer/37118?hl=en-GB">How to import using Google Calendar</a></li>
                 <li><a href="https://support.office.com/en-gb/article/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c">How to import using Microsoft Outlook.com</a></li>

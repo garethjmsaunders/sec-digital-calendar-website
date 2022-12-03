@@ -53,7 +53,7 @@
             <h1>About</h1>
             <p class="lead">Subscribe to the Scottish Episcopal Church calendar and lectionary in your electronic calendar. Synchronise it with your mobile device.</p>
 
-            <p>These files allow you to <a href="../subscribe/">subscribe or import</a> the Scottish Episcopal Church calendar (saints’ days, festivals and readings) into Google Calendar, Microsoft Outlook, Apple iCal, or any other compatible calendar application that supports iCalendar files or importing CSV files.</p>
+            <p>These files allow you to <a href="../subscribe/">subscribe or import</a> the Scottish Episcopal Church calendar (saints’ days, festivals and readings) into Google Calendar, Microsoft Outlook, Apple Calendar, GNOME Calendar or any other compatible calendar application that supports iCalendar files or importing CSV files.</p>
 
             <p>This is not an official resource of the Scottish Episcopal Church but a private project. Feel free to edit these files to create your own project. See <a href="../terms/">terms and conditions</a> for license details.</p>
 
@@ -68,16 +68,18 @@
             <hr>
             <h3>History of the digital calendar</h3>
             <p>I first created the SEC digital calendar files for my own use in 2004 and started sharing it with a few colleagues. There are now people all over the world using it.</p>
-            <p>I do it to glorify God and as a practical resource for my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
-            <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
+            <p>I do it to glorify God and as a practical resource for myself and my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
             <p><a href="https://www.garethjmsaunders.co.uk/contact/">The Revd Gareth J M Saunders</a></p>
 
-            <hr>
+            <h3>How I compile the calendar</h3>
+            <p>Within the calendar, my practice is to try to include as many feasts as possible by way of translating (or moving) them. This is the discipline that I learned during my curacy. I will always try to move the lower classification saints' day forward to a following feria day during the same week (Monday to Saturday). If I am unable to do this, then that feast is dropped.</p>
+            <p>The Scottish Episcopal Church being a broad church, I am aware that some feasts may not be observed. On these days, I will try to provide both the feast day readings plus the revised common lectionary readings for that day.</p>
+            <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
+
             <h3>Contact</h3>
             <p>If you would like to contact Gareth about any aspect of the SEC digital calendar and lectionary or report a mistake, email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a>.</p>
 
-            <hr>
-            <h4>GitHub issues</h4>
+            <h3>GitHub issues</h4>
             <p>For those who are more technically minded, you can raise issues on GitHub for the following SEC digital calendar projects:</p>
             <ul>
                 <li><a href="https://github.com/garethjmsaunders/sec-digital-calendar/issues">CSV and iCalendar data</a></li>
