@@ -283,12 +283,13 @@ a.view-more {
 
 /* SUBSCRIBE iCalendar feeds  */
 
-.ical-feed {
+textarea.ical-feed {
     background: transparent !important;
     color: white;
     font-family: monospace;
-    min-height: 6rem;
+    xmin-height: 5rem;
     padding: 0.5em;
+    resize: both;
     width: 100%;
 }
 

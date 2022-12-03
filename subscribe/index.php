@@ -54,15 +54,15 @@
 
             <h3>Subscribe</h3>
             <p>The easiest way to see this information in your digital calendar is to subscribe to the iCalendar file which auto updates each November, an <tt>.ics</tt> file hosted by Google Calendar.</p>
-            <p><strong>Right-click the link below</strong>, select 'Copy link address' then add it into your calendar.</p>
+            <p><strong>Click the buttons below</strong> to copy the iCalendar feed URL to your clipboard.</p>
 
             <!-- Perpetual -->
-            <p><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics" class="btn btn-primary">iCalendar feed .ics (auto updates annually)</a></p>
-            <p><textarea class="ical-feed">https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics</textarea></p>
+            <p><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics" id="js-perpetual-btn" class="btn btn-primary">Copy SEC calendar (All years) .ics (auto updates annually)</a></p>
+            <p><textarea id="js-perpetual-textarea" class="w-100 text-bg-dark ical-feed" width="100%">https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics</textarea></p>
             
             <!-- 2022-2023 -->
-            <p><a href="https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics" class="btn btn-secondary">iCalendar feed .ics (2022–2023)</a></p>
-            <p><textarea class="ical-feed">https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics</textarea></p>
+            <p><a href="https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics" id="js-year-btn" class="btn btn-secondary">Copy SEC calendar (2022–2023) .ics</a></p>
+            <p><textarea id="js-year-textarea" class="w-100 ical-feed text-bg-dark">https://calendar.google.com/calendar/ical/cfc3e2db1a5ad3cf02d0b0ef07681f936fc9c4a57da0b46988441e9db345e429%40group.calendar.google.com/public/basic.ics</textarea></p>
 
             <ul>
                 <li><a href="https://support.google.com/calendar/answer/37118?hl=en-GB">How to subscribe using Google Calendar</a></li>
@@ -88,5 +88,49 @@
             <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="../terms/">Terms and conditions</a></p>
         </footer>
     </div>
+
+<script src="../assets/js/jquery-3.6.1.min.js"></script>
+<script>
+
+        $(document).ready(function() {
+          
+            /* Perpetual */
+            $('#js-perpetual-btn').click(function(){
+                event.preventDefault();
+
+                // Get the text field
+                var copyText = document.getElementById('js-perpetual-textarea');
+
+                // Select the text field
+                copyText.select();
+                // For mobile devices
+                copyText.setSelectionRange(0, 99999);
+                
+                // Copy to clipboard
+                navigator.clipboard.writeText(copyText.value).then(() => {
+                    alert("SEC calendar (All Years) iCalendar (*.ics) link address copied to clipboard");
+                });
+            });
+
+            /* Year */
+            $('#js-year-btn').click(function(){
+                event.preventDefault();
+
+                // Get the text field
+                var copyText = document.getElementById('js-year-textarea');
+
+                // Select the text field
+                copyText.select();
+                // For mobile devices
+                copyText.setSelectionRange(0, 99999);
+                
+                // Copy to clipboard
+                navigator.clipboard.writeText(copyText.value).then(() => {
+                    alert("SEC calendar (2022-2023) iCalendar (*.ics) link address copied to clipboard");
+                });
+            });
+
+        });
+</script>
 </body>
 </html>
