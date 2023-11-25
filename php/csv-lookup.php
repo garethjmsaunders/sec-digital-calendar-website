@@ -335,6 +335,7 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
     $next_date = $date->format('d/m/Y');
     
     $check_day = $date->format('l');
+
     if ($check_day == 'Sunday') {
         $is_it_sunday = "sunday";
     } else {
@@ -344,25 +345,34 @@ for ( $counter = 1; $counter < $max_days_to_show; $counter++ )
     $next_day_text = $date->format('l j F');
 
     $next_feast = $lookup['feast'][$next_date];
-    $next_description = $lookup['description'][$next_date];
-    $next_class = $lookup['class'][$next_date];
-        if ($next_class !=='')
-        {
-            $next_class = ', (' . $next_class . ')';
-        } else {
-            $next_class = ', ';
-        };
-    $next_liturgical_colour = $lookup['liturgical-colour'][$next_date];
-    $next_readings_collect = nl2br($lookup['readings-collect'][$next_date]);
 
-    $table_data = $table_data . "<tr class='next-date-feast-row $is_it_sunday' title='Toggle row for readings and collect'>";
-    $table_data = $table_data . "    <td class='next-date-cell'>$next_day_text</td>";
-    $table_data = $table_data . "    <td class='next-feast-cell'>$next_feast, $next_description$next_class $next_liturgical_colour</td>";
-    $table_data = $table_data . "</tr>";
-    $table_data = $table_data . "<tr class='next-readings-row'>";
-    $table_data = $table_data . "    <td colspan='2' class='next-readings-cell''><div class='next-readings-div next-readings-div-hide'>$next_readings_collect</div></td>";
-    $table_data = $table_data . "</tr>";
+    /* If feast is not blank show the data... */
+    if ($next_feast != '') {
+
+        $next_description = $lookup['description'][$next_date];
+        $next_class = $lookup['class'][$next_date];
+            if ($next_class !=='')
+            {
+                $next_class = ', (' . $next_class . ')';
+            } else {
+                $next_class = ', ';
+            };
+        $next_liturgical_colour = $lookup['liturgical-colour'][$next_date];
+        $next_readings_collect = nl2br($lookup['readings-collect'][$next_date]);
+
+        $table_data = $table_data . "<tr class='next-date-feast-row $is_it_sunday' title='Toggle row for readings and collect'>";
+        $table_data = $table_data . "    <td class='next-date-cell'>$next_day_text</td>";
+        $table_data = $table_data . "    <td class='next-feast-cell'>$next_feast, $next_description$next_class $next_liturgical_colour</td>";
+        $table_data = $table_data . "</tr>";
+        $table_data = $table_data . "<tr class='next-readings-row'>";
+        $table_data = $table_data . "    <td colspan='2' class='next-readings-cell''><div class='next-readings-div next-readings-div-hide'>$next_readings_collect</div></td>";
+        $table_data = $table_data . "</tr>";
+
+    } else {
+        // nothing
+    }
 }
+
 
 // Bottom of table
 $table_data = $table_data . "<tr><td><a href='calendar/' class='view-more'>View more…</a></td></tr>";
