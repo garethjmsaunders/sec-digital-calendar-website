@@ -73,6 +73,9 @@
             <p>I do it to glorify God and as a practical resource for myself and my colleagues and friends in the <a href="http://www.scotland.anglican.org/">Scottish Episcopal Church</a> (which is in communion with the world-wide <a href="https://www.anglicancommunion.org/">Anglican&nbsp;Communion</a>).</p>
             <p><a href="https://www.garethjmsaunders.co.uk/contact/">The Revd Gareth J M Saunders</a></p>
 
+            <h3>Website by Digital Shed45</h3>
+            <p>If you are looking for a competitively priced website for your church or charity, contact Gareth at <a href="https://digitalshed45.co.uk">Digital Shed45</a>.</p>
+
             <h3>How I compile the calendar</h3>
             <p>Within the calendar, my practice is to try to include as many feasts as possible by way of translating (or moving) them. This is the discipline that I learned during my curacy. I will always try to move the lower classification saints' day forward to a following feria day during the same week (Monday to Saturday). If I am unable to do this, then that feast is dropped.</p>
             <p>The Scottish Episcopal Church being a broad church, I am aware that some feasts may not be observed. On these days, I will try to provide both the feast day readings plus the revised common lectionary readings for that day.</p>
@@ -103,8 +106,6 @@
             <hr>
             <h3>SEC digital calendar resources</h3>
             <dl>
-                <dt>Twitter</dt>
-                    <dd>Twitter account: <a href="https://twitter.com/seccalendar">@seccalendar</a> These are usually updates on when I start compiling the file each year plus updates on bugs found and fixed and new features added.</dd>
                 <dt>Facebook group</dt>
                     <dd>Public Facebook group for updates and discussions about the <a href="https://www.facebook.com/groups/secdigitalcalendar/">SEC digital calendar and lectionary</a></dd>
                 <dt>GitHub repositories</dt>
@@ -195,8 +196,8 @@
         </main>
 
         <footer>
-            <p><a href="../">Home</a> &middot; <a href="../calendar/">Calendar</a> &middot; <a href="../subscribe/">Subscribe</a> &middot; <a href="../colours/index.php">Liturgical colours</a> &middot; About</p>
-            <p>2004&ndash;<?php echo date("Y"); ?> &middot; <a href="https://www.facebook.com/groups/secoutlook/">Facebook</a> &middot; <a href="http://twitter.com/seccalendar">Twitter</a><br><a href="../terms/">Terms and conditions</a></p>
+            <p><a href="../">Home</a> &middot; <a href="../calendar/">Calendar</a> &middot; <a href="../subscribe/">Subscribe</a> &middot; <a href="../colours/index.php">Liturgical colours</a> &middot; <a href="../terms/">Terms and conditions</a> &middot; About</p>
+            <p>Website by <a href="https://digitalshed45.co.uk">Digital Shed45</a> &middot; 2004&ndash;<?php echo date("Y"); ?></p>
         </footer>
     </div>
 </body>
