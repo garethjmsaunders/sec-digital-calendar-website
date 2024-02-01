@@ -72,15 +72,21 @@
         <!-- Next year's data notice -->
         <?php 
             $current_ts  = time();
-            $deadline_ts = mktime(0,0,0,12,5,2020);  // The date.  First 3 zeros are time then month, day and year
+            $deadline_ts = mktime(0,0,0,1,1,2023);  // The date.  First 3 zeros are time then month, day and year
             if ($current_ts --> $deadline_ts) {
         ?>
-            <!-- Display nothing before deadline -->
+            <!-- DISPLAY NOTHING BEFORE DEADLINE -->
+
         <?php } else { ?>
             <div class="alert alert-sec alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
-                <strong>SEC digital calendar 2020&ndash;2021</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>.
+                <!-- <strong>SEC digital calendar 2020&ndash;2021</strong> is now available. <a href="subscribe/" class="alert-link">Subscribe now</a>. -->
             </div>
         <?php } ?>
+
+        <!-- Notice -->
+        <div class="alert alert-sec alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
+            <a href="colours/" class="alert-link">Liturgical colours calendar PDF</a> is now available.</a>
+        </div>
 
 
         <!-- TODAY'S FEAST -->
