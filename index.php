@@ -2,7 +2,7 @@
 <html lang="en" class="homepage cover-height">
 <head>
     <meta charset="utf-8">
-    <title>SEC digital calendar | 2023–2024</title>
+    <title>SEC digital calendar : 2023–2024</title>
 
     <!-- meta -->
     <link rel="canonical" href="https://seccalendar.org.uk/">
