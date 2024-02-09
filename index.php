@@ -2,7 +2,7 @@
 <html lang="en" class="homepage cover-height">
 <head>
     <meta charset="utf-8">
-    <title>SEC digital calendar</title>
+    <title>SEC digital calendar 2023&endash;2024</title>
 
     <!-- meta -->
     <link rel="canonical" href="https://seccalendar.org.uk/">
@@ -69,7 +69,7 @@
             </div>
         </header>
 
-        <!-- Next year's data notice -->
+        <!-- Scheduled notice, usually for Next year's data -->
         <?php 
             $current_ts  = time();
             $deadline_ts = mktime(0,0,0,1,1,2023);  // The date.  First 3 zeros are time then month, day and year
@@ -83,10 +83,10 @@
             </div>
         <?php } ?>
 
-        <!-- Notice -->
-        <div class="alert alert-sec alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
+        <!-- Ad hoc notice -->
+        <!-- <div class="alert alert-sec alert-dark text-center damask-<?php echo("$today_theme"); ?> alert-sec" role="alert">
             <a href="colours/" class="alert-link">Liturgical colours calendar PDF</a> is now available.</a>
-        </div>
+        </div> -->
 
 
         <!-- TODAY'S FEAST -->
