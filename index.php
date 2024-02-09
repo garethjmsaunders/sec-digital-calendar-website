@@ -143,7 +143,7 @@
                 Liturgical year: <?php echo($today_year_from); ?>&ndash;<?php echo($today_year_to); ?>
             </p>
             <p>Home &middot; <a href="./calendar/">Calendar</a> &middot; <a href="./subscribe/">Subscribe</a> &middot; <a href="./colours/">Liturgical colours</a> &middot; <a href="terms/">Terms and conditions</a> &middot; <a href="./about/">About</a></p>
-            <p>Website by <a href="https://digitalshed45.co.uk/">Digital Shed45</a> &middot; 2004&ndash;<?php echo date("Y"); ?>.</p>
+            <p>Website by <a href="https://digitalshed45.co.uk/">Digital Shed45</a> &middot; 2004&ndash;<?php echo date("Y"); ?></p>
         </footer>
     </div>
 
