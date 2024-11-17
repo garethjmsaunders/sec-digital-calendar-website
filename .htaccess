@@ -5,3 +5,4 @@ Header set Cache-Control "private"
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^seccalendar.org.uk [NC]
 RewriteRule ^(.*)$ http://www.seccalendar.org.uk/$1 [L,R=301]
+AddHandler application/x-httpd-php84 .php .php5 .php4 .php3
