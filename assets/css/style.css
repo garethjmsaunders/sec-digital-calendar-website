@@ -369,11 +369,11 @@ aware of it." (p.7)
 /* FEAST INFO
 */
 .season,
-.translated,
+.transferred,
 .homepage-feast--tomorrow {
     opacity: 0.5;
 }
-.translated {
+.transferred {
     font-style: italic;
 }
 
