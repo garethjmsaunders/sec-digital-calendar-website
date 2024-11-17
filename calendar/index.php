@@ -74,9 +74,9 @@
             <hr class="deep">
             <div class="inner cover">
                 <p>Other ways to view the calendar.</p>
-                <a href="../colours/"><img src="../colours/liturgical-colours-2023-2024.jpg" alt="Liturgical colours calendar" class="float-right" height="100"></a>
+                <a href="../colours/"><img src="../colours/liturgical-colours-2024-2025.png" alt="Liturgical colours calendar" class="float-right" height="100"></a>
                 <ul>
-                    <li><a href="../colours">Liturgical colours calendar 2023–2024 (PDF)</a></li>
+                    <li><a href="../colours">Liturgical colours calendar 2024–2025 (PDF)</a></li>
                     <li><a href="../subscribe">Subscribe to the iCalendar feed</a></li>
                     <li><a href="../extension">Browser toolbar extensions</a></li>
                     <li><a href="../gadget">Windows Sidebar Gadget</a></li>
