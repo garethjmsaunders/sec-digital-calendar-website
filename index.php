@@ -96,7 +96,7 @@
             <h1 class="cover-heading"><?php echo($today_feast); ?></h1>
             <p class="lead"><span class="description always"><?php echo($today_description); ?></span><?php if($today_class !=='') {echo(" <span class=\"feast-class occasional badge badge-light\">$today_class</span> ");} else { echo(', '); } ?><span class="liturgical-colour always"><?php echo($today_liturgical_colour); ?></span></p>
             <p class="spb occasional"><?php echo($today_spb); ?></p>
-            <p class="translated occasional"><?php echo($today_translated); ?></p>
+            <p class="transferred occasional"><?php echo($today_transferred); ?></p>
             <p class="emberogation occasional"><?php echo($today_emberogation); ?></p>
             <hr>
             <p class="bishop occasional"><?php echo($today_bishop); ?></p>
