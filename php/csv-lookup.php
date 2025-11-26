@@ -322,7 +322,7 @@ $today_daily                = $lookup['daily'][$date_key];              // CSV c
 $today_readings_collect     = $lookup['readings-collect'][$date_key];   // CSV column P
 
 /* Show next n days... */
-$max_days_to_show = 14;
+$max_days_to_show = 42;
 $max_days_to_show++;
 
 // Top of tables
