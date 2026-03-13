@@ -62,6 +62,7 @@
             <h3>See also</h3>
             <ul>
                 <li><a href="../colours">Liturgical colours</a></li>
+                <li><a href="../feast-classes">Feast classes</a></li>
                 <li><a href="../extension">Browser toolbar extensions</a></li>
                 <li><a href="../gadget">Windows Sidebar Gadget</a></li>
                 <li><a href="../terms/">Terms and conditions</a></li>
