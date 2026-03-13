@@ -114,6 +114,7 @@
 
             <hr>
             <h3>Scottish Episcopalian resources</h3>
+            <dl>
                 <dt>Scottish Episcopal Church</dt>
                     <dd>Website for the <a href="https://www.scotland.anglican.org">Scottish Episcopal Church</a>.</dd>
                 <dt>Scottish Episcopal Church liturgies</dt>
@@ -122,6 +123,10 @@
                     <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a> and also an accompanying Twitter account: <a href="https://twitter.com/piskykalendar">@piskykalendar</a></dd>
                 <dt>Kalendars of Scottish Saints (1872)</dt>
                     <dd>Downloadable publication,  <a href="https://archive.org/details/kalendarsofscott00forb/page/n9/mode/2up">Kalendars of Scottish Saints</a> by the Right Reverend Alexander Penrose Forbes, DCL, Bishop of Brechin. "An attempt to fix the districts of their several missions and the churches where they were chiefly had in remembrance."</dd>
+                <dt>Saints of Scotland: Incorporating the Calendar of the Scottish Episcopal Church (2026) book</dt>
+                    <dd>The Revd Scott J Brown, CBE has written a book to introduce readers to the Christian saints of Scotland. Available from Amazon in a <a href="https://www.amazon.co.uk/Saints-Scotland-Incorporating-Calendar-Episcopal/dp/B0GPC2N8LT/ref=pd_sbs_d_sccl_2_1/523-8923268-2741304?pd_rd_w=GaEWQ&content-id=amzn1.sym.b830a4e4-1d9a-4b95-9151-26f4eef7c6c8&pf_rd_p=b830a4e4-1d9a-4b95-9151-26f4eef7c6c8&pf_rd_r=88PAJX7NQBF3P3NBZQQX&pd_rd_wg=Twgx7&pd_rd_r=ff1b3465-132a-467c-bbb2-8306783cc071&pd_rd_i=B0GPC2N8LT&psc=1">larger A4 version</a> and a <a href="https://www.amazon.co.uk/dp/B0GQGBM7XL?ref=cm_sw_r_ffobk_ud_dp_ETSV6A6T8PF1NWTJAECY&ref_=cm_sw_r_ffobk_ud_dp_ETSV6A6T8PF1NWTJAECY&social_share=cm_sw_r_ffobk_ud_dp_ETSV6A6T8PF1NWTJAECY&bestFormat=true&language=en-GB">smaller A5 version</a>.</dd>
+            </dl>
+
 
             <hr>
             <h3>Anglican resources</h3>
