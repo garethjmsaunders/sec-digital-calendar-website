@@ -128,9 +128,9 @@
                 <dt>Scottish Episcopal Church</dt>
                     <dd>Website for the <a href="https://www.scotland.anglican.org">Scottish Episcopal Church</a>.</dd>
                 <dt>Scottish Episcopal Church liturgies</dt>
-                    <dd><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies/">Downloadable liturgies<a> including the Calendar and Lectionary, and Guide.</dd>
+                    <dd><a href="https://www.scotland.anglican.org/spirituality/liturgies/">Downloadable liturgies<a> including the Calendar and Lectionary, and Guide.</dd>
                 <dt>A Scottish Kalendar (A4 booklet)</dt>
-                    <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a> and also an accompanying Twitter account: <a href="https://twitter.com/piskykalendar">@piskykalendar</a></dd>
+                    <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a></dd>
                 <dt>Kalendars of Scottish Saints (1872)</dt>
                     <dd>Downloadable publication,  <a href="https://archive.org/details/kalendarsofscott00forb/page/n9/mode/2up">Kalendars of Scottish Saints</a> by the Right Reverend Alexander Penrose Forbes, DCL, Bishop of Brechin. "An attempt to fix the districts of their several missions and the churches where they were chiefly had in remembrance."</dd>
                 <dt>Saints of Scotland: Incorporating the Calendar of the Scottish Episcopal Church (2026) book</dt>
