@@ -35,6 +35,15 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" data-version="4.6.1">
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vvb9s3vizj");
+    </script>    
+
     <?php
         error_reporting(0);
         include('php/csv-lookup.php');
@@ -42,6 +51,7 @@
 
     <!-- Google Search Console verification -->
     <meta name="google-site-verification" content="DLv-E5XqwZGKo32fJsQ5AbP7UUJ6TWLk0fYjpeKEpXc" />
+    
 </head>
 
 <!-- GA4 | Google tag (gtag.js) -->
@@ -107,8 +117,8 @@
             <div class="readings-collect" id="js-readings-collect">
                 <p><?php echo nl2br($today_readings_collect); ?></p>
                 <p>RESOURCES</p>
-                <p><a href="https://www.scotland.anglican.org/spirituality/prayer/daily-offices"><button type="button" class="btn btn-secondary">Daily Prayer</button></a></p>
-                <p><a href="https://www.scotland.anglican.org/who-we-are/publications/liturgies"><button type="button" class="btn btn-secondary">Liturgies</button></a></p>
+                <p><a href="https://www.scotland.anglican.org/spirituality/daily-offices/"><button type="button" class="btn btn-secondary">Daily Prayer</button></a></p>
+                <p><a href="https://www.scotland.anglican.org/spirituality/liturgies/"><button type="button" class="btn btn-secondary">Liturgies</button></a></p>
                 <p><a href="https://www.biblegateway.com"><button type="button" class="btn btn-secondary">Bible Gateway</button></a></p>
             </div>
         </main>
