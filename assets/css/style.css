@@ -7,8 +7,8 @@ Description:    Common rules for SEC Calendar for Outlook, Google Calendar, iCal
                 methodology for categorising CSS rules, by Jonathan
                 Snook (http://snook.ca).
 
-Version:        4.2.0
-Updated:        Wednesday 11 May 2022
+Version:        4.3.0
+Updated:        Wednesday 19 August 2026
 */
 
 
@@ -278,6 +278,14 @@ a.view-more {
 .js-selected-row.sunday:hover {
     color: gold;
     opacity: 1;
+}
+
+/* Tables 
+   Used on terms and conditions page for Cookies information
+   */
+.table,
+.table code {
+    color: #fff;
 }
 
 

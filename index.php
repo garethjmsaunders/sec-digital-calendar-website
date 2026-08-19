@@ -35,15 +35,6 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" data-version="4.6.1">
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vvb9s3vizj");
-    </script>    
-
     <?php
         error_reporting(0);
         include('php/csv-lookup.php');
@@ -53,17 +44,6 @@
     <meta name="google-site-verification" content="DLv-E5XqwZGKo32fJsQ5AbP7UUJ6TWLk0fYjpeKEpXc" />
     
 </head>
-
-<!-- GA4 | Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G7J83CS4S6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-G7J83CS4S6');
-</script>
-
 
 <body class="banner cover-height damask damask-<?php echo("$today_theme"); ?> text-center theme">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -212,6 +192,6 @@
     });
 
 </script>
-
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/php/analytics-consent.php'; ?>
 </body>
 </html>

@@ -24,26 +24,7 @@
     <link href="../assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="../assets/css/style.css" type="text/css" rel="stylesheet">
     
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vvb9s3vizj");
-    </script>
-
 </head>
-
-<!-- GA4 | Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G7J83CS4S6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-G7J83CS4S6');
-</script>
 
 <body class="banner damask damask-default text-center theme">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -215,5 +196,6 @@
             <p>Website by <a href="https://digitalshed45.co.uk">Digital Shed45</a> &middot; 2004&ndash;<?php echo date("Y"); ?></p>
         </footer>
     </div>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/php/analytics-consent.php'; ?>
 </body>
 </html>

@@ -23,27 +23,8 @@
     <!-- CSS -->
     <link href="../assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="../assets/css/style.css" type="text/css" rel="stylesheet">
-
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vvb9s3vizj");
-    </script>
     
 </head>
-
-<!-- GA4 | Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G7J83CS4S6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-G7J83CS4S6');
-</script>
 
 <body class="banner damask damask-default text-center theme">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -94,10 +75,82 @@ for any purpose, even commercially</li>
             <h3>Privacy policy</h3>
             <p>This website collects and processes no personal information. It uses Google Analytics which collects anonymous information about your device, browser and location which are used for improving how this website works.</p>
 
-            <h3>Cookies</h3>
-            <p>This website uses 'performance cookies' set by the <a href="https://www.google.com/analytics">Google Analytics</a> web service.</p>
-            <p>These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies don’t collect information that identifies a visitor. All information these cookies collect is aggregated and therefore anonymous. It is only used to improve how this website works.</p>
-            <p>For more information see <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">Google Analytics Cookie Usage on Websites</a>.</p>
+            <h3 id="cookies">Cookies</h3>
+            <p>This website uses a necessary cookie to remember your cookie preference. With your permission, it also uses analytics cookies provided by Google Analytics and Microsoft Clarity. These services help us understand how people use the website and identify ways to improve it.</p>
+            <p>Analytics cookies are not set and information is not sent to Google Analytics or Microsoft Clarity unless you select <strong>Accept analytics</strong>. You can change your choice at any time using the <strong>Cookie settings</strong> button.</p>
+            <h4>Necessary cookie</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Cookie</th>
+                            <th scope="col">Purpose</th>
+                            <th scope="col">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>sec_analytics_consent</code></td>
+                            <td>Remembers whether you accepted or rejected analytics cookies. It does not contain analytics information.</td>
+                            <td>180 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h4>Google Analytics</h4>
+            <p>Google Analytics collects information such as the pages visited, approximate location, device and browser type and how visitors reached the website. It uses pseudonymous identifiers to distinguish visitors and sessions. We use the resulting reports to understand website usage and improve the service.</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Cookie</th>
+                            <th scope="col">Purpose</th>
+                            <th scope="col">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>_ga</code></td>
+                            <td>Distinguishes visitors using a randomly generated identifier.</td>
+                            <td>Up to 2 years</td>
+                        </tr>
+                        <tr>
+                            <td><code>_ga_G7J83CS4S6</code></td>
+                            <td>Maintains information about a visitor's session.</td>
+                            <td>Up to 2 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>For more information, see <a href="https://support.google.com/analytics/answer/11397207?hl=en">Google Analytics cookie usage</a> and the <a href="https://policies.google.com/privacy">Google privacy policy</a>.</p>
+            <h4>Microsoft Clarity</h4>
+            <p>Microsoft Clarity helps us understand how visitors interact with the website. It provides aggregated statistics, heatmaps and recordings of interactions such as clicks and scrolling. Clarity uses pseudonymous identifiers to connect page views into sessions. We do not permit Clarity to use advertising storage.</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Cookie</th>
+                            <th scope="col">Purpose</th>
+                            <th scope="col">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>_clck</code></td>
+                            <td>Stores a pseudonymous Clarity visitor identifier and website preferences.</td>
+                            <td>Up to 1 year</td>
+                        </tr>
+                        <tr>
+                            <td><code>_clsk</code></td>
+                            <td>Connects multiple page views into a single Clarity session.</td>
+                            <td>Up to 1 day</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>For more information, see <a href="https://learn.microsoft.com/en-gb/clarity/setup-and-installation/clarity-cookies">Microsoft Clarity's cookie information</a> and the <a href="https://privacy.microsoft.com/en-gb/privacystatement">Microsoft privacy statement</a>.</p>
+            <h4>Managing your choice</h4>
+            <p>You can accept or reject analytics cookies when you first visit the website. You can change your decision later using the <strong>Cookie settings</strong> button. Rejecting analytics will stop the analytics services and remove their first-party cookies from this website. You can also remove cookies using your browser settings.</p>
 
             <h3>Accuracy</h3>
             <p>While every effort has been made to ensure that the data contained in these files is correct and up-to-date, occasionally mistakes do get made and errors slip into the final production files.</p>
@@ -117,5 +170,6 @@ for any purpose, even commercially</li>
             <p>Website by <a href="https://digitalshed45.co.uk/">Digital Shed45</a> &middot; 2004&ndash;<?php echo date("Y"); ?></p>
         </footer>
     </div>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/php/analytics-consent.php'; ?>    
 </body>
 </html>
