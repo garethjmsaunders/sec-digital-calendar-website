@@ -152,6 +152,12 @@ for any purpose, even commercially</li>
             <h4>Managing your choice</h4>
             <p>You can accept or reject analytics cookies when you first visit the website. You can change your decision later using the <strong>Cookie settings</strong> button. Rejecting analytics will stop the analytics services and remove their first-party cookies from this website. You can also remove cookies using your browser settings.</p>
 
+            <h3 id="accessibility">Accessibility</h3>
+
+            <p>I want as many people as possible to be able to use this website. I aim to follow the <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG) 2.2 Level AA</a> and have carried out automated and manual accessibility checks. However, I may not yet have identified every accessibility problem.</p>
+
+            <p>If you experience difficulty using the website, find an accessibility problem or need any information in a different format, please <a href="/about/#contact">contact me</a>. Please include the address of the affected page and a description of the problem. I will consider your request and make a reasonable adjustment wherever possible.</p>
+
             <h3>Accuracy</h3>
             <p>While every effort has been made to ensure that the data contained in these files is correct and up-to-date, occasionally mistakes do get made and errors slip into the final production files.</p>
             <p>These documents are subject to change without any prior notice.</p>

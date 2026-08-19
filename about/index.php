@@ -72,7 +72,7 @@
             <p>The Scottish Episcopal Church being a broad church, I am aware that some feasts may not be observed. On these days, I will try to provide both the feast day readings plus the revised common lectionary readings for that day.</p>
             <p>Source files are available on <a href="https://github.com/garethjmsaunders/sec-digital-calendar">GitHub</a> should you wish to download, clone or fork the files for your own use; please do let me know what you do with it.</p>
 
-            <h3>Contact</h3>
+            <h3 id="contact">Contact</h3>
             <p>If you would like to contact Gareth about any aspect of the SEC digital calendar and lectionary or report a mistake, email <a href="mailto:secdigitalcalendar@gmail.com">secdigitalcalendar@gmail.com</a>.</p>
 
             <h3>GitHub issues</h4>
