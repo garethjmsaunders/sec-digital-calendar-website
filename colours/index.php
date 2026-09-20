@@ -51,13 +51,7 @@
             <p>These colours may be used for vestments (tunicle, dalmatic and chasuble, copes, stoles, maniples and mitres), altar frontals, hangings, altar sets (burse, veil and pall), lectern bookmarks, socks and hair colour, etc.</p>
 
             <p>The liturgical colours used within the Scottish Episcopal Church are <a href="#white">white or gold</a>, <a href="#red">red</a>, <a href="#green">green</a>, <a href="#violet">violet</a>, <a href="#lenten-array">Lenten array</a>, <a href="#rose">rose</a> and <a href="#black">black</a>; there is also a direction for no liturgical colour (<a href="#hangings-removed">hangings removed</a>) during the final days of Holy Week.</p>
-
-            <hr id="calendar">
-            <h3>Calendar 2025–2026</h3>
-            <p>Download and print this handy liturgical colours calendar PDF for 2025-2026.</p>
-            <p><a href="liturgical-calendar-2025-2026.pdf"><img src="liturgical-calendar-2025-2026.png" alt="Liturgical colours calendar 2025-2026"></a></p>
-            <p><a href="liturgical-calendar-2025-2026.pdf" class="btn btn-primary">Download PDF calendar 2025–2026</a></p>
-            
+        
             <hr id="white">
             <h3>White or gold</h3>
             <p>Symbolism: celebration, exuberance, glory, innocence, joy, light, purity, resurrection, victory</p>
