@@ -110,8 +110,8 @@
                     <dd>Website for the <a href="https://www.scotland.anglican.org">Scottish Episcopal Church</a>.</dd>
                 <dt>Scottish Episcopal Church liturgies</dt>
                     <dd><a href="https://www.scotland.anglican.org/spirituality/liturgies/">Downloadable liturgies<a> including the Calendar and Lectionary, and Guide.</dd>
-                <dt>A Scottish Kalendar (A4 booklet)</dt>
-                    <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a></dd>
+                <!--<dt>A Scottish Kalendar (A4 booklet)</dt>
+                    <dd>Fr Kelvin Holdsworth has created a physical copy of this year's readings in the form of an A4 booklet (210×297mm). <a href="http://thurible.net/shop/">A Scottish Kalendar</a></dd>-->
                 <dt>Kalendars of Scottish Saints (1872)</dt>
                     <dd>Downloadable publication,  <a href="https://archive.org/details/kalendarsofscott00forb/page/n9/mode/2up">Kalendars of Scottish Saints</a> by the Right Reverend Alexander Penrose Forbes, DCL, Bishop of Brechin. "An attempt to fix the districts of their several missions and the churches where they were chiefly had in remembrance."</dd>
                 <dt>Saints of Scotland: Incorporating the Calendar of the Scottish Episcopal Church (2026) book</dt>
@@ -122,10 +122,8 @@
             <hr>
             <h3>Anglican resources</h3>
             <dl>
-                <dt>Church of England</dt>
-                    <dd><a href="http://www.frsimon.uk/electric-ordo-calendar/">Electronic Ordo</a> contains daily information and readings for mass each day in the Church of England, according to both the Anglican (Common Worship) or Roman lectionaries; created by Fr Simon Rundell.</dd>
                 <dt>Church of England daily prayer</dt>
-                    <dd><a href="https://aimermedia.com/app/dailyprayer/">Daily Prayer</a>: the official common worship app from the Church of England</dd>
+                    <dd><a href="https://www.churchofengland.org/prayer-and-reflection/services-daily-prayer">Daily Prayer</a>: the official common worship app from the Church of England</dd>
                 <dt>Venite app</dt>
                     <dd><a href="https://www.venite.app">Venite app</a> is an interactive resource from the Rev Greg Johnston that enables you to, among other things, select a daily office to pray.</dd>
                 <dt>The Episcopal Church (USA)</dt>
