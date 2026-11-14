@@ -41,21 +41,16 @@
         </header>
 
         <main role="main" class="inner cover text-left">
-            <h1>Subscribe or import</h1>
-            <p class="lead">Subscribe to the iCalendar feed to view it alongside your existing calendar or import a CSV file into a new or existing calendar.</p>
+            <h1>Subscribe</h1>
+            <p class="lead">Subscribe to the iCalendar feed to view it alongside your existing calendar.</p>
 
-            <h3>Subscribe</h3>
-            <p>The easiest way to see this information in your digital calendar is to subscribe to the iCalendar file which auto updates each November, an <tt>.ics</tt> file hosted by Google Calendar.</p>
-            <p><strong>Click the buttons below</strong> to copy the iCalendar feed URL to your clipboard.</p>
+            <p>To see this information in your digital calendar, subscribe to the iCalendar file which auto updates each November, an <tt>.ics</tt> file hosted by Google Calendar.</p>
+            <p><strong>Click the button below</strong> to copy the iCalendar feed URL to your clipboard. Or manually copy and paste the URL from the box  below.</p>
 
             <!-- Perpetual -->
             <p><a href="https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics" id="js-perpetual-btn" class="btn btn-primary">Copy link to SEC calendar (All years) .ics (auto updates annually)</a></p>
             <p><textarea id="js-perpetual-textarea" class="w-100 text-bg-dark ical-feed" width="100%">https://calendar.google.com/calendar/ical/1u7edrnsjrmdtqs4k0n79sf6g0%40group.calendar.google.com/public/basic.ics</textarea></p>
             
-            <!-- Update 1: 2025-2026 -->
-            <p><a href="https://calendar.google.com/calendar/ical/c12a3b7f7e9bf5b42351c44f75b030bbe2ba61df848bc9d44b3e7bec37458583%40group.calendar.google.com/public/basic.ics" id="js-year-btn" class="btn btn-secondary">Copy link to SEC calendar (2025–2026) .ics</a></p>
-            <p><textarea id="js-year-textarea" class="w-100 ical-feed text-bg-dark">https://calendar.google.com/calendar/ical/c12a3b7f7e9bf5b42351c44f75b030bbe2ba61df848bc9d44b3e7bec37458583%40group.calendar.google.com/public/basic.ics</textarea></p>
-
             <ul>
                 <li><a href="https://support.google.com/calendar/answer/37118?hl=en-GB">How to subscribe using Google Calendar</a></li>
                 <li><a href="https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DAndroid">How to subscribe using Android</a></li>
@@ -63,20 +58,6 @@
                 <li><a href="https://support.apple.com/en-gb/guide/calendar/icl1022/mac">How to subscribe using Apple Calendar</a></li>
                 <li><a href="https://support.apple.com/en-us/HT202361">How to subscribe using iCloud calendar</a></li>
                 <li><a href="https://support.apple.com/en-mn/guide/iphone/ipha0d932e96/ios">How to subscribe using iOS (iPhone, iPad, etc)</a></li>
-            </ul>
-
-            <h3>Import</h3>
-            <p>Use this option if you wish to import a <tt>CSV</tt> or <tt>iCalendar</tt> file with the data into a new or existing calendar in Google Calendar, Microsoft Outlook, Apple Calendar, GNOME Calendar or any other compatible calendar application that supports iCalendar files or importing CSV files..</p>
-
-            <!-- Update 2: CSV download. Upload file to /download/ and update this link and JS below -->
-            <p><a href="../download/sec-master-calendar-2025-2026.csv" class="btn btn-secondary">Download Comma Separated Values (*.csv) file (2025–2026)</a></p>
-
-            <!-- Update 3: iCalendar URL : Same as Update 1 URL -->
-            <p><a href="https://calendar.google.com/calendar/ical/c12a3b7f7e9bf5b42351c44f75b030bbe2ba61df848bc9d44b3e7bec37458583%40group.calendar.google.com/public/basic.ics" class="btn btn-secondary">Download iCalendar (*.ics) file (2024–2025)</a></p>
-            <ul>
-                <li><a href="https://support.google.com/calendar/answer/37118?hl=en-GB">How to import using Google Calendar</a></li>
-                <li><a href="https://support.office.com/en-gb/article/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c">How to import using Microsoft Outlook.com</a></li>
-                <li><a href="https://support.apple.com/en-gb/guide/calendar/icl1023/mac">How to import using Apple Calendar</a></li>
             </ul>
         </main>
 
